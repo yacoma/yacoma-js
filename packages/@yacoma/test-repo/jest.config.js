@@ -13,6 +13,8 @@ module.exports = {
     '/lib/',
     '/node_modules/',
   ],
+  // uncomment this if you want a test coverage of 100%
+  /* 
   coverageThreshold: {
     global: {
       branches: 100,
@@ -21,4 +23,5 @@ module.exports = {
       statements: 100,
     },
   },
+  */
 }
