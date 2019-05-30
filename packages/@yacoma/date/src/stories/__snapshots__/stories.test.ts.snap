@@ -1,0 +1,1671 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date should render simple 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          simple
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Date date={1539949294308} /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Date date={1539949294308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <span
+          className="sc-iwsKbI jQhHGA"
+        >
+          October 19, 2018 1:41 PM
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Date should render styled 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          styled
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Date date={1539949294308} /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Date date={1539949294308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <span
+          className="sc-jKJlTe iIMPXz"
+        >
+          October 19, 2018 1:41 PM
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateAgo should render 1 minute 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH gEXbdg"
+          onClick={[Function]}
+        >
+          1 minute
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DateAgo date={1539949234308} ...
+          <div
+            className="jsx"
+          >
+            &lt;DateAgo date={1539949234308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <span>
+          a minute ago
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateAgo should render 2 minutes 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH gEXbdg"
+          onClick={[Function]}
+        >
+          2 minutes
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DateAgo date={1539949174308} ...
+          <div
+            className="jsx"
+          >
+            &lt;DateAgo date={1539949174308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <span>
+          2 minutes ago
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateAgo should render click changes 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH gEXbdg"
+          onClick={[Function]}
+        >
+          click changes
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DateAgo date={1539949294308} ...
+          <div
+            className="jsx"
+          >
+            &lt;DateAgo date={1539949294308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "padding": "10px",
+          }
+        }
+      >
+        <span>
+          just now
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateAgo should render now not set 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          now not set
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DateAgo date={1539794494308} ...
+          <div
+            className="jsx"
+          >
+            &lt;DateAgo date={1539794494308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <span>
+          17 October 2018 18:41
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateAgo should render old 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH gEXbdg"
+          onClick={[Function]}
+        >
+          old
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DateAgo date={1539794494308} ...
+          <div
+            className="jsx"
+          >
+            &lt;DateAgo date={1539794494308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <span>
+          17 October 2018 18:41
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DateAgo should render styled 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH gEXbdg"
+          onClick={[Function]}
+        >
+          styled
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DateAgo date={1539949114308} ...
+          <div
+            className="jsx"
+          >
+            &lt;DateAgo date={1539949114308} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <span
+          className="sc-eNQAEJ ibCoIM"
+        >
+          3 minutes ago
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DatePicker should render Sunday start 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          Sunday start
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DatePicker date={153994929430...
+          <div
+            className="jsx"
+          >
+            &lt;DatePicker date={1539949294308} onChange={function onChange} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <div
+          className="sc-gqjmRU duLvDV"
+        >
+          <div
+            className="sc-VigVT juRxHL"
+          >
+            <div
+              className="sc-jTzLTM gwaPlU"
+            >
+              <div
+                className="selected sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Date
+              </div>
+              <div
+                className="sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Time
+              </div>
+            </div>
+            <div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <span
+                  className="sc-gZMcBi hnkhLa"
+                  onClick={[Function]}
+                >
+                  &lt;-
+                </span>
+                <div
+                  className="sc-fjdhpX eQQjGj"
+                >
+                  October 2018
+                </div>
+                <span
+                  className="sc-gZMcBi hnkhLa"
+                  onClick={[Function]}
+                >
+                  -&gt;
+                </span>
+              </div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Sun
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Mon
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Tue
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Wed
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Thu
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Fri
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Sat
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  30
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  1
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  2
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  3
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  4
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  5
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  6
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  7
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  8
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  9
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  10
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  11
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  12
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  13
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  14
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  15
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  16
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  17
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  18
+                </div>
+                <div
+                  className="selected today sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  19
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  20
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  21
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  22
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  23
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  24
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  25
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  26
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  27
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  28
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  29
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  30
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  31
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  1
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  2
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  3
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  4
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  5
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  6
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  7
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  8
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  9
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  10
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DatePicker should render simple 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          simple
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DatePicker date={153994929430...
+          <div
+            className="jsx"
+          >
+            &lt;DatePicker date={1539949294308} onChange={function onChange} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <div
+          className="sc-gqjmRU duLvDV"
+        >
+          <div
+            className="sc-VigVT juRxHL"
+          >
+            <div
+              className="sc-jTzLTM gwaPlU"
+            >
+              <div
+                className="selected sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Date
+              </div>
+              <div
+                className="sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Time
+              </div>
+            </div>
+            <div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <span
+                  className="sc-gZMcBi hnkhLa"
+                  onClick={[Function]}
+                >
+                  &lt;-
+                </span>
+                <div
+                  className="sc-fjdhpX eQQjGj"
+                >
+                  October 2018
+                </div>
+                <span
+                  className="sc-gZMcBi hnkhLa"
+                  onClick={[Function]}
+                >
+                  -&gt;
+                </span>
+              </div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Mon
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Tue
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Wed
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Thu
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Fri
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Sat
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Sun
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  1
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  2
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  3
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  4
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  5
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  6
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  7
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  8
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  9
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  10
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  11
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  12
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  13
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  14
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  15
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  16
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  17
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  18
+                </div>
+                <div
+                  className="selected today sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  19
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  20
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  21
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  22
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  23
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  24
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  25
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  26
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  27
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  28
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  29
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  30
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  31
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  1
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  2
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  3
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  4
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  5
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  6
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  7
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  8
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  9
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  10
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  11
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DatePicker should render simple 2`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          simple
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DatePicker onChange={function...
+          <div
+            className="jsx"
+          >
+            &lt;DatePicker onChange={function onChange} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <div
+          className="sc-gqjmRU duLvDV"
+        >
+          <div
+            className="sc-VigVT juRxHL"
+          >
+            <div
+              className="sc-jTzLTM gwaPlU"
+            >
+              <div
+                className="selected sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Date
+              </div>
+              <div
+                className="sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Time
+              </div>
+            </div>
+            <div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <span
+                  className="sc-gZMcBi hnkhLa"
+                  onClick={[Function]}
+                >
+                  &lt;-
+                </span>
+                <div
+                  className="sc-fjdhpX eQQjGj"
+                >
+                  October 2018
+                </div>
+                <span
+                  className="sc-gZMcBi hnkhLa"
+                  onClick={[Function]}
+                >
+                  -&gt;
+                </span>
+              </div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Mon
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Tue
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Wed
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Thu
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Fri
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Sat
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                >
+                  Sun
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  1
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  2
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  3
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  4
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  5
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  6
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  7
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  8
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  9
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  10
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  11
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  12
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  13
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  14
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  15
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  16
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  17
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  18
+                </div>
+                <div
+                  className="today sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  19
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  20
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  21
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  22
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  23
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  24
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  25
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  26
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  27
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  28
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  29
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  30
+                </div>
+                <div
+                  className="sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  31
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  1
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  2
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  3
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  4
+                </div>
+              </div>
+              <div
+                className="sc-jzJRlG fSQEJg"
+              >
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  5
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  6
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  7
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  8
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  9
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  10
+                </div>
+                <div
+                  className="Om sc-kAzzGY kxFWHB"
+                  onClick={[Function]}
+                >
+                  11
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DatePicker should render view time 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          view time
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;DatePicker date={153994929430...
+          <div
+            className="jsx"
+          >
+            &lt;DatePicker date={1539949294308} view="Time" onChange={function onChange} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <div
+          className="sc-gqjmRU duLvDV"
+        >
+          <div
+            className="sc-VigVT juRxHL"
+          >
+            <div
+              className="sc-jTzLTM gwaPlU"
+            >
+              <div
+                className="sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Date
+              </div>
+              <div
+                className="selected sc-cSHVUG hbjGUS"
+                onClick={[Function]}
+              >
+                Time
+              </div>
+            </div>
+            <div>
+              <div
+                className="sc-chPdSV iAITkx"
+              >
+                <div
+                  className="sc-kGXeez EQBFF"
+                >
+                  13
+                </div>
+                <div
+                  className="sc-kpOJdX ixMpbd"
+                >
+                  :
+                </div>
+                <div
+                  className="sc-kGXeez EQBFF"
+                >
+                  41
+                </div>
+              </div>
+              <div
+                className="sc-dxgOiQ heEfck"
+              >
+                <div
+                  className="sc-kgoBCf kVSTZj"
+                >
+                  Hours
+                </div>
+              </div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <input
+                  className="sc-ckVGcZ iBpYou"
+                  max={23}
+                  min={0}
+                  onChange={[Function]}
+                  step={1}
+                  type="range"
+                  value={13}
+                />
+              </div>
+              <div
+                className="sc-dxgOiQ heEfck"
+              >
+                <div
+                  className="sc-kgoBCf kVSTZj"
+                >
+                  Minutes
+                </div>
+              </div>
+              <div
+                className="sc-jTzLTM gwaPlU"
+              >
+                <input
+                  className="sc-ckVGcZ iBpYou"
+                  max={55}
+                  min={0}
+                  onChange={[Function]}
+                  step={5}
+                  type="range"
+                  value={41}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

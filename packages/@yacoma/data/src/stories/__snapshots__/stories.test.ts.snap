@@ -1,0 +1,1341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterName should render simple 1`] = `
+<div
+  className="theme-RegisterName-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-uJMKN dOnVBC"
+        >
+          &lt;RegisterNameCard /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;RegisterNameCard /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="large sc-cSHVUG dePWAH"
+        >
+          <div
+            className="sc-cJSrbW hEYELo sc-jzJRlG eFkJPq"
+          >
+            <div
+              className="sc-fjdhpX bkkJNc"
+            >
+              Registration
+            </div>
+          </div>
+          <div
+            className="sc-dnqmqq hDRzhl"
+          >
+            <div
+              className="sc-cHGsZl iFDRis sc-gZMcBi crAViM"
+            >
+              <div
+                className="sc-iwsKbI cWvWqp"
+              >
+                Please choose a username (cannot be changed) and enter your email.
+              </div>
+            </div>
+            <div
+              className="sc-jqCOkK cCAsJS"
+            >
+              <div
+                className="sc-chPdSV FPhuz"
+              >
+                <span
+                  className="sc-dNLxif efjBNc"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-user fa-w-14 "
+                    data-icon="user"
+                    data-prefix="fas"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 448 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                </span>
+              </div>
+              <input
+                autoComplete="off"
+                className="nobg sc-jbKcbu cCDLhG"
+                name="username"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Your name..."
+                value=""
+              />
+            </div>
+            <div
+              className="sc-jqCOkK cCAsJS"
+            >
+              <div
+                className="sc-chPdSV FPhuz"
+              >
+                <span
+                  className="sc-dNLxif efjBNc"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-envelope fa-w-16 "
+                    data-icon="envelope"
+                    data-prefix="fas"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                </span>
+              </div>
+              <input
+                autoComplete="off"
+                className="nobg sc-jbKcbu cCDLhG"
+                name="email"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Your email..."
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="sc-jTzLTM ZGfEu"
+          >
+            <div
+              className="sc-gqjmRU cHwFjZ"
+            >
+              <div
+                className="sc-cHGsZl iFDRis sc-gZMcBi crAViM"
+              >
+                <div
+                  className="sc-iwsKbI cWvWqp"
+                />
+              </div>
+              <div
+                className="sc-VigVT bScfUJ"
+              />
+              <button
+                className="sc-gisBJw cQbPpf"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Cancel
+                </span>
+              </button>
+              <button
+                className="primary sc-gisBJw cQbPpf"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Continue
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegisterVerify should render simple 1`] = `
+<div
+  className="theme-RegisterVerify-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-RefOD cgcdGZ"
+        >
+          &lt;RegisterVerifyCard /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;RegisterVerifyCard /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="large sc-cMljjf iWONeU"
+        >
+          <div
+            className="sc-gzOgki ecfKJp sc-jzJRlG eFkJPq"
+          >
+            <div
+              className="sc-fjdhpX bkkJNc"
+            >
+              Register
+            </div>
+          </div>
+          <div
+            className="sc-dnqmqq hDRzhl"
+          >
+            <div
+              className="sc-dqBHgY hzdhCu sc-gZMcBi crAViM"
+            >
+              <div
+                className="sc-iwsKbI cWvWqp"
+              >
+                Lily (lily@loves.you), please enter your secret word list for verification here.
+              </div>
+            </div>
+            <div
+              className="sc-jWBwVP eFtiBv"
+            >
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="0"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="one"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="1"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="two"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="2"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="three"
+                  />
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="3"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="four"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="4"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="five"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="5"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="six"
+                  />
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="6"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="seven"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="7"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="eight"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="8"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="nine"
+                  />
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="9"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="ten"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="10"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="eleven"
+                  />
+                </div>
+                <div
+                  className="sc-ibxdXY kEJBWr"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-kIPQKe gSCMDW"
+                    name="11"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="sc-jTzLTM ZGfEu"
+          >
+            <div
+              className="sc-gqjmRU cHwFjZ"
+            >
+              <div
+                className="sc-dqBHgY hzdhCu sc-gZMcBi crAViM"
+              >
+                <div
+                  className="sc-iwsKbI cWvWqp"
+                />
+              </div>
+              <div
+                className="sc-VigVT bScfUJ"
+              />
+              <button
+                className="sc-jtRfpW iyTlBj"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Back
+                </span>
+              </button>
+              <button
+                className="primary disabled sc-jtRfpW iyTlBj"
+              >
+                
+                <span>
+                  Register
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegisterWords should render simple 1`] = `
+<div
+  className="theme-RegisterWords-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-bYSBpT CjxpF"
+        >
+          &lt;RegisterWordsCard /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;RegisterWordsCard /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="large sc-brqgnP cthZoM"
+        >
+          <div
+            className="sc-ktHwxA dAvpec sc-jzJRlG eFkJPq"
+          >
+            <div
+              className="sc-fjdhpX bkkJNc"
+            >
+              Registration
+            </div>
+          </div>
+          <div
+            className="sc-dnqmqq hDRzhl"
+          >
+            <div
+              className="sc-fYxtnH guAbMv sc-gZMcBi crAViM"
+            >
+              <div
+                className="sc-iwsKbI cWvWqp"
+              >
+                Lily (lily@loves.you), here is the secret word list that you will need to login on a new machine. You can change some of the words if you want. Please write this list somewhere safe (you will not see it again).
+              </div>
+            </div>
+            <div
+              className="sc-jWBwVP eFtiBv"
+            >
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="0"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="one"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="1"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="two"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="2"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="three"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="3"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="four"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="4"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="five"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="5"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="six"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="6"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="seven"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="7"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="eight"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="8"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="nine"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="9"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="ten"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="10"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="eleven"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+                <div
+                  className="sc-lhVmIH cXPYQO"
+                >
+                  <div
+                    className="sc-kAzzGY ebaOMy"
+                  >
+                    <input
+                      autoComplete="off"
+                      className="nobg sc-jwKygS hnOpyP"
+                      disabled={true}
+                      name="11"
+                      onChange={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder=""
+                      value="twelve"
+                    />
+                    <span
+                      className="hasClick sc-iELTvK ZPCnN"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-sync fa-w-16 "
+                        data-icon="sync"
+                        data-prefix="fas"
+                        onClick={[Function]}
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M440.935 12.574l3.966 82.766C399.416 41.904 331.674 8 256 8 134.813 8 33.933 94.924 12.296 209.824 10.908 217.193 16.604 224 24.103 224h49.084c5.57 0 10.377-3.842 11.676-9.259C103.407 137.408 172.931 80 256 80c60.893 0 114.512 30.856 146.104 77.801l-101.53-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12h-47.411c-6.853 0-12.315 5.729-11.987 12.574zM256 432c-60.895 0-114.517-30.858-146.109-77.805l101.868 4.871c6.845.327 12.573-5.134 12.573-11.986v-47.412c0-6.627-5.373-12-12-12H12c-6.627 0-12 5.373-12 12V500c0 6.627 5.373 12 12 12h47.385c6.863 0 12.328-5.745 11.985-12.599l-4.129-82.575C112.725 470.166 180.405 504 256 504c121.187 0 222.067-86.924 243.704-201.824 1.388-7.369-4.308-14.176-11.807-14.176h-49.084c-5.57 0-10.377 3.842-11.676 9.259C408.593 374.592 339.069 432 256 432z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="sc-jTzLTM ZGfEu"
+          >
+            <div
+              className="sc-gqjmRU cHwFjZ"
+            >
+              <div
+                className="sc-fYxtnH guAbMv sc-gZMcBi crAViM"
+              >
+                <div
+                  className="sc-iwsKbI cWvWqp"
+                />
+              </div>
+              <div
+                className="sc-VigVT bScfUJ"
+              />
+              <button
+                className="sc-gGBfsJ fSmqAH"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Back
+                </span>
+              </button>
+              <button
+                className="primary sc-gGBfsJ fSmqAH"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Continue
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`WordLogin should render simple 1`] = `
+<div
+  className="theme-WordLogin-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-fAjcbJ cyJqgi"
+        >
+          &lt;WordLoginCard /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;WordLoginCard /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="large sc-brqgnP cthZoM"
+        >
+          <div
+            className="sc-csuQGl cUgpWy sc-jzJRlG eFkJPq"
+          >
+            <div
+              className="sc-fjdhpX bkkJNc"
+            >
+              Login
+            </div>
+          </div>
+          <div
+            className="sc-dnqmqq hDRzhl"
+          >
+            <div
+              className="sc-gqjmRU cHwFjZ"
+            >
+              <div
+                className="sc-VigVT bScfUJ"
+              />
+              <button
+                className="sc-hzDkRC ebamuh"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Register
+                </span>
+              </button>
+            </div>
+            <div
+              className="sc-iRbamj dOOnCM sc-gZMcBi crAViM"
+            >
+              <div
+                className="sc-iwsKbI cWvWqp"
+              >
+                Please login with your secret word list.
+              </div>
+            </div>
+            <div
+              className="sc-jWBwVP eFtiBv"
+            >
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="0"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="one"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="1"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="two"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="2"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="three"
+                  />
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="3"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="four"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="4"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="five"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="5"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="six"
+                  />
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="6"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="seven"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="7"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="eight"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="8"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="nine"
+                  />
+                </div>
+              </div>
+              <div
+                className="sc-gqjmRU cHwFjZ"
+              >
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="9"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="ten"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="10"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="eleven"
+                  />
+                </div>
+                <div
+                  className="sc-eqIVtm fQXDGX"
+                >
+                  <input
+                    autoComplete="off"
+                    className="nobg sc-fMiknA bpoUNz"
+                    name="11"
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    value="twelve"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="sc-jTzLTM ZGfEu"
+          >
+            <div
+              className="sc-gqjmRU cHwFjZ"
+            >
+              <div
+                className="sc-iRbamj dOOnCM sc-gZMcBi crAViM"
+              >
+                <div
+                  className="sc-iwsKbI cWvWqp"
+                />
+              </div>
+              <div
+                className="sc-VigVT bScfUJ"
+              />
+              <button
+                className="primary sc-jDwBTQ kMnPFA"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Login
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

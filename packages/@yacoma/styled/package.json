@@ -1,0 +1,47 @@
+{
+  "name": "@lucidogen/styled",
+  "version": "0.0.0",
+  "description": "Basic styled components that work with Cerebral.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucidogen/lucidogen.git"
+  },
+  "author": "Gaspard Bucher <gaspard@lucidogen.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build:watch": "tsc -w -p setup/tsconfig.${NODE_ENV:=development}.json",
+    "build": "tsc -p setup/tsconfig.${NODE_ENV:=development}.json",
+    "clean": "rimraf .cache dist coverage ../../node_modules/@lucidogen/styled",
+    "postbuild": "cp package.json ../../node_modules/@lucidogen/styled",
+    "prepare": "rimraf dist && cp -r ../../node_modules/@lucidogen/styled/dist dist",
+    "stories": "parcel serve --no-autoinstall src/stories/index.html",
+    "test:watch": "jest -c setup/jest.js --watch --coverage false",
+    "test": "jest -c setup/jest.js"
+  },
+  "dependencies": {
+    "@lucidogen/build": "next",
+    "@lucidogen/locale": "next",
+    "@lucidogen/theme": "next",
+    "classnames": "^2.2.6",
+    "overmind-react": "next",
+    "overmind": "next",
+    "react-dom": "16.8.1",
+    "react": "16.8.1",
+    "react-perfect-scrollbar": "1.4.4",
+    "styled-components": "4.1.3"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
+    "@fortawesome/react-fontawesome": "^0.1.2",
+    "@lucidogen/story": "next",
+    "@types/styled-components": "^4.0.1",
+    "jest": "^23.5.0",
+    "simple-mock": "^0.8.0",
+    "ts-jest": "^23.1.3",
+    "typescript": "^3.3.1"
+  }
+}

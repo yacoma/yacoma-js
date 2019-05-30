@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog (click to view) should render drag & drop 1`] = `
+<div
+  className="theme-3"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          drag & drop
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Drag /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Drag /&gt;
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-jTzLTM fDjupc"
+        >
+          <h3>
+            (Group: 
+            foo
+            )
+          </h3>
+          <div
+            className="sc-gqjmRU ejrjCJ"
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseUp={[Function]}
+          >
+            
+            hop
+          </div>
+          <div
+            className="sc-gqjmRU ejrjCJ"
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseUp={[Function]}
+          >
+            
+            lala
+          </div>
+        </div>
+        <div
+          className="sc-jTzLTM fDjupc"
+        >
+          <h3>
+            (Group: 
+            bar
+            )
+          </h3>
+          <div
+            className="sc-gqjmRU ejrjCJ"
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseUp={[Function]}
+          >
+            
+            bar
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX lguhMC"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <h3>
+            (Group2: 
+            baz
+            )
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog (click to view) should render dragging 1`] = `
+<div
+  className="theme-1"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          dragging
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Drag /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Drag /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <div
+          className="sc-jzJRlG fSwYev"
+          style={
+            Object {
+              "left": 310,
+              "top": 80,
+            }
+          }
+        >
+          <div
+            className="sc-gqjmRU ejrjCJ"
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseUp={[Function]}
+          >
+            dragging 
+            Lily
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog (click to view) should render start drag 1`] = `
+<div
+  className="theme-2"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          start drag
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Drag /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Drag /&gt;
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-gqjmRU ejrjCJ"
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          onMouseUp={[Function]}
+        >
+          
+          My name
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

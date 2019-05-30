@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2017", "esnext"],
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "newLine": "LF",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "pretty": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",
+    "paths": {
+      "test": ["src/test"]
+    },
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

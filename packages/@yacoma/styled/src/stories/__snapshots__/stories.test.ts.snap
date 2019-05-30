@@ -1,0 +1,3612 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render Link 1`] = `
+<div
+  className="theme-Button-Link"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          Link
+        </div>
+        <div
+          className="sc-hqyNC kfzGWR"
+        >
+          &lt;Link text="Validate" onClick=...
+          <div
+            className="jsx"
+          >
+            &lt;Link text="Validate" onClick={function } /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="sc-kvZOFW cbYaiY"
+          onClick={[Function]}
+        >
+          
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render disabled 1`] = `
+<div
+  className="theme-Button-disabled"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          disabled
+        </div>
+        <div
+          className="sc-fMiknA igikpD"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } disabled /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="disabled sc-fBuWsC iPjapM"
+        >
+          
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render icon 1`] = `
+<div
+  className="theme-Button-icon"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon
+        </div>
+        <div
+          className="sc-fAjcbJ cyJqgi"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } icon="user" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="icon sc-eqIVtm cvkKEH"
+          onClick={[Function]}
+        >
+          <span
+            className="sc-dVhcbM cjWECM"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-user fa-w-14 "
+              data-icon="user"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </span>
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render icon large 1`] = `
+<div
+  className="theme-Button-icon-large"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon large
+        </div>
+        <div
+          className="sc-kgAjT ihONOv"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } icon="user" large /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="large icon sc-TOsTZ lbMvuX"
+          onClick={[Function]}
+        >
+          <span
+            className="large sc-cHGsZl ciGdFY"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-user fa-w-14 "
+              data-icon="user"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </span>
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render icon true 1`] = `
+<div
+  className="theme-Button-icon-true"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon true
+        </div>
+        <div
+          className="sc-kjoXOD gKADrg"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } icon /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="icon sc-gisBJw cQbPpf"
+          onClick={[Function]}
+        >
+          <span
+            className="sc-caSCKo dOYAGN"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-tooth fa-w-14 "
+              data-icon="tooth"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M443.98 96.25c-11.01-45.22-47.11-82.06-92.01-93.72-32.19-8.36-63 5.1-89.14 24.33-3.25 2.39-6.96 3.73-10.5 5.48l28.32 18.21c7.42 4.77 9.58 14.67 4.8 22.11-4.46 6.95-14.27 9.86-22.11 4.8L162.83 12.84c-20.7-10.85-43.38-16.4-66.81-10.31-44.9 11.67-81 48.5-92.01 93.72-10.13 41.62-.42 80.81 21.5 110.43 23.36 31.57 32.68 68.66 36.29 107.35 4.4 47.16 10.33 94.16 20.94 140.32l7.8 33.95c3.19 13.87 15.49 23.7 29.67 23.7 13.97 0 26.15-9.55 29.54-23.16l34.47-138.42c4.56-18.32 20.96-31.16 39.76-31.16s35.2 12.85 39.76 31.16l34.47 138.42c3.39 13.61 15.57 23.16 29.54 23.16 14.18 0 26.48-9.83 29.67-23.7l7.8-33.95c10.61-46.15 16.53-93.16 20.94-140.32 3.61-38.7 12.93-75.78 36.29-107.35 21.95-29.61 31.66-68.8 21.53-110.43z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </span>
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render large 1`] = `
+<div
+  className="theme-Button-large"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          large
+        </div>
+        <div
+          className="sc-csuQGl hCFsje"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } large /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="large sc-gipzik RkoGP"
+          onClick={[Function]}
+        >
+          
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render large buttonBorderRadius 1`] = `
+<div
+  className="theme-Button-large-buttonBorderRadius"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          large buttonBorderRadius
+        </div>
+        <div
+          className="sc-hmzhuo fzGcYS"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="sc-ksYbfQ eYnfPj"
+          onClick={[Function]}
+        >
+          
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render primary 1`] = `
+<div
+  className="theme-Button-primary"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          primary
+        </div>
+        <div
+          className="sc-iRbamj bTVNs"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } primary /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="primary sc-gPEVay ekLBWs"
+          onClick={[Function]}
+        >
+          
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render primary large 1`] = `
+<div
+  className="theme-Button-primary-large"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          primary large
+        </div>
+        <div
+          className="sc-hzDkRC jDjvwW"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } large primary /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="primary large sc-bRBYWo fWgjhS"
+          onClick={[Function]}
+        >
+          
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button should render simple 1`] = `
+<div
+  className="theme-Button-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-jAaTju fEwItP"
+        >
+          &lt;Button text="Validate" onClic...
+          <div
+            className="jsx"
+          >
+            &lt;Button text="Validate" onClick={function } /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <button
+          className="sc-cMljjf gIzrBv"
+          onClick={[Function]}
+        >
+          
+          <span>
+            Let's go!
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card with content should render content and footer 1`] = `
+<div
+  className="theme-Card-with-content-content-and-footer"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          content and footer
+        </div>
+        <div
+          className="sc-uJMKN dOnVBC"
+        >
+          &lt;Card&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Card&gt;
+  &lt;Content topBorder&gt;
+    &lt;styled.div&gt;Something&lt;/styled.div&gt;
+  &lt;/Content&gt;
+  &lt;Footer&gt;
+    &lt;styled.div&gt;footer&lt;/styled.div&gt;
+  &lt;/Footer&gt;
+&lt;/Card&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-kEYyzF efSfgo"
+        >
+          <div
+            className="topBorder sc-kgoBCf fBOOIM"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              Something
+            </div>
+          </div>
+          <div
+            className="sc-jKJlTe EHYdr"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              footer
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card with content should render large 1`] = `
+<div
+  className="theme-Card-with-content-large"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          large
+        </div>
+        <div
+          className="sc-jqCOkK eyoLUr"
+        >
+          &lt;Card large&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Card large&gt;
+  &lt;Content topBorder bottomBorder&gt;
+    &lt;styled.div&gt;Something&lt;/styled.div&gt;
+  &lt;/Content&gt;
+&lt;/Card&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="large sc-kEYyzF efSfgo"
+        >
+          <div
+            className="topBorder bottomBorder sc-kgoBCf fBOOIM"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              Something
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card with content should render login 1`] = `
+<div
+  className="theme-Card-with-content-login"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          login
+        </div>
+        <div
+          className="sc-tilXH gAbYfU"
+        >
+          &lt;Card medium&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Card medium&gt;
+  &lt;CardTitle text="LoginTitle" /&gt;
+  &lt;Content&gt;
+    &lt;Title text="PleaseLogin" /&gt;
+    &lt;Field icon placeholder form={app.state.login} name="username" submit={function } /&gt;
+    &lt;Field icon placeholder form={app.state.login} name="password" type="password" submit={function } /&gt;
+  &lt;/Content&gt;
+  &lt;Footer&gt;
+    &lt;Horizontal&gt;
+      &lt;Spacer /&gt;
+      &lt;Button onClick={function } text="Cancel" /&gt;
+      &lt;Button primary onClick={function } text="Login" /&gt;
+    &lt;/Horizontal&gt;
+  &lt;/Footer&gt;
+&lt;/Card&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="medium sc-kEYyzF efSfgo"
+        >
+          <div
+            className="sc-iELTvK cDMort sc-hMqMXs iGVKwm"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              Login to yourself
+            </div>
+          </div>
+          <div
+            className="sc-kgoBCf fBOOIM"
+          >
+            <div
+              className="sc-kafWEX xGeAk sc-kpOJdX dGWCjw"
+            >
+              <div
+                className="sc-kGXeez hEDGGI"
+              >
+                Please enter your credentials...
+              </div>
+            </div>
+            <div
+              className="sc-bYSBpT dttgtt"
+            >
+              <div
+                className="sc-iwsKbI lasFid"
+              >
+                <span
+                  className="sc-lhVmIH emhDvC"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-user fa-w-14 "
+                    data-icon="user"
+                    data-prefix="fas"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 448 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                </span>
+              </div>
+              <input
+                autoComplete="off"
+                className="nobg sc-btzYZH hDnuiI"
+                name="username"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Your username"
+                value=""
+              />
+            </div>
+            <div
+              className="sc-bYSBpT dttgtt"
+            >
+              <div
+                className="sc-iwsKbI lasFid"
+              >
+                <span
+                  className="sc-lhVmIH emhDvC"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-lock fa-w-14 "
+                    data-icon="lock"
+                    data-prefix="fas"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 448 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                </span>
+              </div>
+              <input
+                autoComplete="off"
+                className="nobg sc-btzYZH hDnuiI"
+                name="password"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="sc-jKJlTe EHYdr"
+          >
+            <div
+              className="sc-dxgOiQ dLysXE"
+            >
+              <div
+                className="sc-ckVGcZ hJjndO"
+              />
+              <button
+                className="sc-ktHwxA irMFRz"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Cancel
+                </span>
+              </button>
+              <button
+                className="primary sc-ktHwxA irMFRz"
+                onClick={[Function]}
+              >
+                
+                <span>
+                  Login
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card with content should render medium 1`] = `
+<div
+  className="theme-Card-with-content-medium"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          medium
+        </div>
+        <div
+          className="sc-dNLxif fCaoZJ"
+        >
+          &lt;Card medium&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Card medium&gt;
+  &lt;Content topBorder bottomBorder&gt;
+    &lt;styled.div&gt;Something&lt;/styled.div&gt;
+  &lt;/Content&gt;
+&lt;/Card&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="medium sc-kEYyzF efSfgo"
+        >
+          <div
+            className="topBorder bottomBorder sc-kgoBCf fBOOIM"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              Something
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card with content should render simple 1`] = `
+<div
+  className="theme-Card-with-content-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-jbKcbu dkoaKd"
+        >
+          &lt;Card&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Card&gt;
+  &lt;Content topBorder bottomBorder&gt;
+    &lt;styled.div&gt;Something&lt;/styled.div&gt;
+  &lt;/Content&gt;
+&lt;/Card&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-kEYyzF efSfgo"
+        >
+          <div
+            className="topBorder bottomBorder sc-kgoBCf fBOOIM"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              Something
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card with content should render title, content and footer 1`] = `
+<div
+  className="theme-Card-with-content-title--content-and-footer"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          title, content and footer
+        </div>
+        <div
+          className="sc-bbmXgH dzfREt"
+        >
+          &lt;Card&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Card&gt;
+  &lt;CardTitle text="Hello" /&gt;
+  &lt;Content&gt;
+    &lt;styled.div&gt;Something&lt;/styled.div&gt;
+  &lt;/Content&gt;
+  &lt;Footer&gt;
+    &lt;styled.div&gt;footer&lt;/styled.div&gt;
+  &lt;/Footer&gt;
+&lt;/Card&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-kEYyzF efSfgo"
+        >
+          <div
+            className="sc-fYxtnH hxmlcC sc-hMqMXs iGVKwm"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              Hello World!
+            </div>
+          </div>
+          <div
+            className="sc-kgoBCf fBOOIM"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              Something
+            </div>
+          </div>
+          <div
+            className="sc-jKJlTe EHYdr"
+          >
+            <div
+              className="sc-eNQAEJ kspidn"
+            >
+              footer
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CardTitle should render icon single 1`] = `
+<div
+  className="theme-CardTitle-icon-single"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon single
+        </div>
+        <div
+          className="sc-fYiAbW ieyoNh"
+        >
+          &lt;CardTitle text="Welcome" icon...
+          <div
+            className="jsx"
+          >
+            &lt;CardTitle text="Welcome" icon="user" single /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="single sc-krvtoX iGaJFO sc-hMqMXs iGVKwm"
+        >
+          <div
+            className="sc-eNQAEJ kspidn"
+          >
+            <span
+              className="sc-cbkKFq jEikle"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-user fa-w-14 "
+                data-icon="user"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+            Welcome to styled !
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CardTitle should render icon single spin 1`] = `
+<div
+  className="theme-CardTitle-icon-single-spin"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon single spin
+        </div>
+        <div
+          className="sc-eilVRo ckRgyu"
+        >
+          &lt;CardTitle text="Loading" icon...
+          <div
+            className="jsx"
+          >
+            &lt;CardTitle text="Loading" icon="loading" single spin /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="single sc-gHboQg bAXJSA sc-hMqMXs iGVKwm"
+        >
+          <div
+            className="sc-eNQAEJ kspidn"
+          >
+            <span
+              className="sc-dUjcNx iCCdQz"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-spinner fa-w-16 fa-spin "
+                data-icon="spinner"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+            App is loading...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CardTitle should render simple 1`] = `
+<div
+  className="theme-CardTitle-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-cQFLBn hxezHN"
+        >
+          &lt;CardTitle text="Welcome" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;CardTitle text="Welcome" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-exAgwC hxfJSo sc-hMqMXs iGVKwm"
+        >
+          <div
+            className="sc-eNQAEJ kspidn"
+          >
+            Welcome to styled !
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CardTitle should render single 1`] = `
+<div
+  className="theme-CardTitle-single"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          single
+        </div>
+        <div
+          className="sc-lkqHmb bmYNNU"
+        >
+          &lt;CardTitle text="Welcome" sing...
+          <div
+            className="jsx"
+          >
+            &lt;CardTitle text="Welcome" single /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="single sc-bXGyLb ixSOei sc-hMqMXs iGVKwm"
+        >
+          <div
+            className="sc-eNQAEJ kspidn"
+          >
+            Welcome to styled !
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Error should render error 1`] = `
+<div
+  className="theme-Error-error"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          error
+        </div>
+        <div
+          className="sc-gxMtzJ hLRxeG"
+        >
+          &lt;CardError error="TooManyEmoti...
+          <div
+            className="jsx"
+          >
+            &lt;CardError error="TooManyEmotions" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="error sc-dqBHgY QsQXK sc-kTUwUJ dFKaW sc-kpOJdX dGWCjw"
+        >
+          <div
+            className="sc-kGXeez hEDGGI"
+          >
+            Too many emotions !
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Error should render error icon true 1`] = `
+<div
+  className="theme-Error-error-icon-true"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          error icon true
+        </div>
+        <div
+          className="sc-kPVwWT bdBDMN"
+        >
+          &lt;CardError error="TooManyEmoti...
+          <div
+            className="jsx"
+          >
+            &lt;CardError error="TooManyEmotions" icon /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="error sc-hwwEjo bLhTBZ sc-iyvyFf gxahyo sc-kpOJdX dGWCjw"
+        >
+          <div
+            className="sc-kGXeez hEDGGI"
+          >
+            <span
+              className="sc-gzOgki bIcxjA"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-splotch fa-w-16 "
+                data-icon="splotch"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M472.29 195.89l-67.06-22.95c-19.28-6.6-33.54-20.92-38.14-38.3L351.1 74.19c-11.58-43.77-76.57-57.13-109.98-22.62l-46.14 47.67c-13.26 13.71-33.54 20.93-54.2 19.31l-71.88-5.62c-52.05-4.07-86.93 44.88-59.03 82.83l38.54 52.42c11.08 15.07 12.82 33.86 4.64 50.24L24.62 355.4c-20.59 41.25 22.84 84.87 73.49 73.81l69.96-15.28c20.11-4.39 41.45 0 57.07 11.73l54.32 40.83c39.32 29.56 101.04 7.57 104.45-37.22l4.7-61.86c1.35-17.79 12.8-33.86 30.63-42.99l62-31.74c44.88-22.96 39.59-80.17-8.95-96.79z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+            Too many emotions !
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Error should render icon 1`] = `
+<div
+  className="theme-Error-icon"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon
+        </div>
+        <div
+          className="sc-ibxdXY hgyddL"
+        >
+          &lt;CardError error="TooManyEmoti...
+          <div
+            className="jsx"
+          >
+            &lt;CardError error="TooManyEmotions" icon="user" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="error sc-eXEjpC gzLjxf sc-kIPQKe dNZyhd sc-kpOJdX dGWCjw"
+        >
+          <div
+            className="sc-kGXeez hEDGGI"
+          >
+            <span
+              className="sc-esjQYD hPxYbZ"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-user fa-w-14 "
+                data-icon="user"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+            Too many emotions !
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Error should render no error 1`] = `
+<div
+  className="theme-Error-no-error"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          no error
+        </div>
+        <div
+          className="sc-eTuwsz bDUhg"
+        >
+          &lt;CardError error={null} icon /...
+          <div
+            className="jsx"
+          >
+            &lt;CardError error={null} icon /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Field should render field icon 1`] = `
+<div
+  className="theme-Field-field-icon"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          field icon
+        </div>
+        <div
+          className="sc-eMigcr jGWROg"
+        >
+          &lt;Field form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Field form={app.state.login} name="username" icon="user" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-itybZL kwjIBr"
+        >
+          <div
+            className="sc-iwsKbI lasFid"
+          >
+            <span
+              className="sc-dTdPqK hXLHnV"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-user fa-w-14 "
+                data-icon="user"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+          </div>
+          <input
+            autoComplete="off"
+            className="nobg sc-krDsej cKVLyN"
+            name="username"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            value="someuser"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Field should render field icon true 1`] = `
+<div
+  className="theme-Field-field-icon-true"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          field icon true
+        </div>
+        <div
+          className="sc-VJcYb lmmfMX"
+        >
+          &lt;Field form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Field form={app.state.login} name="username" icon /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-fONwsr gJgZQE"
+        >
+          <div
+            className="sc-iwsKbI lasFid"
+          >
+            <span
+              className="sc-giadOv dXSITq"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-user fa-w-14 "
+                data-icon="user"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+          </div>
+          <input
+            autoComplete="off"
+            className="nobg sc-kUaPvJ HhGgG"
+            name="username"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Field should render huge fieldBorderRadius 1`] = `
+<div
+  className="theme-Field-huge-fieldBorderRadius"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          huge fieldBorderRadius
+        </div>
+        <div
+          className="sc-iqzUVk JqxXp"
+        >
+          &lt;Field form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Field form={app.state.login} name="username" icon="user" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-qrIAp czSZOr"
+        >
+          <div
+            className="sc-iwsKbI lasFid"
+          >
+            <span
+              className="sc-kLIISr kfTNNk"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-user fa-w-14 "
+                data-icon="user"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+          </div>
+          <input
+            autoComplete="off"
+            className="nobg sc-dliRfk fUHGGy"
+            name="username"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            value="John Lily"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Field should render simple 1`] = `
+<div
+  className="theme-Field-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-fhYwyz bDxEzg"
+        >
+          &lt;Field form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Field form={app.state.login} name="username" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-gFaPwZ dgTmrn"
+        >
+          <input
+            autoComplete="off"
+            className="nobg sc-dymIpo fMAdRy"
+            name="username"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            value="someuser"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Field should render submit 1`] = `
+<div
+  className="theme-Field-submit"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          submit
+        </div>
+        <div
+          className="sc-hGoxap lnQRjY"
+        >
+          &lt;Field form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Field form={app.state.login} name="username" submit={function } /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-laTMn jKydTE"
+        >
+          <input
+            autoComplete="off"
+            className="nobg sc-bMvGRv dbfljJ"
+            name="username"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            value="someuser"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Icon FontAwesome should render hasOn 1`] = `
+<div
+  className="theme-Icon-FontAwesome-hasOn"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          hasOn
+        </div>
+        <div
+          className="sc-iBEsjs dEpoCD"
+        >
+          &lt;Icon icon="folder" hasOn high...
+          <div
+            className="jsx"
+          >
+            &lt;Icon icon="folder" hasOn highlighted={false} onClick={function onClick} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <span
+          className="hasClick sc-LKuAh dAFvOw"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-folder fa-w-16 "
+            data-icon="folder"
+            data-prefix="fas"
+            onClick={[Function]}
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M464 128H272l-64-64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Icon FontAwesome should render hasOn is on 1`] = `
+<div
+  className="theme-Icon-FontAwesome-hasOn-is-on"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          hasOn is on
+        </div>
+        <div
+          className="sc-chbbiW gFMvpv"
+        >
+          &lt;Icon icon="folder" hasOn high...
+          <div
+            className="jsx"
+          >
+            &lt;Icon icon="folder" hasOn highlighted onClick={function onClick} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <span
+          className="highlighted hasClick sc-hzNEM kXekC"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-folder-open fa-w-18 "
+            data-icon="folder-open"
+            data-prefix="fas"
+            onClick={[Function]}
+            role="img"
+            style={Object {}}
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M572.694 292.093L500.27 416.248A63.997 63.997 0 0 1 444.989 448H45.025c-18.523 0-30.064-20.093-20.731-36.093l72.424-124.155A64 64 0 0 1 152 256h399.964c18.523 0 30.064 20.093 20.73 36.093zM152 224h328v-48c0-26.51-21.49-48-48-48H272l-64-64H48C21.49 64 0 85.49 0 112v278.046l69.077-118.418C86.214 242.25 117.989 224 152 224z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Icon FontAwesome should render large 1`] = `
+<div
+  className="theme-Icon-FontAwesome-large"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          large
+        </div>
+        <div
+          className="sc-kaNhvL etsfbT"
+        >
+          &lt;Icon icon="user" large /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Icon icon="user" large /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <span
+          className="large sc-jKVCRD jyFcNa"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-user fa-w-14 "
+            data-icon="user"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Icon FontAwesome should render medium 1`] = `
+<div
+  className="theme-Icon-FontAwesome-medium"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          medium
+        </div>
+        <div
+          className="sc-ebFjAB ftLCWB"
+        >
+          &lt;Icon icon="user" medium /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Icon icon="user" medium /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <span
+          className="medium sc-jtggT aMLTL"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-user fa-w-14 "
+            data-icon="user"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Icon FontAwesome should render simple 1`] = `
+<div
+  className="theme-Icon-FontAwesome-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-dEoRIm faBvuR"
+        >
+          &lt;Icon icon="user" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Icon icon="user" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <span
+          className="sc-bmyXtO kPROtr"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-user fa-w-14 "
+            data-icon="user"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Icon should render no icon provider 1`] = `
+<div
+  className="theme-Icon-no-icon-provider"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          no icon provider
+        </div>
+        <div
+          className="sc-iGrrsa ePZTHE"
+        >
+          &lt;Icon icon="dummy" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Icon icon="dummy" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div>
+          Missing IconComponent setting
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input should render password 1`] = `
+<div
+  className="theme-Input-password"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          password
+        </div>
+        <div
+          className="sc-jeCdPy bhECAk"
+        >
+          &lt;Input form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Input form={app.state.login} name="password" type="password" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <input
+          autoComplete="off"
+          className="sc-hzDEsm kKOmXE"
+          name="password"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          type="password"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input should render placeholder 1`] = `
+<div
+  className="theme-Input-placeholder"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          placeholder
+        </div>
+        <div
+          className="sc-jXQZqI gqovQG"
+        >
+          &lt;Input form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Input form={app.state.login} name="username" placeholder="enterUsername" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <input
+          autoComplete="off"
+          className="sc-etwtAo irvrTp"
+          name="username"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Enter your username"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input should render placeholder true 1`] = `
+<div
+  className="theme-Input-placeholder-true"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          placeholder true
+        </div>
+        <div
+          className="sc-eInJlc bIyCUz"
+        >
+          &lt;Input form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Input form={app.state.login} name="username" placeholder /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <input
+          autoComplete="off"
+          className="sc-hgHYgh rJxuv"
+          name="username"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Your username"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input should render reset 1`] = `
+<div
+  className="theme-Input-reset"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          reset
+        </div>
+        <div
+          className="sc-ePZHVD hablyr"
+        >
+          &lt;Input form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Input form={app.state.login} reset name="username" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-dnqmqq hHLyWY"
+        >
+          <input
+            autoComplete="off"
+            className="sc-bEjcJn kdnDXn"
+            name="username"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input should render reset visible 1`] = `
+<div
+  className="theme-Input-reset-visible"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          reset visible
+        </div>
+        <div
+          className="sc-fgfRvd cNdhsL"
+        >
+          &lt;Input form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Input form={app.state.login} reset name="username" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-dnqmqq hHLyWY"
+        >
+          <input
+            autoComplete="off"
+            className="sc-drMfKT bKDWzF"
+            name="username"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            value="some name"
+          />
+          <span
+            className="hasClick sc-eKZiaR gogDAN"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-times fa-w-11 "
+              data-icon="times"
+              data-prefix="fas"
+              onClick={[Function]}
+              role="img"
+              style={Object {}}
+              viewBox="0 0 352 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input should render simplest 1`] = `
+<div
+  className="theme-Input-simplest"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simplest
+        </div>
+        <div
+          className="sc-gmeYpB kGVhGT"
+        >
+          &lt;Input form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Input form={app.state.login} name="username" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <input
+          autoComplete="off"
+          className="sc-fcdeBU eVoiWH"
+          name="username"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          value="someuser"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input should render submit 1`] = `
+<div
+  className="theme-Input-submit"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          submit
+        </div>
+        <div
+          className="sc-fZwumE leUFvq"
+        >
+          &lt;Input form={app.state.login} ...
+          <div
+            className="jsx"
+          >
+            &lt;Input form={app.state.login} name="username" submit={function } /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <input
+          autoComplete="off"
+          className="sc-iSDuPN fmZMRW"
+          name="username"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          value="someuser"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LangSelector should render simple 1`] = `
+<div
+  className="theme-LangSelector-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-gVyKpa khEYwE"
+        >
+          &lt;LangSelector /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;LangSelector /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-gpHHfC dfHZxJ sc-hIVACf bsgMvv"
+          onClick={[Function]}
+        >
+          <div
+            className="Options sc-kkGfuU cWRwcT"
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "top": "calc(0 * var(--selectHeight))",
+              }
+            }
+          >
+            <div
+              className="selected Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                English
+              </div>
+            </div>
+            <div
+              className="Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                French
+              </div>
+            </div>
+            <div
+              className="Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                Russian
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`LangSelector should render single lang 1`] = `
+<div
+  className="theme-LangSelector-single-lang"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          single lang
+        </div>
+        <div
+          className="sc-kQsIoO fgmPPn"
+        >
+          &lt;LangSelector /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;LangSelector /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Message should render icon 1`] = `
+<div
+  className="theme-Message-icon"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon
+        </div>
+        <div
+          className="sc-iuJeZd krrMLO"
+        >
+          &lt;Title text="PleaseLogin" icon...
+          <div
+            className="jsx"
+          >
+            &lt;Title text="PleaseLogin" icon="user" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-cMhqgX kPnsjH sc-kpOJdX dGWCjw"
+        >
+          <div
+            className="sc-kGXeez hEDGGI"
+          >
+            <span
+              className="sc-hZSUBg diZeMo"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-user fa-w-14 "
+                data-icon="user"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+            Please enter your credentials...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Message should render icon no text 1`] = `
+<div
+  className="theme-Message-icon-no-text"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon no text
+        </div>
+        <div
+          className="sc-cLQEGU fhVRPG"
+        >
+          &lt;Title icon="user" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Title icon="user" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-hMFtBS jMKilV sc-kpOJdX dGWCjw"
+        >
+          <div
+            className="sc-kGXeez hEDGGI"
+          >
+            <span
+              className="sc-cmthru gCVYMJ"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-user fa-w-14 "
+                data-icon="user"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Message should render icon true 1`] = `
+<div
+  className="theme-Message-icon-true"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          icon true
+        </div>
+        <div
+          className="sc-bAeIUo dYXGBq"
+        >
+          &lt;Title text="PleaseLogin" icon...
+          <div
+            className="jsx"
+          >
+            &lt;Title text="PleaseLogin" icon /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-bMVAic ldqigV sc-kpOJdX dGWCjw"
+        >
+          <div
+            className="sc-kGXeez hEDGGI"
+          >
+            <span
+              className="sc-hORach cuihIw"
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-lock fa-w-14 "
+                data-icon="lock"
+                data-prefix="fas"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </span>
+            Please enter your credentials...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Message should render simple 1`] = `
+<div
+  className="theme-Message-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-iQNlJl dumYLu"
+        >
+          &lt;Title text="Welcome" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Title text="Welcome" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-epnACN clgPOf sc-kpOJdX dGWCjw"
+        >
+          <div
+            className="sc-kGXeez hEDGGI"
+          >
+            Welcome to styled !
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal (click to view) should render Modal with Card 1`] = `
+<div
+  className="theme-Modal--click-to-view--Modal-with-Card"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          Modal with Card
+        </div>
+        <div
+          className="sc-iybRtq kinNgI"
+        >
+          &lt;ModalComp onClick={function }...
+          <div
+            className="jsx"
+          >
+            &lt;ModalComp onClick={function }&gt;
+  &lt;Card&gt;
+    &lt;CardTitle text="LoginTitle" /&gt;
+    &lt;Content&gt;
+      &lt;styled.div&gt;Something&lt;/styled.div&gt;
+    &lt;/Content&gt;
+    &lt;Footer&gt;
+      &lt;Horizontal&gt;
+        &lt;Spacer /&gt;
+        &lt;Button onClick={function } text="Close" /&gt;
+      &lt;/Horizontal&gt;
+    &lt;/Footer&gt;
+  &lt;/Card&gt;
+&lt;/ModalComp&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal (click to view) should render simple 1`] = `
+<div
+  className="theme-Modal--click-to-view--simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-gPzReC ilZGLu"
+        >
+          &lt;ModalComp onClick={function }...
+          <div
+            className="jsx"
+          >
+            &lt;ModalComp onClick={function }&gt;
+  &lt;Button onClick={function } text="Close" /&gt;
+&lt;/ModalComp&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Page with content should render custom header and footer 1`] = `
+<div
+  className="theme-Page-with-content-custom-header-and-footer"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          custom header and footer
+        </div>
+        <div
+          className="sc-ugnQR fovQIT"
+        >
+          &lt;Page&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Page&gt;
+  &lt;Styled(Styled(PageHeader))&gt;header&lt;/Styled(Styled(PageHeader))&gt;
+  &lt;PageContent&gt;
+    &lt;p&gt;A lot of stuff should go on this page. With enough text for us to view how it behaves near the footer.&lt;/p&gt;
+    &lt;p&gt;And some more stuff here, just to add to this pseudo page and wait until we have typed enough junk to fill such a small number of pixels.&lt;/p&gt;
+  &lt;/PageContent&gt;
+  &lt;Styled(Styled(PageFooter))&gt;footer&lt;/Styled(Styled(PageFooter))&gt;
+&lt;/Page&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-jTzLTM ejkjsV"
+          data-c="Page"
+        >
+          <div
+            className="sc-cvbbAY hzOvnl sc-fjdhpX cUJkHm"
+          >
+            header
+          </div>
+          <div
+            className="sc-cSHVUG bYkgSc sc-fjdhpX cUJkHm"
+          >
+            <p>
+              A lot of stuff should go on this page. With enough text for us to view how it behaves near the footer.
+            </p>
+            <p>
+              And some more stuff here, just to add to this pseudo page and wait until we have typed enough junk to fill such a small number of pixels.
+            </p>
+          </div>
+          <div
+            className="sc-eHgmQL gTpBwg sc-fjdhpX cUJkHm"
+          >
+            footer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Page with content should render simple 1`] = `
+<div
+  className="theme-Page-with-content-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-fyjhYU gGaaKB"
+        >
+          &lt;Page&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Page&gt;
+  &lt;PageHeader&gt;header&lt;/PageHeader&gt;
+  &lt;PageContent&gt;
+    &lt;p&gt;A lot of stuff should go on this page. With enough text for us to view how it behaves near the footer.&lt;/p&gt;
+    &lt;p&gt;And some more stuff here, just to add to this pseudo page and wait until we have typed enough junk to fill such a small number of pixels.&lt;/p&gt;
+  &lt;/PageContent&gt;
+  &lt;PageFooter&gt;footer&lt;/PageFooter&gt;
+&lt;/Page&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-jTzLTM ejkjsV"
+          data-c="Page"
+        >
+          <div
+            className="sc-jzJRlG lntsGj sc-fjdhpX cUJkHm"
+          >
+            header
+          </div>
+          <div
+            className="sc-cSHVUG bYkgSc sc-fjdhpX cUJkHm"
+          >
+            <p>
+              A lot of stuff should go on this page. With enough text for us to view how it behaves near the footer.
+            </p>
+            <p>
+              And some more stuff here, just to add to this pseudo page and wait until we have typed enough junk to fill such a small number of pixels.
+            </p>
+          </div>
+          <div
+            className="sc-kAzzGY hjSiwT sc-fjdhpX cUJkHm"
+          >
+            footer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render keys 1`] = `
+<div
+  className="theme-Select-keys"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          keys
+        </div>
+        <div
+          className="sc-iomxrj gMQBDO"
+        >
+          &lt;Select form={app.state.test} ...
+          <div
+            className="jsx"
+          >
+            &lt;Select form={app.state.test} name="lang" keys={["ru","fr","hin"]} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-dxZgTM OhEQI"
+          onClick={[Function]}
+        >
+          <div
+            className="Options sc-kkGfuU cWRwcT"
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "top": "calc(-1 * var(--selectHeight))",
+              }
+            }
+          >
+            <div
+              className="Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                Russian
+              </div>
+            </div>
+            <div
+              className="selected Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                French
+              </div>
+            </div>
+            <div
+              className="Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                Hindi
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select should render options 1`] = `
+<div
+  className="theme-Select-options"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          options
+        </div>
+        <div
+          className="sc-eTpRJs kdNHGV"
+        >
+          &lt;Select form={app.state.test} ...
+          <div
+            className="jsx"
+          >
+            &lt;Select form={app.state.test} name="lang" options={[{"key":"ru","value":"русский"},{"key":"fr","value":"français"},{"key":"hin","value":"हिंदी"}]} /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-eIHaNI kMaNiH"
+          onClick={[Function]}
+        >
+          <div
+            className="Options sc-kkGfuU cWRwcT"
+            onMouseLeave={[Function]}
+            style={
+              Object {
+                "top": "calc(-1 * var(--selectHeight))",
+              }
+            }
+          >
+            <div
+              className="Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                русский
+              </div>
+            </div>
+            <div
+              className="selected Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                français
+              </div>
+            </div>
+            <div
+              className="Option sc-iAyFgw kriYKl"
+              onClick={[Function]}
+            >
+              <div
+                className="OptionText sc-hSdWYo chEchm"
+              >
+                हिंदी
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Separator should render simple 1`] = `
+<div
+  className="theme-Separator-simple"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          simple
+        </div>
+        <div
+          className="sc-dvCyap iIhopk"
+        >
+          &lt;Separator /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Separator /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jWBwVP ktypKE"
+      >
+        <div
+          className="sc-chPdSV cXTgBw"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Separator should render theme separatorBorder 1`] = `
+<div
+  className="theme-Separator-theme-separatorBorder"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          style={
+            Object {
+              "cursor": "inherit",
+            }
+          }
+        >
+          theme separatorBorder
+        </div>
+        <div
+          className="sc-iFMziU ccoaWX"
+        >
+          &lt;Separator /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Separator /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jWBwVP ktypKE"
+      >
+        <div
+          className="sc-chPdSV cXTgBw"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

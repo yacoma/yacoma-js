@@ -1,0 +1,101 @@
+{
+  "vasudeva": ["@lucidogen/security"],
+  "@lucidogen/build": [],
+  "@lucidogen/chat": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/data",
+    "@lucidogen/document",
+    "@lucidogen/locale",
+    "@lucidogen/menu",
+    "@lucidogen/security",
+    "@lucidogen/styled",
+    "@lucidogen/theme",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/crypt": [],
+  "@lucidogen/data": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/dialog",
+    "@lucidogen/locale",
+    "@lucidogen/security",
+    "@lucidogen/styled",
+    "@lucidogen/theme",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/date": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/locale",
+    "@lucidogen/theme",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/dialog": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/document": [
+    "@lucidogen/story",
+    "@lucidogen/chat",
+    "@lucidogen/build",
+    "@lucidogen/data",
+    "@lucidogen/locale",
+    "@lucidogen/menu",
+    "@lucidogen/security",
+    "@lucidogen/styled",
+    "@lucidogen/theme",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/dragdrop": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/editor": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/locale",
+    "@lucidogen/styled",
+    "@lucidogen/theme"
+  ],
+  "@lucidogen/locale": ["@lucidogen/build"],
+  "@lucidogen/lucidity": [
+    "@lucidogen/build",
+    "@lucidogen/data",
+    "@lucidogen/dialog",
+    "@lucidogen/document",
+    "@lucidogen/locale",
+    "@lucidogen/menu",
+    "@lucidogen/styled",
+    "@lucidogen/theme",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/menu": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/styled",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/security": ["@lucidogen/build", "@lucidogen/crypt"],
+  "@lucidogen/story": [
+    "@lucidogen/build",
+    "@lucidogen/theme",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/styled": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/theme",
+    "@lucidogen/locale",
+    "@lucidogen/view"
+  ],
+  "@lucidogen/theme": ["@lucidogen/build", "@lucidogen/view"],
+  "@lucidogen/tree": [
+    "@lucidogen/story",
+    "@lucidogen/build",
+    "@lucidogen/dragdrop"
+  ],
+  "@lucidogen/view": []
+}

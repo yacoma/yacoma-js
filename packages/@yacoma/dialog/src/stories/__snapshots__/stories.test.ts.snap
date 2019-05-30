@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog (click to view) should render exclusive 1`] = `
+<div
+  className="theme-Dialog--click-to-view--exclusive"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          exclusive
+        </div>
+        <div
+          className="sc-iwsKbI dAfjtB"
+        >
+          &lt;Dialog&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Dialog&gt;
+  &lt;div&gt;app content inside dialog chidren&lt;/div&gt;
+&lt;/Dialog&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-dnqmqq bYUdBm"
+        >
+          <div>
+            app content inside dialog chidren
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dialog (click to view) should render overlay 1`] = `
+<div
+  className="theme-Dialog--click-to-view--overlay"
+>
+  <div
+    className="sc-ifAKCX hYWxfb"
+  >
+    <div
+      className="sc-htpNat hIwNRt"
+    >
+      <div
+        className="sc-bxivhb glCqXO"
+      >
+        <div
+          className="Title sc-bdVaJa dLCEWS"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          overlay
+        </div>
+        <div
+          className="sc-gqjmRU dHWrsZ"
+        >
+          &lt;Dialog&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Dialog&gt;
+  &lt;div&gt;app content inside dialog chidren&lt;/div&gt;
+&lt;/Dialog&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH dNRbgB"
+      >
+        <div
+          className="sc-gZMcBi dfNziT"
+        >
+          <div>
+            app content inside dialog chidren
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

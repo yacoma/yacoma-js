@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbox should render emptyParagraph 1`] = `
+<div
+  className="theme-3"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          emptyParagraph
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Toolbox id="t3" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Toolbox id="t3" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        id="toolbox1"
+        style={
+          Object {
+            "background": "white",
+            "height": "110px",
+            "position": "relative",
+            "width": "400px",
+          }
+        }
+      >
+        <div
+          className="sc-kjoXOD bshfHB emptyParagraph"
+          contentEditable={false}
+          style={
+            Object {
+              "left": 44,
+              "top": 28,
+            }
+          }
+        >
+          <div
+            className="sc-gisBJw jwWiKT menu"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="sc-iwsKbI klBUgU"
+              >
+                H1
+              </span>
+            </div>
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="sc-iwsKbI klBUgU"
+              >
+                H2
+              </span>
+            </div>
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="sc-iwsKbI klBUgU"
+              >
+                P
+              </span>
+            </div>
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="sc-iwsKbI klBUgU"
+              >
+                X
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Toolbox should render paragraph 1`] = `
+<div
+  className="theme-2"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          paragraph
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Toolbox id="t2" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Toolbox id="t2" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        id="toolbox1"
+        style={
+          Object {
+            "background": "white",
+            "height": "110px",
+            "position": "relative",
+            "width": "400px",
+          }
+        }
+      >
+        <div
+          className="sc-kjoXOD bshfHB paragraph"
+          contentEditable={false}
+          style={
+            Object {
+              "left": 44,
+              "top": 28,
+            }
+          }
+        >
+          <div
+            className="sc-gisBJw jwWiKT menu"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="sc-iwsKbI klBUgU"
+              >
+                H1
+              </span>
+            </div>
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="sc-iwsKbI klBUgU"
+              >
+                H2
+              </span>
+            </div>
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <span
+                className="sc-iwsKbI klBUgU"
+              >
+                P
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Toolbox should render selection 1`] = `
+<div
+  className="theme-1"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH bzeJnn"
+        >
+          selection
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Toolbox id="t1" /&gt;
+          <div
+            className="jsx"
+          >
+            &lt;Toolbox id="t1" /&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        id="toolbox1"
+        style={
+          Object {
+            "background": "white",
+            "height": "110px",
+            "position": "relative",
+            "width": "400px",
+          }
+        }
+      >
+        <div
+          className="sc-kjoXOD bshfHB selection"
+          contentEditable={false}
+          style={
+            Object {
+              "left": 28,
+              "top": 28,
+            }
+          }
+        >
+          <div
+            className="sc-gisBJw jwWiKT menu"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <i
+                className="strong"
+              >
+                B
+              </i>
+            </div>
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <i
+                className="em"
+              >
+                I
+              </i>
+            </div>
+            <div
+              className="item"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+            >
+              <i
+                className="em"
+              >
+                link
+              </i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

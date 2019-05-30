@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stories should render stories without error 1`] = `
+<div
+  className="sc-htoDjs hsuxup"
+>
+  <div
+    className="sc-gzVnrw fJrtRC"
+  >
+    <div
+      className="sc-EHOje klrYJJ"
+      onClick={[Function]}
+    >
+      Foo
+    </div>
+    <div
+      className="sc-bZQynM bOrPFB"
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      <div
+        className="theme-Foo-NoProps"
+      >
+        <div
+          className="sc-ifAKCX hYWxfb"
+        >
+          <div
+            className="sc-htpNat hIwNRt"
+          >
+            <div
+              className="sc-bxivhb glCqXO"
+            >
+              <div
+                className="Title sc-bdVaJa dLCEWS"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                NoProps
+              </div>
+              <div
+                className="sc-dnqmqq jxrIyk"
+              >
+                &lt;component /&gt;
+                <div
+                  className="jsx"
+                >
+                  &lt;component /&gt;
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-bwzfXH dNRbgB"
+            >
+              <div>
+                This is 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="theme-Foo-Simple"
+      >
+        <div
+          className="sc-ifAKCX hYWxfb"
+        >
+          <div
+            className="sc-htpNat hIwNRt"
+          >
+            <div
+              className="sc-bxivhb glCqXO"
+            >
+              <div
+                className="Title sc-bdVaJa dLCEWS"
+                style={
+                  Object {
+                    "cursor": "inherit",
+                  }
+                }
+              >
+                Simple
+              </div>
+              <div
+                className="sc-iwsKbI dAfjtB"
+              >
+                &lt;component name="foo" /&gt;
+                <div
+                  className="jsx"
+                >
+                  &lt;component name="foo" /&gt;
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-bwzfXH dNRbgB"
+            >
+              <div>
+                This is 
+                foo
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="theme-Foo-withClick"
+      >
+        <div
+          className="sc-ifAKCX hYWxfb"
+        >
+          <div
+            className="sc-htpNat hIwNRt"
+          >
+            <div
+              className="sc-bxivhb glCqXO"
+            >
+              <div
+                className="Title sc-bdVaJa dLCEWS"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              >
+                withClick
+              </div>
+              <div
+                className="sc-gZMcBi jGsjoc"
+              >
+                &lt;component name="foo" /&gt;
+                <div
+                  className="jsx"
+                >
+                  &lt;component name="foo" /&gt;
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-bwzfXH dNRbgB"
+            >
+              <div>
+                This is 
+                foo
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

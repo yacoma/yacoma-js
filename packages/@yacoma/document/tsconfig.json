@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "es7", "esnext", "dom"],
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "keyofStringsOnly": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",
+    "paths": {
+      "test": ["src/test"]
+    },
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*",
+    "../data/src/actions/selectCollection.ts",
+    "../data/src/actions/select.ts",
+    "../data/src/derived.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

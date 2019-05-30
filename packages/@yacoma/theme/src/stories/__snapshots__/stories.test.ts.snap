@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeProvider should render simple 1`] = `
+<div
+  className="theme-app"
+>
+  <div
+    className="sc-EHOje jwoVsz"
+  >
+    <div
+      className="sc-bxivhb ckTHop"
+    >
+      <div
+        className="sc-ifAKCX dakLHt"
+      >
+        <div
+          className="Title sc-bwzfXH gEXbdg"
+          onClick={[Function]}
+        >
+          simple
+        </div>
+        <div
+          className="sc-bdVaJa gdMgPe"
+        >
+          &lt;Component&gt;...
+          <div
+            className="jsx"
+          >
+            &lt;Component&gt;
+  &lt;styled.div&gt;Hello World&lt;/styled.div&gt;
+&lt;/Component&gt;
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-htpNat eIswBe"
+      >
+        <div
+          className="theme-app"
+        >
+          <div
+            className="sc-iwsKbI iZjric"
+          >
+            Hello World
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

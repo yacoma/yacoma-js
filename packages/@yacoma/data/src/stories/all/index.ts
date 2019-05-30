@@ -1,0 +1,6 @@
+export * from './ContactPrint'
+export * from './Loading'
+export * from './RegisterName'
+export * from './RegisterVerify'
+export * from './RegisterWords'
+export * from './WordLogin'

@@ -1,0 +1,11 @@
+// These are the public helpers exported by editor
+export * from './changed'
+export * from './changeText'
+export * from './clearToolbox'
+export * from './deleteSelection'
+export * from './ensureComposition'
+export * from './handleEnter'
+export * from './handleOp'
+export * from './handleSelect'
+export * from './processOps'
+export * from './selectParagraph'

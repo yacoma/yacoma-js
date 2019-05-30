@@ -1,0 +1,49 @@
+{
+  "name": "@lucidogen/theme",
+  "version": "0.0.0",
+  "description": "Theming support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucidogen/lucidogen.git"
+  },
+  "author": "Gaspard Bucher <gaspard@lucidogen.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p setup/tsconfig.${NODE_ENV:=development}.json",
+    "clean": "rimraf .cache dist coverage ../../node_modules/@lucidogen/theme",
+    "postbuild": "cp package.json ../../node_modules/@lucidogen/theme",
+    "prepare": "rimraf dist && cp -r ../../node_modules/@lucidogen/theme/dist dist",
+    "stories": "parcel serve src/stories/index.html",
+    "test:watch": "jest -c setup/jest.js --watch --coverage false",
+    "test": "jest -c setup/jest.js"
+  },
+  "dependencies": {
+    "@lucidogen/build": "next",
+    "overmind": "^5.1.2"
+  },
+  "devDependencies": {
+    "@lucidogen/build": "story",
+    "@types/styled-components": "^4.0.1",
+    "jest": "^23.5.0",
+    "parcel-bundler": "^1.10.2",
+    "parcel-plugin-typescript": "^1.0.0",
+    "styled-components": "4.1.3",
+    "ts-jest": "^23.1.3",
+    "typescript": "^3.3.1"
+  },
+  "importSort": {
+    ".js, .jsx, .es6, .es": {
+      "parser": "babylon",
+      "style": "import-sort-style-module",
+      "options": {}
+    },
+    ".ts, .tsx": {
+      "parser": "typescript",
+      "style": "import-sort-style-module",
+      "options": {}
+    }
+  }
+}
