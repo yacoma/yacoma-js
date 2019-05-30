@@ -122,12 +122,10 @@ export function processOps(args: ProcessOpsArgs) {
         processSelect(composition, op)
         break
       case 'toolbox':
-        {
-          if (op.value) {
-            composition.toolbox = op.value
-          } else {
-            delete composition.toolbox
-          }
+        if (op.value) {
+          composition.toolbox = op.value
+        } else {
+          delete composition.toolbox
         }
         break
     }

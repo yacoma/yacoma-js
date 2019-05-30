@@ -1,7 +1,11 @@
 import * as helpers from '../../helpers'
 import { Context, Item } from '../../types'
 
-export function itemDelete({ currentUser, oldRecord, newRecord}: Context<Item>): string | void {
+export function itemDelete({
+  currentUser,
+  oldRecord,
+  newRecord,
+}: Context<Item>): string | void {
   if (!oldRecord) {
     // New
     if (newRecord.deleted !== undefined && newRecord.deleted !== false) {
@@ -9,7 +13,10 @@ export function itemDelete({ currentUser, oldRecord, newRecord}: Context<Item>):
     }
   } else {
     // Update
-    if (oldRecord.deleted !== newRecord.deleted && !helpers.canDelete(currentUser, oldRecord)) {
+    if (
+      oldRecord.deleted !== newRecord.deleted &&
+      !helpers.canDelete(currentUser, oldRecord)
+    ) {
       return 'deleted: should only be changed by an admin'
     }
     if (

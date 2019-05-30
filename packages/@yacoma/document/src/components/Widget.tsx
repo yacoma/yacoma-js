@@ -1,4 +1,4 @@
-import { Icon, InspectorWidget, Table, TableItem } from '@lucidogen/styled'
+import { Icon, InspectorWidget, Table, TableItem } from '@yacoma/styled'
 import { styled, theme } from '../app'
 
 export const Widget = styled(InspectorWidget)`

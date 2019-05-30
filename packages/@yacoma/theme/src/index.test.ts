@@ -1,7 +1,4 @@
-import { describe, expect, it } from 'test'
-
-import { build, settings } from '@lucidogen/build'
-
+import { build, settings } from '@yacoma/build'
 import { ThemeSettings } from '../src'
 import { theme } from './'
 

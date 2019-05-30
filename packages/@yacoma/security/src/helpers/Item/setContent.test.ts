@@ -3,9 +3,9 @@ import {
   decrypt,
   encrypt,
   EncryptionKeys,
-} from '@lucidogen/crypt'
-import { beforeAll, describe, expect, it, throwMessage } from 'test'
+} from '@yacoma/crypt'
 import { userFromWordList } from '../'
+import { throwMessage } from '../../test'
 import { Item, itemAccessValue, UserWithKeys } from '../../types'
 import { setContent } from './'
 

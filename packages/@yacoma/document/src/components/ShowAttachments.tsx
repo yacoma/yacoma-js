@@ -1,6 +1,6 @@
-import { getItem, Message } from '@lucidogen/data'
-import { Editor } from '@lucidogen/editor'
 import * as React from 'react'
+import { getItem, Message } from '@yacoma/data'
+import { Editor } from '@yacoma/editor'
 import { Comp, styled, useOvermind } from '../app'
 import { Header } from './Header'
 

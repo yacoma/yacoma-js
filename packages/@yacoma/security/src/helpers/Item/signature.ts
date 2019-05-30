@@ -1,8 +1,8 @@
-import * as crypt from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { FileItem, Item } from '../../types'
 
 const VERSIONS: { [key: string]: (keyof FileItem)[] } = {
-  [1]: [
+  1: [
     'id', // <<=== ANY VERSION MUST CONTAIN 'id' and 'revision' at least.
     'revision',
     'type',
@@ -63,6 +63,8 @@ export function verifySignature(item: Item, signature: string) {
   const buffer = crypt.base64ToBuffer(signature)
   const { headers: signatureVersion } = crypt.extractHeader(buffer)
   const signedBy =
+    // TODO: Fix this!
+    // eslint-disable-next-line no-self-compare
     item.accessChangedBy > item.accessChangedBy
       ? item.accessChangedBy
       : item.editor

@@ -1,14 +1,6 @@
-import * as crypt from '@lucidogen/crypt'
-import {
-  afterEach,
-  beforeEach,
-  describe,
-  expect,
-  it,
-  mockRandomValues,
-  restore,
-} from 'test'
+import * as crypt from '@yacoma/crypt'
 import * as security from '../../'
+import { mockRandomValues, restore } from '../../test'
 import { ItemTypes } from '../../types'
 
 const ID_LEN = (33 * 4) / 3 + 2

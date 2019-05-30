@@ -1,12 +1,12 @@
-import { draggable } from '@lucidogen/dragdrop'
-import { isCollection } from '@lucidogen/security'
-import { Children, Icon } from '@lucidogen/styled'
 import * as React from 'react'
+import { Item } from '@yacoma/data'
+import { draggable } from '@yacoma/dragdrop'
+import { isCollection } from '@yacoma/security'
+import { Children, Icon } from '@yacoma/styled'
 import { Comp, styled, useOvermind } from '../app'
 import { Document } from '../types'
 import { DocIcon } from './DocIcon'
 import { ItemDragProps } from './ItemDrag'
-import { Item } from '@lucidogen/data'
 
 const HeadIcon = styled(Icon)`
   &.hasclick:hover {

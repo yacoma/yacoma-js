@@ -1,12 +1,12 @@
-import { ToggleView, UserAccessIcons } from '@lucidogen/document'
-import { dropStyles } from '@lucidogen/dragdrop'
+import * as React from 'react'
+import { ToggleView, UserAccessIcons } from '@yacoma/document'
+import { dropStyles } from '@yacoma/dragdrop'
 import {
   pairCollectionId,
   privateCollectionId,
   workCollectionId,
-} from '@lucidogen/security'
-import { Table, TableItem, Icon } from '@lucidogen/styled'
-import * as React from 'react'
+} from '@yacoma/security'
+import { Icon, Table, TableItem } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { DropWrap } from './Messages'
 
@@ -51,7 +51,7 @@ export const Users: Comp<UsersProps> = ({ className }) => {
     .map(userId => {
       const user = ctx.state.db.User[userId] || { username: userId.slice(0, 8) }
       const access = userAccess[userId].access
-      let currentValue: string = ''
+      let currentValue = ''
       if (access.includes('a')) {
         currentValue = '1'
       } else if (access.includes('e')) {
@@ -71,7 +71,7 @@ export const Users: Comp<UsersProps> = ({ className }) => {
       onDrop={ctx.actions.chat.addAttachment}
     >
       <ToggleView />
-      <MyTable /*{...drop}*/>
+      <MyTable /* {...drop} */>
         {list.length ? (
           list.map(({ user }, idx) => (
             <TableItem

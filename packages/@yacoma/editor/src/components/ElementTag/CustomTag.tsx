@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Context, Comp, styled, useOvermind } from '../../app'
+import { Comp, Context, styled, useOvermind } from '../../app'
 import {
   CaretSelectionType,
   CompositionHolder,
@@ -99,6 +99,7 @@ class CustomTagClass extends React.Component<CustomTagClassProps> {
       const Tag = customDef.tag
       const icon = customDef.icon
 
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       function click(e: React.MouseEvent<HTMLDivElement>) {
         // select...
         const selection: CaretSelectionType = {

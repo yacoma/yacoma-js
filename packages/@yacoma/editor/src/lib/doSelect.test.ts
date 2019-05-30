@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { doSelect } from './doSelect'
 import { mockComposition } from './utils/testUtils'
 import { CaretSelectionType, RangeSelectionType } from './utils/types'

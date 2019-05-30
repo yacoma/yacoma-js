@@ -1,7 +1,6 @@
-import { Stories } from '@lucidogen/story'
-
+import { Stories } from '@yacoma/story'
 import { Editor as component, EditorProps as Props } from '../..'
-import { makeComposition, config } from '../helpers'
+import { config, makeComposition } from '../helpers'
 
 export const customStories: Stories<Props> = {
   name: 'Custom paragraph',

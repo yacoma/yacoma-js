@@ -1,6 +1,6 @@
-import { Icon } from '@lucidogen/styled'
 import classnames from 'classnames'
 import * as React from 'react'
+import { Icon } from '@yacoma/styled'
 import { Comp, styled, useOvermind } from '../../app'
 import { ApplyOpArgs, CompositionHolder } from '../../lib'
 import { getSelection } from '../helpers/getSelection'

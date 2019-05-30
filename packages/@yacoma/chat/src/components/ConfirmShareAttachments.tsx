@@ -1,4 +1,5 @@
-import { collectionTitle } from '@lucidogen/data'
+import * as React from 'react'
+import { collectionTitle } from '@yacoma/data'
 import {
   Button,
   CardContent,
@@ -8,8 +9,7 @@ import {
   Message,
   Modal,
   Spacer,
-} from '@lucidogen/styled'
-import * as React from 'react'
+} from '@yacoma/styled'
 import { Comp, useOvermind } from '../app'
 
 export interface ConfirmShareAttachmentProps {}

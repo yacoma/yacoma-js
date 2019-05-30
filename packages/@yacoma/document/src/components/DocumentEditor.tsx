@@ -1,14 +1,14 @@
-import { Editor, HeaderFooterComponentType } from '@lucidogen/editor'
 import classnames from 'classnames'
-import { isFile, isMessage } from '@lucidogen/data'
-import { isCollection } from '@lucidogen/security'
 import * as React from 'react'
-import { Comp, useOvermind, allThemes, theme } from '../app'
+import styled from 'styled-components'
+import { isFile, isMessage } from '@yacoma/data'
+import { Editor, HeaderFooterComponentType } from '@yacoma/editor'
+import { isCollection } from '@yacoma/security'
+import { allThemes, Comp, theme, useOvermind } from '../app'
 import { Header } from './Header'
 import { Image } from './Image'
 import { PDF } from './PDF'
 import { ShowAttachments } from './ShowAttachments'
-import styled from 'styled-components'
 
 interface DocumentEditorProps {
   className?: string

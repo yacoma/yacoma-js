@@ -1,5 +1,5 @@
-import { AccessChanges, Item } from '@lucidogen/data'
-import { CompositionType } from '@lucidogen/editor'
+import { AccessChanges, Item } from '@yacoma/data'
+import { CompositionType } from '@yacoma/editor'
 import { Operator } from './app'
 import { NewDocumentArg } from './args'
 import * as effects from './effects'

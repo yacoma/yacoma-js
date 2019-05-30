@@ -1,9 +1,7 @@
-import * as crypt from '@lucidogen/crypt'
-import { makeId, decrypt } from '@lucidogen/crypt'
-import { beforeAll, describe, expect, it } from 'test'
+import * as crypt from '@yacoma/crypt'
 import { UserWithKeys } from '../types'
 import * as security from './'
-import { binaryFileIdFromPayload, getFileBuffer, createFile } from './File'
+import { binaryFileIdFromPayload, createFile, getFileBuffer } from './File'
 import { isFileId } from './Item/makeId'
 import { getItemKey } from './keys'
 
@@ -28,7 +26,7 @@ describe('encryptBinaryFile', () => {
 
     const payload = result.payload
     delete result.payload
-    const len = makeId().length
+    const len = crypt.makeId().length
     expect(result.fileId.length).toBe(len)
     expect(result).toEqual({
       title: 'watts',
@@ -79,7 +77,7 @@ describe('createFile', () => {
     expect(raw.fileBy).toBe(currentUser.id)
     expect(raw.fileSize).toBe(payload.byteLength)
     const itemKeys = await getItemKey(currentUser, raw)
-    const { payload: content } = await decrypt(
+    const { payload: content } = await crypt.decrypt(
       currentUser.id,
       itemKeys.encryptionKey,
       raw.content

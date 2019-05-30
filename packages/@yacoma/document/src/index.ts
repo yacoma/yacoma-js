@@ -1,15 +1,14 @@
-import { Block, settings } from '@lucidogen/build'
-import { data } from '@lucidogen/data'
-import { DialogSettings } from '@lucidogen/dialog'
-import { dragdrop, DragdropSettings } from '@lucidogen/dragdrop'
-import { hooks, HooksSettings } from '@lucidogen/hooks'
-import { LocaleSettings } from '@lucidogen/locale'
-import { StyledSettings } from '@lucidogen/styled'
-import { theme, ThemeSettings } from '@lucidogen/theme'
+import { Block, settings } from '@yacoma/build'
+import { data } from '@yacoma/data'
+import { DialogSettings } from '@yacoma/dialog'
+import { dragdrop, DragdropSettings } from '@yacoma/dragdrop'
+import { hooks, HooksSettings } from '@yacoma/hooks'
+import { LocaleSettings } from '@yacoma/locale'
+import { StyledSettings } from '@yacoma/styled'
+import { theme, ThemeSettings } from '@yacoma/theme'
 import * as actions from './actions'
 import { ItemDrag, SaveAccessDialog } from './components'
 import * as effects from './effects'
-import { clearForm } from './effects'
 import { icons } from './icons'
 import { inspector } from './inspector'
 import { documentTheme } from './theme'
@@ -52,7 +51,8 @@ export const document: Block<DocumentConfig> = {
       },
     },
     hooks: {
-      data_select: clearForm,
+      // eslint-disable-next-line @typescript-eslint/camelcase
+      data_select: effects.clearForm,
     },
     locale: {
       en: {

@@ -7,5 +7,5 @@ export const nameValid: Derive<
 > = parent => {
   const { username, email } = parent
   // TODO: better validation maybe
-  return username && email ? true : false
+  return !!(username && email)
 }

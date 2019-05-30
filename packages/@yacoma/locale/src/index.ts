@@ -1,4 +1,4 @@
-import { Block } from '@lucidogen/build'
+import { Block } from '@yacoma/build'
 import * as actions from './actions'
 import { setup } from './setup'
 import { translate } from './translate'

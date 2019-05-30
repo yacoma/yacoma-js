@@ -1,7 +1,7 @@
-import { limitText } from '@lucidogen/data'
-import { isCollectionId } from '@lucidogen/security'
-import { Icon } from '@lucidogen/styled'
 import * as React from 'react'
+import { limitText } from '@yacoma/data'
+import { isCollectionId } from '@yacoma/security'
+import { Icon } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { ItemIcon } from './ItemIcon'
 
@@ -13,11 +13,11 @@ export interface DocumentLinkProps {
   // What to link to
   // icon?: string
   id?: string
-  //paragraphId?: string
+  // paragraphId?: string
   style?: { left: number; top: number }
   limit?: number
-  //title?: string
-  //url?: string
+  // title?: string
+  // url?: string
 }
 
 const RemoveIcon = styled(Icon)`

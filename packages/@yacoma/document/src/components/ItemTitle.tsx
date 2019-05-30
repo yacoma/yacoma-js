@@ -1,5 +1,5 @@
-import { Item } from '@lucidogen/data'
 import * as React from 'react'
+import { Item } from '@yacoma/data'
 import { Comp, styled, theme, useOvermind } from '../app'
 
 export interface ItemTitleProps {

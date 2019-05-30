@@ -3,7 +3,6 @@ import { Context, User } from '../../types'
 export function userCreation({
   currentUser,
   oldRecord,
-  newRecord,
 }: Context<User>): string | void {
   if (!currentUser.admin) {
     return `User: only admin users can create other users.`

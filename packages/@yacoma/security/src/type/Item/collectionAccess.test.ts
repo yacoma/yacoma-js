@@ -1,5 +1,4 @@
-import { sign } from '@lucidogen/crypt'
-import { beforeAll, describe, expect, it } from 'test'
+import { sign } from '@yacoma/crypt'
 import * as helpers from '../../helpers'
 import {
   AccessChangeLogEntry,

@@ -30,6 +30,20 @@ module.exports = {
 
   // Add your scopes and packages
   scopes: [
+    { name: 'build' },
+    { name: 'chat' },
+    { name: 'crypt' },
+    { name: 'data' },
+    { name: 'date' },
+    { name: 'dialog' },
+    { name: 'document' },
+    { name: 'dragdrop' },
+    { name: 'hooks' },
+    { name: 'locale' },
+    { name: 'security' },
+    { name: 'story' },
+    { name: 'styled' },
+    { name: 'theme' },
     { name: 'monorepo' },
     { name: 'test-repo' },
     { name: 'website' },

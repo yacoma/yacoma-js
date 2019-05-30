@@ -103,7 +103,7 @@ export function signBinary(
 /* Return the signature without the last buffer (payload), but keeping
  * other buffers. This enables header and signature extraction but
  * needs a payload to verify signature.
- * 
+ *
  * We return a base64 string to make sure the buffer is not used fully (shared
  * buffer bytes).
  */

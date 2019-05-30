@@ -1,4 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { timeSkewCheck } from '../../helpers'
 import {
   AccessChangeLogEntry,
@@ -29,7 +29,7 @@ async function parseAccessLogEntries(
       )
       continue
     }
-    let op: AccessChangeOperation | undefined = undefined
+    let op: AccessChangeOperation | undefined
     try {
       const { payload } = await crypt.verifyAndParse<AccessChangeOperation>(
         currentUser.id,

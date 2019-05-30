@@ -6,7 +6,7 @@ export function isParagraphStart(
   path: string[],
   offset: number,
   anchorValue?: string
-): Boolean {
+): boolean {
   if (anchorValue === '\u200B') {
     return true
   }

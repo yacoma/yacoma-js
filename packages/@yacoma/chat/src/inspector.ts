@@ -1,5 +1,5 @@
-import { NewCollectionIcon, NewItemIcon, UploadIcon } from '@lucidogen/document'
-import { Families, Inspectors, Spacer } from '@lucidogen/styled'
+import { NewCollectionIcon, NewItemIcon, UploadIcon } from '@yacoma/document'
+import { Families, Inspectors, Spacer } from '@yacoma/styled'
 import { Context } from './app'
 import {
   ChatInProgress,

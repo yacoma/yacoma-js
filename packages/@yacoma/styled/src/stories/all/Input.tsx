@@ -1,6 +1,6 @@
-import { Input as component, InputProps as Props } from '../..'
+import { Input as component, InputProps as Props, RoundInput } from '../..'
 import { config, Stories } from '../helpers'
-import { RoundInput } from '../..'
+
 import { action } from 'overmind'
 
 function randomWord() {

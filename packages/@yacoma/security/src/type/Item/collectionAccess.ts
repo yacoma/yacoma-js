@@ -1,7 +1,11 @@
 import * as helpers from '../../helpers'
 import { Context, Item } from '../../types'
 
-export function collectionAccess({ currentUser, oldRecord, newRecord }: Context<Item>): string | void {
+export function collectionAccess({
+  currentUser,
+  oldRecord,
+  newRecord,
+}: Context<Item>): string | void {
   if (!oldRecord) {
     // Create
   } else if (

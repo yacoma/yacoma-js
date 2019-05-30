@@ -9,8 +9,14 @@ import { newParagraph } from './utils/newParagraph'
 import { splitText } from './utils/splitText'
 import { trimLeft, trimRight } from './utils/trim'
 import {
-    CompositionType, ElementRefType, GroupElementType, isCustomElement, isStringElement,
-    OperationType, SelectionType, SelectOperationType
+  CompositionType,
+  ElementRefType,
+  GroupElementType,
+  isCustomElement,
+  isStringElement,
+  OperationType,
+  SelectionType,
+  SelectOperationType,
 } from './utils/types'
 
 /** Returns the list of operations after enter pressed.

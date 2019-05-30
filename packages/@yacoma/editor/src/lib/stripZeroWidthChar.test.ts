@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { stripZeroWidthChar } from './stripZeroWidthChar'
 import { SelectionType } from './utils/types'
 

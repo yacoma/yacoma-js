@@ -1,4 +1,4 @@
-import { Setup } from '@lucidogen/build'
+import { Setup } from '@yacoma/build'
 import { LocaleConfig, LocaleSettings } from './types'
 
 export const setup: Setup<LocaleConfig, LocaleSettings> = (

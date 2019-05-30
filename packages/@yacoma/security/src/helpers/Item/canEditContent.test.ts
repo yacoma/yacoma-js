@@ -1,7 +1,5 @@
-import { describe, expect, it } from 'test'
-
-import { canEditContent } from './'
 import { itemAccessValue } from '../../types'
+import { canEditContent } from './'
 
 describe('Item.canEditContent', () => {
   it('should return true if user has edit access', () => {

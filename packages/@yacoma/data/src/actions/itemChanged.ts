@@ -1,7 +1,7 @@
-import { isCollectionId } from '@lucidogen/security'
+import { action } from 'overmind'
+import { isCollectionId } from '@yacoma/security'
 import { Operator } from '../app'
 import { Item } from '../dataTypes'
-import { action } from 'overmind'
 
 export const itemChanged: Operator<Item> = action(async (ctx, value) => {
   const { data } = ctx.effects

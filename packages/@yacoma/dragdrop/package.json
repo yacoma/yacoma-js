@@ -1,41 +1,45 @@
 {
-  "name": "@lucidogen/dragdrop",
+  "name": "@yacoma/dragdrop",
   "version": "0.0.0",
   "description": "Drag and drop support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucidogen/lucidogen.git"
+    "url": "git+https://github.com/yacoma/yacoma-js.git"
   },
   "author": "Gaspard Bucher <gaspard@lucidogen.io>",
+  "contributors": ["Henri Hulski <henri@yacoma.it>"],
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc -p setup/tsconfig.${NODE_ENV:=development}.json",
-    "clean": "rimraf .cache dist coverage ../../node_modules/@lucidogen/dragdrop",
-    "postbuild": "cp package.json ../../node_modules/@lucidogen/dragdrop",
+    "build": "tsc -p tsconfig/${NODE_ENV:=development}.json --outDir ../../node_modules/@yacoma/dragdrop/dist",
+    "clean": "rimraf .cache dist coverage ../../node_modules/@yacoma/@yacoma/dragdrop",
+    "postbuild": "cp package.json ../../node_modules/@yacoma/dragdrop",
+    "posttest": "npm run typecheck",
+    "prebuild": "npm run clean",
     "prepare": "rimraf dist && cp -r ../../node_modules/@lucidogen/dragdrop/dist dist",
-    "stories": "parcel serve --no-autoinstall src/stories/index.html",
-    "test:watch": "jest -c setup/jest.js --watch --coverage false",
-    "test": "jest -c setup/jest.js"
+    "stories": "parcel serve src/stories/index.html",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch --updateSnapshot --coverage false",
+    "typecheck": "tsc -p tsconfig/${NODE_ENV:=development}.json --noEmit"
   },
   "dependencies": {
-    "@lucidogen/build": "next",
+    "@yacoma/build": "next",
     "classnames": "^2.2.6",
     "overmind-react": "next",
-    "overmind": "next",
-    "react-dom": "^16.8.1",
-    "react": "^16.8.1",
-    "styled-components": "4.1.3"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
-    "@lucidogen/story": "next",
-    "@types/styled-components": "^4.0.1",
-    "jest": "^23.5.0",
-    "parcel-bundler": "^1.11.0",
-    "ts-jest": "^23.1.3",
-    "typescript": "^3.3.1"
+    "@types/jest": "^24.0.13",
+    "@types/styled-components": "^4.0.3",
+    "@yacoma/story": "next",
+    "jest": "^24.8.0",
+    "parcel-bundler": "^1.12.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.3.4000"
   },
   "importSort": {
     ".js, .jsx, .es6, .es": {

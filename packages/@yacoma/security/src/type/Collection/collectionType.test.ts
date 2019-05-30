@@ -1,5 +1,4 @@
-import { describe, expect, it } from 'test'
-
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as validate from './'
 
 /*

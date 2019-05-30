@@ -1,10 +1,9 @@
-import { Item } from '@lucidogen/data'
-import { DraggableHooks } from '@lucidogen/dragdrop'
-import { isPrivateCollectionId, workCollectionId } from '@lucidogen/security'
-import { Icon } from '@lucidogen/styled'
 import classnames from 'classnames'
 import * as React from 'react'
-import { useState } from 'react'
+import { Item } from '@yacoma/data'
+import { DraggableHooks } from '@yacoma/dragdrop'
+import { isPrivateCollectionId, workCollectionId } from '@yacoma/security'
+import { Icon } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 
 export interface DocIconProps extends Partial<DraggableHooks> {
@@ -47,8 +46,8 @@ export const DocIcon: Comp<DocIconProps> = ({ className, item, ...props }) => {
   const { data } = ctx.effects
   const currId = item.id
   const currSavedAt = item.savedAt
-  const [savedAt, setSavedAt] = useState(currSavedAt)
-  const [itemId, setItemId] = useState(currId)
+  const [savedAt, setSavedAt] = React.useState(currSavedAt)
+  const [itemId, setItemId] = React.useState(currId)
   const ref = React.useRef<HTMLDivElement>(null)
 
   React.useEffect(() => {

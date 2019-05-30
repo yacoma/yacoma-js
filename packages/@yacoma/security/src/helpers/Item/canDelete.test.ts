@@ -1,7 +1,5 @@
-import { describe, expect, it } from 'test'
-
-import { canDelete } from './'
 import { itemAccessValue } from '../../types'
+import { canDelete } from './'
 
 describe('Item.canDelete', () => {
   it('should return true if user has admin access', () => {

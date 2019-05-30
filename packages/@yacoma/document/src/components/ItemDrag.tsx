@@ -1,8 +1,8 @@
-import { TableItem } from '@lucidogen/styled'
 import * as React from 'react'
+import { TableItem } from '@yacoma/styled'
+import { Comp, styled, theme, useOvermind } from '../app'
 import { ItemIcon } from './ItemIcon'
 import { ItemTitle } from './ItemTitle'
-import { theme, styled, Comp, useOvermind } from '../app'
 
 export interface ItemDragProps {
   id: string

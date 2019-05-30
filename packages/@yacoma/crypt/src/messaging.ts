@@ -64,8 +64,8 @@ export function importEcdhPubKey(key: string): Promise<CryptoKey> {
   return new Promise((resolve, reject) =>
     subtle
       .importKey('raw', base64ToBuffer(key), mesAlgo, false, [])
-      .then(resolve, e => {
-        reject(`Cannot import ECDH public key (invalid key).`)
+      .then(resolve, () => {
+        reject(new Error('Cannot import ECDH public key (invalid key).'))
       })
   )
 }

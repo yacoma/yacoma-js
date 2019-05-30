@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { getAtPath } from './getAtPath'
 import { mockComposition } from './testUtils'
 

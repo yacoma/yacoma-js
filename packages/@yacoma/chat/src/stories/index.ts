@@ -1,6 +1,5 @@
-import { renderStories } from '@lucidogen/story'
-import { defaultTheme as theme } from '@lucidogen/theme'
-
+import { renderStories } from '@yacoma/story'
+import { defaultTheme as theme } from '@yacoma/theme'
 import * as stories from './all'
 
 declare var module: any

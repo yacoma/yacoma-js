@@ -1,4 +1,4 @@
-import { Block } from '@lucidogen/build'
+import { Block } from '@yacoma/build'
 import * as effects from './effects'
 import { setup } from './setup'
 import { HooksConfig } from './types'

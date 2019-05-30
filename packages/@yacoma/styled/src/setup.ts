@@ -1,4 +1,4 @@
-import { Setup } from '@lucidogen/build'
+import { Setup } from '@yacoma/build'
 import { makeInspector } from './makeInspector'
 import {
   Families,

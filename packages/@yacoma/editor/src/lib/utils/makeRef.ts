@@ -1,4 +1,4 @@
-import { makeId } from '@lucidogen/crypt'
+import { makeId } from '@yacoma/crypt'
 
 // makeId takes the number of bytes and encodes it with base64
 // ==> multiplies by 4/3

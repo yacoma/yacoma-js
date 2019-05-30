@@ -1,9 +1,8 @@
-import { build, settings } from '@lucidogen/build'
-import { locale, LocaleSettings } from '@lucidogen/locale'
-import { theme, ThemeSettings } from '@lucidogen/theme'
-
-import { date, dateTheme } from '../'
 import { createHook } from 'overmind-react'
+import { build, settings } from '@yacoma/build'
+import { locale, LocaleSettings } from '@yacoma/locale'
+import { theme, ThemeSettings } from '@yacoma/theme'
+import { date, dateTheme } from '../'
 
 export const config = build({
   name: 'test',

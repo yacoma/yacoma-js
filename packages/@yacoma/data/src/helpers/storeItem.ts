@@ -3,7 +3,7 @@ import {
   ItemTypesWithoutMessage,
   PairCollection as RawPairCollection,
   pairCollectionId,
-} from '@lucidogen/security'
+} from '@yacoma/security'
 import { MiniContext } from '../app'
 import {
   isContact,

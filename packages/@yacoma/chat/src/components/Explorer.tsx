@@ -1,6 +1,6 @@
-import { Items, Widget } from '@lucidogen/document'
-import { InspectorIcon } from '@lucidogen/styled'
 import * as React from 'react'
+import { Items, Widget } from '@yacoma/document'
+import { InspectorIcon } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { Messages } from './Messages'
 import { People } from './People'

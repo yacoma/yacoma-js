@@ -3,7 +3,6 @@ import { Context, Item } from '../../types'
 
 export async function editedAt({
   now,
-  currentUser,
   oldRecord,
   newRecord,
 }: Context<Item>): Promise<string | void> {

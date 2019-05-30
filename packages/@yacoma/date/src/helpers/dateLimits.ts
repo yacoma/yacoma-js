@@ -1,4 +1,4 @@
-import { Translate } from '@lucidogen/locale'
+import { Translate } from '@yacoma/locale'
 
 export const DATE_LIMITS: (
   prefix: 'In' | 'Ago'

@@ -15,6 +15,6 @@ export function getElementClassName(elem: ElementType) {
         return elem.i === '' ? 'Empty' : undefined
       }
     default:
-      return
+      return undefined
   }
 }

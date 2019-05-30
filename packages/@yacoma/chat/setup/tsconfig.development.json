@@ -1,8 +1,0 @@
-{
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "outDir": "../../../node_modules/@lucidogen/chat/dist"
-  },
-  "include": ["../src/**/*"],
-  "exclude": ["../**/*.test.ts", "../**/*.test.tsx", "../src/stories"]
-}

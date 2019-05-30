@@ -2,9 +2,7 @@
 **/.cache
 **/coverage
 **/dist
-**/es
 **/generated
-**/lib
 **/node_modules
 **/.nyc_output
 package.json

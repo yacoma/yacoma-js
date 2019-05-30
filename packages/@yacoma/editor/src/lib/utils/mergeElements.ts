@@ -201,7 +201,7 @@ function mergeTwoPara(
   const endRef = end.path[1]
   Object.keys(children)
     .sort((a, b) => children[a].p - children[b].p)
-    .forEach((ref, idx) => {
+    .forEach(ref => {
       let elem = children[ref]
       if (ref === endRef) {
         if (canFuse(start) && canFuse(end)) {

@@ -1,7 +1,7 @@
-import { collectionList, getItem, Item } from '@lucidogen/data'
-import { Spacer } from '@lucidogen/styled'
 import classnames from 'classnames'
 import * as React from 'react'
+import { collectionList, getItem, Item } from '@yacoma/data'
+import { Spacer } from '@yacoma/styled'
 import { Comp, styled, useOvermind } from '../app'
 import { ItemIcon } from './ItemIcon'
 import { ItemTitle } from './ItemTitle'
@@ -64,17 +64,21 @@ export const CollectionAccessList: Comp<CollectionAccessListProps> = ({
   } else {
     const all = collectionList(ctx, { title: form.collectionSearch })
     // With access
-    const list_a = all.filter(item => collectionAccess[item.id]).map(item => ({
-      item,
-      access: true,
-      changed: form.collectionAccess[item.id] !== undefined,
-    }))
-    const list_b = all.filter(item => !collectionAccess[item.id]).map(item => ({
-      item,
-      access: false,
-      changed: form.collectionAccess[item.id] !== undefined,
-    }))
-    list = [...list_a, ...list_b]
+    const listA = all
+      .filter(item => collectionAccess[item.id])
+      .map(item => ({
+        item,
+        access: true,
+        changed: form.collectionAccess[item.id] !== undefined,
+      }))
+    const listB = all
+      .filter(item => !collectionAccess[item.id])
+      .map(item => ({
+        item,
+        access: false,
+        changed: form.collectionAccess[item.id] !== undefined,
+      }))
+    list = [...listA, ...listB]
   }
 
   return (

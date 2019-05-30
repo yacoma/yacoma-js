@@ -3,8 +3,7 @@ import {
   encrypt,
   EncryptionKeys,
   sign,
-} from '@lucidogen/crypt'
-import { beforeAll, describe, expect, it } from 'test'
+} from '@yacoma/crypt'
 import * as helpers from '../../helpers'
 import { Item, itemAccessValue, RawUserWithKeys } from '../../types'
 import * as validate from './'

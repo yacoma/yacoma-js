@@ -1,10 +1,10 @@
-import { DataConfig } from '@lucidogen/data'
+import { DataConfig } from '@yacoma/data'
 import {
   createContact,
   pairCollectionId,
   privateCollectionId,
   workCollectionId,
-} from '@lucidogen/security'
+} from '@yacoma/security'
 
 async function makeContact(username: string, isProtected: boolean = false) {
   const records = await createContact(undefined, [username], {
@@ -46,7 +46,7 @@ export async function db() {
   // DataConfig['state']['db'] = {
   const db = {
     Collection: {
-      ['c.someid']: {
+      'c.someid': {
         id: 'c.someid',
         title: 'my bar stuff',
         type: 'Collection',
@@ -99,24 +99,24 @@ export async function db() {
       },
     },
     Item: {
-      ['i.foo']: {
+      'i.foo': {
         id: 'i.foo',
         type: 'Item',
         title: 'Foo',
         raw: {
           collectionAccess: {
-            ['c.someid']: 'cryptkey',
+            'c.someid': 'cryptkey',
           },
         },
       },
 
-      ['i.bar']: {
+      'i.bar': {
         id: 'i.bar',
         type: 'Item',
         title: 'Bar',
         raw: {
           collectionAccess: {
-            ['p.uid']: 'cryptkey',
+            'p.uid': 'cryptkey',
           },
         },
       },
@@ -135,9 +135,9 @@ export async function db() {
   }
 
   const msgDb: DataConfig['state']['msgDb'] = {
-    ['c.someid']: {},
+    'c.someid': {},
     [pairId]: {
-      ['m.one']: {
+      'm.one': {
         id: 'm.one',
         type: 'Message',
         savedAt: '2018-11-14T19:18:27.317Z',
@@ -147,7 +147,7 @@ export async function db() {
           creator: mary.user.id,
         } as any,
       },
-      ['m.two']: {
+      'm.two': {
         id: 'm.two',
         title: 'Yes, I do ❤️ !',
         type: 'Message',

@@ -1,22 +1,22 @@
-import { Block, settings } from '@lucidogen/build'
-import { dialog, DialogSettings } from '@lucidogen/dialog'
-import { locale, LocaleSettings } from '@lucidogen/locale'
-import { styled, StyledSettings } from '@lucidogen/styled'
-import { current } from './derived'
+import { Block, settings } from '@yacoma/build'
+import { dialog, DialogSettings } from '@yacoma/dialog'
+import { locale, LocaleSettings } from '@yacoma/locale'
+import { styled, StyledSettings } from '@yacoma/styled'
 import * as actions from './actions'
 import {
   ContactCreate,
   ContactPrint,
+  Offline,
   RegisterName,
   RegisterVerify,
   RegisterWords,
   WordLogin,
-  Offline,
 } from './components'
 import { nameValid, valid } from './derive'
+import { current } from './derived'
 import { icons } from './icons'
-import { setup } from './setup'
 import { onInitialize } from './onInitialize'
+import { setup } from './setup'
 import { DataConfig } from './types'
 
 export * from './components'

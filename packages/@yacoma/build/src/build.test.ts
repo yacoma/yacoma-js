@@ -1,5 +1,4 @@
-import { action, IOperator, Overmind } from 'overmind'
-import { describe, expect, it } from 'test'
+import { IOperator, mutate, Overmind } from 'overmind'
 import { Block, build, settings } from './'
 import { Setup } from './types'
 
@@ -14,7 +13,7 @@ const foo = {
 
 type Operator<Input = any, Output = any> = IOperator<typeof foo, Input, Output>
 
-const doBar: Operator<undefined> = action(() => {})
+const doBar: Operator<undefined> = mutate(() => {})
 
 const bar = {
   name: 'bar',

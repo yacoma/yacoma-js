@@ -1,12 +1,4 @@
-import {
-  afterEach,
-  beforeEach,
-  describe,
-  expect,
-  it,
-  mockRandomValues,
-  restore,
-} from 'test'
+import { mockRandomValues, restore } from '../test'
 import { privateCollectionId } from './Item/makeId'
 import { createUser } from './User'
 

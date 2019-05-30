@@ -1,8 +1,8 @@
-import { Item } from '@lucidogen/data'
-import { isCollection } from '@lucidogen/security'
-import { Icon, Spacer } from '@lucidogen/styled'
 import classnames from 'classnames'
 import * as React from 'react'
+import { Item } from '@yacoma/data'
+import { isCollection } from '@yacoma/security'
+import { Icon, Spacer } from '@yacoma/styled'
 import { Comp, Context, styled, useOvermind } from '../app'
 import { WidgetFlagIcon, WidgetItem, WidgetTable } from './Widget'
 
@@ -27,7 +27,7 @@ export const UserAccessIcons: Comp<{
   noEdit?: boolean
 }> = ({ access, className, noEdit, userId }) => {
   const ctx = useOvermind()
-  let currentValue: string = ''
+  let currentValue = ''
   if (access.includes('a')) {
     currentValue = 'a'
   } else if (access.includes('e')) {

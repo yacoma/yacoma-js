@@ -1,5 +1,4 @@
-import { renderStories } from '@lucidogen/story'
-
+import { renderStories } from '@yacoma/story'
 import * as stories from './all'
 
 declare var module: any

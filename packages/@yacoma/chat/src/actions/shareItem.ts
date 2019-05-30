@@ -1,7 +1,7 @@
-import { isContactId } from '@lucidogen/security'
 import { action } from 'overmind'
+import { isPairCollection } from '@yacoma/data'
+import { isContactId } from '@yacoma/security'
 import { Operator } from '../app'
-import { isPairCollection } from '@lucidogen/data'
 
 export const shareItem: Operator<{
   id: string

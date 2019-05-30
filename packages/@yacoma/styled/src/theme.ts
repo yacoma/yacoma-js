@@ -1,4 +1,4 @@
-import { defaultTheme } from '@lucidogen/theme'
+import { defaultTheme } from '@yacoma/theme'
 
 export const styledTheme = {
   badgeTop: '-0.8rem',

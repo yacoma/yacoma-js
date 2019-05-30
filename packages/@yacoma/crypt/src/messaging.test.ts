@@ -1,8 +1,7 @@
-import { beforeAll, describe, expect, it } from 'test'
 import * as crypt from './'
+import { base64ToBuffer, bufferToBase64 } from './encoding'
 import { MessagingKeys } from './messaging'
 import { SigningKeys } from './signing'
-import { base64ToBuffer, bufferToBase64 } from './encoding'
 
 let user1: MessagingKeys
 let user2: MessagingKeys
@@ -41,7 +40,7 @@ describe('messaging', () => {
       user2.ecdhPubKey,
       original.encrypt
     )
-    let error: string = 'did not throw'
+    let error = 'did not throw'
     try {
       await crypt.receiveKey(
         signing.verifyKey,

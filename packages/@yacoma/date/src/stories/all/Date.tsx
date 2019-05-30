@@ -1,4 +1,4 @@
-import { Stories } from '@lucidogen/story'
+import { Stories } from '@yacoma/story'
 import { Date as component, DateProps } from '../../'
 import { styled } from '../../app'
 import { config } from '../helper'

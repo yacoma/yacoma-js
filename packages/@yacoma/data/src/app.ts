@@ -1,13 +1,14 @@
-import { DialogConfig } from '@lucidogen/dialog'
-import { HooksConfig } from '@lucidogen/hooks'
-import { LocaleConfig } from '@lucidogen/locale'
-import { StyledConfig } from '@lucidogen/styled'
-import { ThemeConfig } from '@lucidogen/theme'
 import { IContext, IDerive, IOperator, IState } from 'overmind'
 import { createHook } from 'overmind-react'
 import { FunctionComponent as Comp } from 'react'
 import styled from 'styled-components'
+import { DialogConfig } from '@yacoma/dialog'
+import { HooksConfig } from '@yacoma/hooks'
+import { LocaleConfig } from '@yacoma/locale'
+import { StyledConfig } from '@yacoma/styled'
+import { ThemeConfig } from '@yacoma/theme'
 import { DataConfig } from './types'
+
 export { styled, Comp }
 
 export type Config = DataConfig &
@@ -32,6 +33,6 @@ export type Derive<Parent extends IState, Value = any> = IDerive<
 export const useOvermind = createHook<Config>()
 
 export type Context = IContext<Config>
-export type MiniContext = {
+export interface MiniContext {
   state: IContext<DataConfig & LocaleConfig>['state']
 }

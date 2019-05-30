@@ -1,4 +1,4 @@
-import { encrypt } from '@lucidogen/crypt'
+import { encrypt } from '@yacoma/crypt'
 import { ACCESS_KEYS } from '../type/Item/userAccess'
 import { Collection, Item, RawUser, UserWithKeys } from '../types'
 import { setCollectionAccess, setUserAccess } from './Item'

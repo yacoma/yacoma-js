@@ -5,7 +5,6 @@ const accessKeys: (keyof Item)[] = ['userAccess', 'collectionAccess', 'deleted']
 
 export async function accessChangedAt({
   now,
-  currentUser,
   oldRecord,
   newRecord,
 }: Context<Item>): Promise<string | void> {

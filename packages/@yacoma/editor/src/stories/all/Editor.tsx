@@ -1,7 +1,7 @@
-import { Stories } from '@lucidogen/story'
 import { Overmind } from 'overmind'
 import * as React from 'react'
 import styled from 'styled-components'
+import { Stories } from '@yacoma/story'
 import { Editor as component, EditorProps as Props } from '../..'
 import { config, Config } from '../helpers'
 

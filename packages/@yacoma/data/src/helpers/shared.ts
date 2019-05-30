@@ -2,7 +2,7 @@ import {
   isCollection,
   isPairCollectionId,
   isPrivateCollectionId,
-} from '@lucidogen/security'
+} from '@yacoma/security'
 import { Context } from '../app'
 import { Item } from '../dataTypes'
 import { getItem } from './getItem'

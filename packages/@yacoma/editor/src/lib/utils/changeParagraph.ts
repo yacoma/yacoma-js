@@ -1,6 +1,11 @@
 import { caretSelection } from './caretSelection'
 import { getAtPath } from './getAtPath'
-import { ChangesType, CompositionType, ParagraphPayload, SelectionType } from './types'
+import {
+  ChangesType,
+  CompositionType,
+  ParagraphPayload,
+  SelectionType,
+} from './types'
 
 export function changeParagraph(
   composition: CompositionType,

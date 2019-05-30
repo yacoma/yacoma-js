@@ -1,6 +1,6 @@
-import { themeProxy } from '@lucidogen/theme'
 import { createHook } from 'overmind-react'
 import * as React from 'react'
+import { themeProxy } from '@yacoma/theme'
 import { Stories } from '../..'
 import { Comp, styled } from '../../app'
 

@@ -1,6 +1,5 @@
-import { beforeAll, describe, expect, it } from 'test'
 import * as crypt from './'
-import { bufferToNative, nativeToBuffer, base64ToBuffer } from './encoding'
+import { base64ToBuffer, bufferToNative, nativeToBuffer } from './encoding'
 import { SigningKeys } from './signing'
 
 let signing: SigningKeys

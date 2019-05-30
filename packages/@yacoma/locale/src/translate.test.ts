@@ -1,6 +1,4 @@
 import { Overmind } from 'overmind'
-import { describe, expect, it } from 'test'
-
 import { translate } from './translate'
 
 const config = {

@@ -1,5 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
-import { createEncryptionKey, extractHeader } from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { FileItem, UserWithKeys } from '../types'
 import { createItem, setContent } from './Item'
 import { fileId } from './Item/makeId'
@@ -17,7 +16,7 @@ interface EncryptFileResult {
 }
 
 export function binaryFileIdFromPayload(payload: Uint8Array): string {
-  const { signature } = extractHeader(payload)
+  const { signature } = crypt.extractHeader(payload)
   return crypt.bufferToBase64url(signature).slice(0, 44)
 }
 
@@ -95,7 +94,7 @@ export async function createFileDummy(
   raw: FileItem
   content: { title: string; [key: string]: any }
 }> {
-  const itemKeys = await createEncryptionKey()
+  const itemKeys = await crypt.createEncryptionKey()
   const id = fileId()
 
   const fileInfo = extractFileInfo(file, undefined, id)

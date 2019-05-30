@@ -1,4 +1,4 @@
-import { Setup } from '@lucidogen/build'
+import { Setup } from '@yacoma/build'
 import { DragdropConfig, DragdropDefinitions, DragdropSettings } from './types'
 
 export const setup: Setup<DragdropConfig, DragdropSettings> = (

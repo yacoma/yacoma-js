@@ -1,5 +1,5 @@
-import { helper } from '@lucidogen/security'
 import { action } from 'overmind'
+import { helper } from '@yacoma/security'
 import { Operator } from '../app'
 
 export const toggleUserAccess: Operator<{

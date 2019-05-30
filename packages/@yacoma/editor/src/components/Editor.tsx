@@ -1,7 +1,7 @@
-import { makeId } from '@lucidogen/crypt'
 import { IReactComponent } from 'overmind-react'
 import * as React from 'react'
-import { theme, useOvermind, Comp, styled, Context } from '../app'
+import { makeId } from '@yacoma/crypt'
+import { Comp, Context, styled, theme, useOvermind } from '../app'
 import { CompositionHolder, SelectionType } from '../lib/utils/types'
 import { ElementTag } from './ElementTag'
 import { expandPages } from './helpers/expandInner'
@@ -71,6 +71,7 @@ class EditorClass extends React.Component<EditorClassProps> {
     this.id = makeId(6)
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onSelect(e: React.SyntheticEvent<HTMLDivElement>) {
     // When comming back to the editor window, this triggers AFTER the first key stroke
     // which is bad if the keystroke changes the selection as this sends the previous
@@ -91,6 +92,7 @@ class EditorClass extends React.Component<EditorClassProps> {
     }
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onPaste(e: React.ClipboardEvent<HTMLDivElement>) {
     /*
         e.preventDefault ()
@@ -137,6 +139,7 @@ class EditorClass extends React.Component<EditorClassProps> {
     }
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onInput(e: React.FormEvent<HTMLDivElement>) {
     const { backspacePress, inputChange, holder } = this.props
 

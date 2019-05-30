@@ -1,10 +1,10 @@
+import { makeId } from '@yacoma/crypt'
 import { collectionAccessValue, UserWithKeys } from '../types'
 import { createCollection } from './Collection'
 import { createItem } from './Item'
 import { contactId, workCollectionId } from './Item/makeId'
 import { shareCollectionToUser } from './sharing'
 import { createUser } from './User'
-import { makeId } from '@lucidogen/crypt'
 
 export async function createContact(
   // currentUser can be undefined to create the first admin user (only possible

@@ -1,6 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
-import { JWT } from '@lucidogen/crypt'
-import { beforeAll, describe, expect, it } from 'test'
+import * as crypt from '@yacoma/crypt'
 import * as helpers from '../../helpers'
 import {
   CollectionAccess,
@@ -53,7 +51,7 @@ describe('Item.accessChangedBy', () => {
     ]
     user2 = await helpers.userFromWordList(wordList2)
     const now = Date.now()
-    const date1: JWT = await crypt.sign(user1.signKey, now)
+    const date1 = await crypt.sign(user1.signKey, now)
     newRecord = {
       userAccess,
       collectionAccess,

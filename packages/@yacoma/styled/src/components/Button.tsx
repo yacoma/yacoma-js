@@ -51,7 +51,7 @@ const Btn: Comp<ButtonProps> = ({
         ''
       )}
       <span>
-        {text ? text : textKey ? translate(textKey) : null}
+        {text || (textKey ? translate(textKey) : null)}
         {children}
       </span>
     </button>

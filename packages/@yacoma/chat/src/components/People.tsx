@@ -1,14 +1,14 @@
-import { getItem, Item } from '@lucidogen/data'
+import classnames from 'classnames'
+import * as React from 'react'
+import { getItem, Item } from '@yacoma/data'
 import {
   canShareHere,
   ItemDragProps,
   ItemIcon,
   ItemRow,
-} from '@lucidogen/document'
-import { draggable, droppable, dropStyles } from '@lucidogen/dragdrop'
-import { Children, Icon, Table, TableItem, RoundInput } from '@lucidogen/styled'
-import classnames from 'classnames'
-import * as React from 'react'
+} from '@yacoma/document'
+import { draggable, droppable, dropStyles } from '@yacoma/dragdrop'
+import { Children, Icon, RoundInput, Table, TableItem } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { ContactTitle, contactTitle } from './ContactTitle'
 

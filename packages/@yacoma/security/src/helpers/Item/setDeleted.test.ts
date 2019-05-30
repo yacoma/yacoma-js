@@ -1,5 +1,5 @@
-import { beforeAll, describe, expect, it, throwMessage } from 'test'
 import { userFromWordList } from '../'
+import { throwMessage } from '../../test'
 import { Item, itemAccessValue, RawUserWithKeys } from '../../types'
 import { setDeleted } from './'
 

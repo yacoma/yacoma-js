@@ -1,6 +1,6 @@
-import { RoundInput, InspectorIcon } from '@lucidogen/styled'
 import * as React from 'react'
-import { theme, styled, Comp, useOvermind } from '../app'
+import { InspectorIcon, RoundInput } from '@yacoma/styled'
+import { Comp, styled, theme, useOvermind } from '../app'
 import { CollectionAccessList } from './CollectionAccessList'
 import { TitleIcon } from './ExplorerWidget'
 import { Widget, WidgetTitle } from './Widget'

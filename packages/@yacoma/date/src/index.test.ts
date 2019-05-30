@@ -1,9 +1,6 @@
-import { describe, expect, it } from 'test'
-
-import { build } from '@lucidogen/build'
-import { locale } from '@lucidogen/locale'
-import { theme } from '@lucidogen/theme'
-
+import { build } from '@yacoma/build'
+import { locale } from '@yacoma/locale'
+import { theme } from '@yacoma/theme'
 import { date } from './'
 
 const myApp = (calls: { count: number }, nowInterval: number = 0.01) => {
@@ -26,7 +23,7 @@ describe('date timer', () => {
     const calls = { count: 0 }
     const app = myApp(calls)
     await app.initialized
-    return new Promise((resolve, reject) => {
+    return new Promise(resolve => {
       setTimeout(() => {
         expect(calls.count).toBeGreaterThanOrEqual(2)
         expect(calls.count).toBeLessThanOrEqual(40)

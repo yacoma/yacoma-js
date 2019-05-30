@@ -1,5 +1,4 @@
-import { build, settings } from '@lucidogen/build'
-import { describe, expect, it } from 'test'
+import { build, settings } from '@yacoma/build'
 import { locale, LocaleSettings } from './'
 
 const foo = {

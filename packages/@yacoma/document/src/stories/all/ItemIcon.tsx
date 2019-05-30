@@ -34,7 +34,7 @@ export const collectionIcon: Stories<Props> = {
           title: 'some collection title',
           raw: {
             userAccess: {
-              ['uid']: 'foo',
+              uid: 'foo',
             },
           },
         } as any,
@@ -50,8 +50,8 @@ export const collectionIcon: Stories<Props> = {
           title: 'some collection title',
           raw: {
             userAccess: {
-              ['uid']: 'foo',
-              ['otherUid']: 'bar',
+              uid: 'foo',
+              otherUid: 'bar',
             },
             collectionAccess: {},
           },
@@ -68,7 +68,7 @@ export const collectionIcon: Stories<Props> = {
           title: 'collectionTitle',
           raw: {
             userAccess: {
-              ['uid']: 'foo',
+              uid: 'foo',
             },
           },
         } as any,
@@ -84,7 +84,7 @@ export const collectionIcon: Stories<Props> = {
           title: 'collectionTitle',
           raw: {
             userAccess: {
-              ['uid']: 'foo',
+              uid: 'foo',
             },
           },
         } as any,
@@ -110,8 +110,8 @@ export const collectionIcon: Stories<Props> = {
           title: 'collectionTitle',
           raw: {
             userAccess: {
-              ['uid']: 'foo',
-              ['bob']: 'foo',
+              uid: 'foo',
+              bob: 'foo',
             },
           },
         } as any,

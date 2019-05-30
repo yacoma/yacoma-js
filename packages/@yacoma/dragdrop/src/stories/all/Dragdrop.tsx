@@ -1,5 +1,5 @@
-import { Stories } from '@lucidogen/story'
 import * as React from 'react'
+import { Stories } from '@yacoma/story'
 import { Drag, DraggingProps as Props } from '../..'
 import { useOvermind } from '../../app'
 import { dropStyles } from '../../components'

@@ -1,4 +1,5 @@
-import { randomWords } from '@lucidogen/security'
+import * as React from 'react'
+import { randomWords } from '@yacoma/security'
 import {
   Button,
   CardContent,
@@ -11,8 +12,7 @@ import {
   Message,
   Modal,
   Spacer,
-} from '@lucidogen/styled'
-import * as React from 'react'
+} from '@yacoma/styled'
 import { Comp, useOvermind } from '../app'
 import { WordList } from './WordList'
 import { WordsCard } from './WordLogin'

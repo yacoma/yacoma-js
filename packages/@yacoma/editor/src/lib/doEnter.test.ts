@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { doEnter } from './doEnter'
 import { caretSelection } from './utils/caretSelection'
 import { mockComposition, mockRef } from './utils/testUtils'

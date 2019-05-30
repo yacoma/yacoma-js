@@ -1,6 +1,5 @@
-import { describe, expect, it } from 'test'
-import { getLengths, getBuffers, getBuffer } from './buffers'
-import { nativeToBuffer, bufferToNative } from './encoding'
+import { getBuffer, getBuffers, getLengths } from './buffers'
+import { bufferToNative, nativeToBuffer } from './encoding'
 import { CRYPT_VERSION } from './types'
 
 const buffer = Uint8Array.from([

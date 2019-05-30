@@ -1,15 +1,6 @@
-import {
-  afterEach,
-  beforeEach,
-  describe,
-  expect,
-  it,
-  mockRandomValues,
-  restore,
-} from 'test'
-
 import * as crypt from './'
 import { base64ToBuffer } from './encoding'
+import { mockRandomValues, restore } from './test'
 
 describe('makeId', () => {
   beforeEach(mockRandomValues)

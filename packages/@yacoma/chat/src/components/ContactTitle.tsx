@@ -1,5 +1,5 @@
-import { itemTitle, limitText } from '@lucidogen/data'
-import { isPairCollectionId, pairCollectionId } from '@lucidogen/security'
+import { itemTitle, limitText } from '@yacoma/data'
+import { isPairCollectionId, pairCollectionId } from '@yacoma/security'
 import { Context, styled, theme } from '../app'
 
 export function contactTitle(ctx: Context, id: string, limit?: number): string {

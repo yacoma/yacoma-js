@@ -1,12 +1,12 @@
-import { Page, PageContent, PageHeader } from '@lucidogen/styled'
 import * as React from 'react'
+import styled from 'styled-components'
+import { Page, PageContent, PageHeader } from '@yacoma/styled'
 import { ElementTagType } from '../'
 import { ElementsType } from '../../lib'
 import { ElementSizes } from '../../lib/utils/types'
 import { EditorProps } from '../Editor'
 import { ElementTag } from '../ElementTag'
 import { Footer } from '../Footer'
-import styled from 'styled-components'
 
 function groupByPage(
   pageHeight: number,
@@ -21,7 +21,7 @@ function groupByPage(
   let bottomMargin = 0
   Object.keys(inner)
     .sort((a, b) => inner[a].p - inner[b].p)
-    .forEach((key, idx) => {
+    .forEach(key => {
       if (key) {
         // In some legacy compositions, there are blank keys
         // that are cleared on save.

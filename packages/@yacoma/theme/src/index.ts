@@ -1,4 +1,4 @@
-import { Block } from '@lucidogen/build'
+import { Block } from '@yacoma/build'
 import { selectedTheme } from './derived'
 import { setup } from './setup'
 import { defaultTheme } from './themes/defaultTheme'

@@ -1,5 +1,4 @@
 import * as simple from 'simple-mock'
-
 import * as makeref from './makeRef'
 import { ChangesType, CompositionType } from './types'
 
@@ -92,6 +91,8 @@ const composition1: CompositionType = {
     },
 }
 
+const MOCK1 = JSON.stringify(composition1)
+
 export function mockComposition(): CompositionType {
   return JSON.parse(MOCK1)
 }
@@ -106,8 +107,6 @@ interface ChangeResults {
   updated: string[]
   deleted: string[]
 }
-
-const MOCK1 = JSON.stringify(composition1)
 
 export function changesResults(changes: ChangesType): ChangeResults {
   const { elements, selected, deleted, updated } = changes

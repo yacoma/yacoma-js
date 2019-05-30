@@ -1,6 +1,11 @@
 import { getPosition } from './getPosition'
 import {
-    CompositionType, ElementRefType, ElementsType, isGroupElement, isStringElement, SelectionType
+  CompositionType,
+  ElementRefType,
+  ElementsType,
+  isGroupElement,
+  isStringElement,
+  SelectionType,
 } from './types'
 
 export const SMALLEST_PATH = [-1, -1, -1]

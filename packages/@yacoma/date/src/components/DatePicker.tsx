@@ -1,9 +1,8 @@
-import { Icon } from '@lucidogen/styled'
 import classnames from 'classnames'
 import moment, { Moment } from 'moment'
 import * as React from 'react'
-import { useState } from 'react'
 import styled from 'styled-components'
+import { Icon } from '@yacoma/styled'
 import { Comp, theme, useOvermind } from '../app'
 
 const DAYS = [0, 1, 2, 3, 4, 5, 6]
@@ -134,9 +133,9 @@ export const DatePicker: Comp<DatePickerProps> = ({
   const app = useOvermind()
   const now = app.state.date.now
   const date = theDate !== undefined ? moment(theDate) : undefined
-  const [m, setM] = useState(date)
-  const [view, setView] = useState(theView || 'Date')
-  const [nav, setNav] = useState(date || moment(now || Date.now()))
+  const [m, setM] = React.useState(date)
+  const [view, setView] = React.useState(theView || 'Date')
+  const [nav, setNav] = React.useState(date || moment(now || Date.now()))
 
   // istanbul ignore next
   function changeDate(m: Moment | undefined) {

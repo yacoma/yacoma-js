@@ -1,6 +1,6 @@
-import { Stories } from '@lucidogen/story'
 import { Overmind } from 'overmind'
 import * as React from 'react'
+import { Stories } from '@yacoma/story'
 import { Toolbox as component, ToolboxProps as Props } from '../..'
 import { config, Config } from '../helpers'
 

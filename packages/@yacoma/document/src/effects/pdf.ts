@@ -1,7 +1,6 @@
 import * as lib from 'pdfjs-dist'
-import { PDFJSStatic } from 'pdfjs-dist'
 
-const pdfjs: PDFJSStatic = (lib as any).default
+const pdfjs: lib.PDFJSStatic = (lib as any).default
 
 // We use this to update pdf worker file name on library change.
 pdfjs.workerSrc = `pdf.worker.${require('pdfjs-dist/package.json').version}.js`
@@ -40,12 +39,12 @@ export function showPDF(
     pdfjs.getDocument(url).then(async pdfDocument => {
       for (let pageIdx = 1; pageIdx <= pdfDocument.numPages; ++pageIdx) {
         const page = await pdfDocument.getPage(pageIdx)
-        //This gives us the page's dimensions at full scale
+        // This gives us the page's dimensions at full scale
         const viewport = opts.width
           ? page.getViewport(opts.width / page.getViewport(1.0).width)
           : page.getViewport(1.0)
 
-        //We'll create a canvas for each page to draw it on
+        // We'll create a canvas for each page to draw it on
         const canvas = document.createElement('canvas')
         canvas.style.display = 'block'
         canvas.height = viewport.height

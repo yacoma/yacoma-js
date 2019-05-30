@@ -4,9 +4,20 @@ import { joinText } from './joinText'
 import { makeRef } from './makeRef'
 import { rangeSelection } from './rangeSelection'
 import {
-    ChangesType, CompositionType, EditorProvider, ElementNamedType, ElementRefType,
-    GroupElementRefType, GroupElementRefTypeById, GroupElementType, isGroupElement,
-    isRangeSelection, isSpecialElement, isStringElement, RangeSelectionType, StringElementType
+  ChangesType,
+  CompositionType,
+  EditorProvider,
+  ElementNamedType,
+  ElementRefType,
+  GroupElementRefType,
+  GroupElementRefTypeById,
+  GroupElementType,
+  isGroupElement,
+  isRangeSelection,
+  isSpecialElement,
+  isStringElement,
+  RangeSelectionType,
+  StringElementType,
 } from './types'
 
 function simplifyParent(
@@ -23,7 +34,7 @@ function simplifyParent(
   }
 
   let last: ElementNamedType | undefined
-  let allFused: boolean = true
+  let allFused = true
   const children = elem.g
   Object.keys(children)
     .map(

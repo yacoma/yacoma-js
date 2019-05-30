@@ -1,13 +1,13 @@
-import { Collection, Contact, Item } from '@lucidogen/data'
-import { draggable, droppable, dropStyles } from '@lucidogen/dragdrop'
+import * as React from 'react'
+import { Collection, Contact, Item } from '@yacoma/data'
+import { draggable, droppable, dropStyles } from '@yacoma/dragdrop'
 import {
   extractUserId,
   isContactId,
   isPrivateCollection,
   pairCollectionId,
-} from '@lucidogen/security'
-import { Children, Icon, Table, TableItem } from '@lucidogen/styled'
-import * as React from 'react'
+} from '@yacoma/security'
+import { Children, Icon, Table, TableItem } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { ItemDragProps } from './ItemDrag'
 import { ItemIcon } from './ItemIcon'

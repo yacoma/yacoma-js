@@ -1,5 +1,5 @@
-import { Setup } from '@lucidogen/build'
-import { HooksConfig, HooksSettings, Hook } from './types'
+import { Setup } from '@yacoma/build'
+import { Hook, HooksConfig, HooksSettings } from './types'
 
 export const setup: Setup<HooksConfig, HooksSettings> = (config, settings) => {
   // Extract all 'locale' fields with translations.

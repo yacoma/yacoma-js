@@ -1,6 +1,5 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
-
 import { StoryRouter } from './components'
 import { Stories } from './types'
 

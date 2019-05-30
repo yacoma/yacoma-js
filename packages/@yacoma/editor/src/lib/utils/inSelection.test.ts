@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { inSelection } from './inSelection'
 import { rangeSelection } from './rangeSelection'
 import { mockComposition } from './testUtils'

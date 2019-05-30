@@ -3,7 +3,11 @@ import { inSelection } from './inSelection'
 import { makeRef } from './makeRef'
 import { splitText } from './splitText'
 import {
-    ChangesType, CompositionType, ElementRefType, isStringElement, RangeSelectionType
+  ChangesType,
+  CompositionType,
+  ElementRefType,
+  isStringElement,
+  RangeSelectionType,
 } from './types'
 
 function extractStart(

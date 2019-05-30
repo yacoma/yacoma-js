@@ -1,9 +1,9 @@
-import { build } from '@lucidogen/build'
-import { dialog } from '@lucidogen/dialog'
-import { locale } from '@lucidogen/locale'
-import { TStories } from '@lucidogen/story'
-import { styled } from '@lucidogen/styled'
-import { theme } from '@lucidogen/theme'
+import { build } from '@yacoma/build'
+import { dialog } from '@yacoma/dialog'
+import { locale } from '@yacoma/locale'
+import { TStories } from '@yacoma/story'
+import { styled } from '@yacoma/styled'
+import { theme } from '@yacoma/theme'
 import { data } from '../..'
 
 export const wordList = [

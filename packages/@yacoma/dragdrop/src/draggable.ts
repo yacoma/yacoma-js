@@ -87,7 +87,7 @@ export function draggable<T = any>(
         startPosition = undefined
       }
     },
-    onMouseUp(e: any) {
+    onMouseUp() {
       down = false
       startPosition = undefined
       if (onClick && !started) {

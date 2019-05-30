@@ -1,4 +1,4 @@
-import { randomWords } from '@lucidogen/security'
+import { randomWords } from '@yacoma/security'
 import { Context } from '../app'
 
 export function newWordList({ state }: { state: Context['state'] }) {

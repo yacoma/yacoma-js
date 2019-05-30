@@ -1,5 +1,5 @@
-import { Icon } from '@lucidogen/styled'
 import * as React from 'react'
+import { Icon } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 
 export interface SearchIconProps {

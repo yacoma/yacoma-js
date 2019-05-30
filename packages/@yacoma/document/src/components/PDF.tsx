@@ -1,8 +1,7 @@
-import { FileItem, fileUrl, getItem } from '@lucidogen/data'
 import * as React from 'react'
-import { useEffect, useRef, useState } from 'react'
+import { FileItem, fileUrl, getItem } from '@yacoma/data'
+import { Children } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
-import { Children } from '@lucidogen/styled'
 
 export interface PDFProps {
   className?: string
@@ -29,10 +28,10 @@ export const PDF: Comp<PDFProps> = React.memo(
   ({ itemId, width, fileId, className }) => {
     const ctx = useOvermind()
     const item = getItem(ctx, itemId) as FileItem
-    const ref = useRef<HTMLDivElement>(null)
-    const [lastFileId, setFileId] = useState<string>('')
+    const ref = React.useRef<HTMLDivElement>(null)
+    const [lastFileId, setFileId] = React.useState<string>('')
     const url = fileUrl(ctx, item)
-    useEffect(() => {
+    React.useEffect(() => {
       if (url && ref.current && fileId !== lastFileId) {
         setFileId(fileId)
         ctx.effects.document.showPDF(ref.current, url, { width })

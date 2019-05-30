@@ -1,6 +1,6 @@
-import { TStories } from '@lucidogen/story'
 import { action } from 'overmind'
 import * as React from 'react'
+import { TStories } from '@yacoma/story'
 import { RelativeDate } from '../../'
 import { Comp, styled } from '../../app'
 import { RelativeDateProps as Props } from '../../components'

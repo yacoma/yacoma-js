@@ -1,16 +1,16 @@
+import classnames from 'classnames'
+import * as React from 'react'
 // import { Drop } from 'drag'
-import { FileItem, isFile, Item } from '@lucidogen/data'
-import { RelativeDate } from '@lucidogen/date'
-import { draggable, droppable, dropStyles, fileDrop } from '@lucidogen/dragdrop'
+import { FileItem, isFile, Item } from '@yacoma/data'
+import { RelativeDate } from '@yacoma/date'
+import { draggable, droppable, dropStyles, fileDrop } from '@yacoma/dragdrop'
 import {
   isCollection,
   isPairCollectionId,
   isPrivateCollectionId,
   isWorkCollectionId,
-} from '@lucidogen/security'
-import { Icon, Table, TableItem } from '@lucidogen/styled'
-import classnames from 'classnames'
-import * as React from 'react'
+} from '@yacoma/security'
+import { Icon, Table, TableItem } from '@yacoma/styled'
 import { Comp, Context, styled, theme, useOvermind } from '../app'
 import { ItemDragProps } from './ItemDrag'
 import { ItemIcon } from './ItemIcon'
@@ -43,15 +43,14 @@ const UploadProgress: Comp<{ item: FileItem }> = ({ item }) => {
 
 function findFirstCollectionId(ctx: Context, item: Item): string {
   return (
-    Object.keys(item.raw.collectionAccess).find(
-      collId =>
-        isWorkCollectionId(collId)
-          ? ctx.state.db.WorkCollection[collId] !== undefined
-          : isPrivateCollectionId(collId)
-            ? ctx.state.db.PrivateCollection[collId] !== undefined
-            : isPairCollectionId(collId)
-              ? ctx.state.db.PairCollection[collId] !== undefined
-              : ctx.state.db.Collection[collId] !== undefined
+    Object.keys(item.raw.collectionAccess).find(collId =>
+      isWorkCollectionId(collId)
+        ? ctx.state.db.WorkCollection[collId] !== undefined
+        : isPrivateCollectionId(collId)
+        ? ctx.state.db.PrivateCollection[collId] !== undefined
+        : isPairCollectionId(collId)
+        ? ctx.state.db.PairCollection[collId] !== undefined
+        : ctx.state.db.Collection[collId] !== undefined
     ) ||
     // Should never be '' because if the item is shown, it
     // means that the item is shared through a collection.

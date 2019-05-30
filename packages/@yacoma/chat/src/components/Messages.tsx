@@ -1,8 +1,8 @@
-import { getItem } from '@lucidogen/data'
-import { ToggleView } from '@lucidogen/document'
-import { Drop } from '@lucidogen/dragdrop'
-import { Horizontal, Icon } from '@lucidogen/styled'
 import * as React from 'react'
+import { getItem } from '@yacoma/data'
+import { ToggleView } from '@yacoma/document'
+import { Drop } from '@yacoma/dragdrop'
+import { Horizontal, Icon } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { ChatState } from '../types'
 import { Attachment } from './Attachment'
@@ -167,13 +167,11 @@ export const Composer: Comp<{ className?: string; collectionId: string }> = ({
                 e.preventDefault()
                 e.stopPropagation()
                 actions.chat.send({ collectionId, preview: e.altKey })
-                return
               }
             } else if (e.key === 'Escape') {
               e.preventDefault()
               e.stopPropagation()
               actions.chat.clear()
-              return
             }
           }}
           onChange={e => {

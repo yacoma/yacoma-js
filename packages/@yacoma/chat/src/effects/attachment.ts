@@ -1,4 +1,4 @@
-import { getItem, Message } from '@lucidogen/data'
+import { getItem, Message } from '@yacoma/data'
 import { Context } from '../app'
 import { getDraft } from './draft'
 

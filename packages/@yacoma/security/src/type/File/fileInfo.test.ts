@@ -1,5 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
-import { describe, expect, it } from 'test'
+import * as crypt from '@yacoma/crypt'
 import { binaryFileIdFromPayload, userFromWordList } from '../../helpers'
 import { BaseUser, FileItem } from '../../types'
 import * as validate from './'

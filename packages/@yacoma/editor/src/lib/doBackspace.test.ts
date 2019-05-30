@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { doBackspace } from './doBackspace'
 import { caretSelection } from './utils/caretSelection'
 import { mockComposition } from './utils/testUtils'

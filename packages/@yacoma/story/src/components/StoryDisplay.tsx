@@ -1,7 +1,7 @@
-import { DirectThemeProvider, themeProxy } from '@lucidogen/theme'
 import { IConfiguration, IOperator, Overmind } from 'overmind'
 import { Provider } from 'overmind-react'
 import * as React from 'react'
+import { DirectThemeProvider, themeProxy } from '@yacoma/theme'
 import { Comp, styled, useOvermind } from '../app'
 import { storyTheme } from '../theme'
 import { Stories, Story } from '../types'

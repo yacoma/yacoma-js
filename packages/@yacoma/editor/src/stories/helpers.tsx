@@ -1,10 +1,9 @@
-import { build, settings } from '@lucidogen/build'
-import { locale, LocaleSettings } from '@lucidogen/locale'
-import { styled as styledBlock } from '@lucidogen/styled'
-import { theme, ThemeSettings } from '@lucidogen/theme'
 import { action } from 'overmind'
-import * as React from 'react'
-import { editor, EditorSettings } from '..'
+import { build, settings } from '@yacoma/build'
+import { locale, LocaleSettings } from '@yacoma/locale'
+import { styled as styledBlock } from '@yacoma/styled'
+import { theme, ThemeSettings } from '@yacoma/theme'
+import { editor, EditorSettings } from '../'
 import { Comp, styled, useOvermind } from '../app'
 import {
   CompositionType,
@@ -52,6 +51,38 @@ export const MyPara: Comp<MyParaProps> = ({ data }) => {
       />
     </CustomDiv>
   )
+}
+
+// Helper to ensure path of a given element
+export function typeObject<T>(ref: T, elem: Partial<T>): T {
+  return elem as T
+}
+
+export interface MakeComposition {
+  addParagraph(id: string, para: ElementType): MakeComposition
+  setData(id: string, data: any): MakeComposition
+  done(): CompositionType
+}
+
+export function makeComposition(opts: NewCompositionOptions): MakeComposition {
+  const comp = newComposition(opts)
+  const self: MakeComposition = {
+    addParagraph(id, para) {
+      comp.g[id] = para
+      return self
+    },
+    setData(id, data) {
+      if (!comp.data) {
+        comp.data = {}
+      }
+      comp.data[id] = data
+      return self
+    },
+    done() {
+      return comp
+    },
+  }
+  return self
 }
 
 function makeComposition2(type: 'selection' | 'emptyParagraph' | 'paragraph') {
@@ -171,36 +202,4 @@ export function setPath<T>(ref: T, elem: Partial<T>): any {
   const obj = paths.reduce((curr, key) => (curr[key] = {}), base)
   obj[last] = elem
   return base
-}
-
-// Helper to ensure path of a given element
-export function typeObject<T>(ref: T, elem: Partial<T>): T {
-  return elem as T
-}
-
-export interface MakeComposition {
-  addParagraph(id: string, para: ElementType): MakeComposition
-  setData(id: string, data: any): MakeComposition
-  done(): CompositionType
-}
-
-export function makeComposition(opts: NewCompositionOptions): MakeComposition {
-  const comp = newComposition(opts)
-  const self: MakeComposition = {
-    addParagraph(id, para) {
-      comp.g[id] = para
-      return self
-    },
-    setData(id, data) {
-      if (!comp.data) {
-        comp.data = {}
-      }
-      comp.data[id] = data
-      return self
-    },
-    done() {
-      return comp
-    },
-  }
-  return self
 }

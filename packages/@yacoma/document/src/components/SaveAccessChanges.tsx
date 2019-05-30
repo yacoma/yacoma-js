@@ -1,6 +1,6 @@
-import { Button, Horizontal, Spacer } from '@lucidogen/styled'
 import * as React from 'react'
-import { theme, styled, Comp, useOvermind } from '../app'
+import { Button, Horizontal, Spacer } from '@yacoma/styled'
+import { Comp, styled, theme, useOvermind } from '../app'
 
 export interface SaveAccessChanges {
   className?: string

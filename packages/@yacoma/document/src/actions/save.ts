@@ -1,6 +1,6 @@
-import { Item } from '@lucidogen/data'
 import { action } from 'overmind'
-import { Operator, Context } from '../app'
+import { Item } from '@yacoma/data'
+import { Context, Operator } from '../app'
 import { Document } from '../types'
 
 async function doSave(ctx: Context, value: Item) {

@@ -7,9 +7,9 @@ type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
 export interface InputProps
   extends Omit<
-      React.HTMLProps<HTMLInputElement>,
-      'form' | 'placeholder' | 'onChange' | 'ref' | 'as'
-    > {
+    React.HTMLProps<HTMLInputElement>,
+    'form' | 'placeholder' | 'onChange' | 'ref' | 'as'
+  > {
   // Styling
   className?: string
   // Do not allow edit.
@@ -30,9 +30,11 @@ export interface InputProps
   // Action to do on reset (default to setting value to '')
   onReset?: () => void
   // Action to do on reset (default to setting value to '')
-  onChange?: (
-    arg: { form: { [key: string]: any }; name: string; value: any }
-  ) => void
+  onChange?: (arg: {
+    form: { [key: string]: any }
+    name: string
+    value: any
+  }) => void
   // Sequence Tag to trigger on enter. Example: sequences.auth.login
   submit?: () => void
   // Type for input element (password, etc).

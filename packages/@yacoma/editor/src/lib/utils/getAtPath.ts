@@ -1,7 +1,7 @@
 import { CompositionType, ElementType, isGroupElement } from './types'
 
 /* Returns the element at the given path
-*/
+ */
 export function getAtPath(
   composition: CompositionType,
   path: string[],

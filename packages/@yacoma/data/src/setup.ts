@@ -1,12 +1,11 @@
-import { Setup } from '@lucidogen/build'
-
+import { Setup } from '@yacoma/build'
 import { makeEffects } from './effects'
 import {
   AuthHandler,
   DataConfig,
   DataSettings,
-  TypeHandlers,
   TransportSettings,
+  TypeHandlers,
 } from './types'
 
 export const setup: Setup<DataConfig, DataSettings> = (config, settings) => {

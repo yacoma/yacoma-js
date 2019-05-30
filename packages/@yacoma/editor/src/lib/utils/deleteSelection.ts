@@ -2,8 +2,13 @@ import { caretSelection } from './caretSelection'
 import { inSelection } from './inSelection'
 import { mergeElements } from './mergeElements'
 import {
-    CompositionType, ElementRefType, isStringElement, OperationsType, PathType, SelectionType,
-    StringElementType
+  CompositionType,
+  ElementRefType,
+  isStringElement,
+  OperationsType,
+  PathType,
+  SelectionType,
+  StringElementType,
 } from './types'
 
 function handleStart(
@@ -11,7 +16,7 @@ function handleStart(
   path: PathType,
   elem: StringElementType,
   selection: SelectionType,
-  islast: Boolean,
+  islast: boolean,
   backkey?: 'Backspace' | 'Del'
 ): ElementRefType | null {
   const offset = selection.anchorOffset
@@ -77,6 +82,7 @@ function handleEnd(
   path: PathType,
   elem: StringElementType,
   selection: SelectionType,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   backkey?: 'Backspace' | 'Del'
 ): ElementRefType | null {
   const offset =

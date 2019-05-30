@@ -1,4 +1,4 @@
-import { createEncryptionKey, encrypt, EncryptionKeys } from '@lucidogen/crypt'
+import { createEncryptionKey, encrypt, EncryptionKeys } from '@yacoma/crypt'
 import {
   FileItem,
   isCollection,

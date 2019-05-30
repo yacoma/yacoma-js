@@ -5,7 +5,7 @@ import {
   Item as RawItem,
   PairCollection as RawPairCollection,
   User,
-} from '@lucidogen/security'
+} from '@yacoma/security'
 
 // Types extracted on the client 'db' fields.
 

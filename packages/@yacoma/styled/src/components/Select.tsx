@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { useState } from 'react'
 import { Comp, styled, theme, useOvermind } from '../app'
 
 export interface SelectProps {
@@ -77,15 +76,13 @@ export const Select: Comp<SelectProps> = ({
   showKey,
 }) => {
   const ctx = useOvermind()
-  const [open, setOpen] = useState(autoFocus ? true : false)
-  const [moved, setMoved] = useState(false)
+  const [open, setOpen] = React.useState(!!autoFocus)
+  const [moved, setMoved] = React.useState(false)
   const translate = ctx.state.locale.translate
   const selected = form[name]
-  const options = theOptions
-    ? theOptions
-    : keys
-      ? keys.map(key => ({ key, value: translate(key) }))
-      : undefined
+  const options =
+    theOptions ||
+    (keys ? keys.map(key => ({ key, value: translate(key) })) : undefined)
 
   if (!options) {
     throw new Error(

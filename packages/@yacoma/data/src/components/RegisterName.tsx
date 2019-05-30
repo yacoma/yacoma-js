@@ -1,3 +1,4 @@
+import * as React from 'react'
 import {
   Button,
   Card,
@@ -11,8 +12,7 @@ import {
   Message,
   Modal,
   Spacer,
-} from '@lucidogen/styled'
-import * as React from 'react'
+} from '@yacoma/styled'
 import { Comp, useOvermind } from '../app'
 
 export interface RegisterNameProps {}

@@ -1,4 +1,4 @@
-import { typeFromId } from '@lucidogen/security'
+import { typeFromId } from '@yacoma/security'
 import { MiniContext } from '../app'
 import { Item } from '../dataTypes'
 

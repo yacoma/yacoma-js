@@ -1,5 +1,5 @@
-import { build, settings, Block } from '@lucidogen/build'
 import { action } from 'overmind'
+import { Block, build, settings } from '@yacoma/build'
 import { dragdrop, DragdropSettings } from '../..'
 import { Operator, TestConfig } from './app'
 import { Doc } from './Doc'

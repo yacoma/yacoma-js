@@ -1,4 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { binaryFileIdFromPayload } from '../../helpers'
 import { Context, FileItem } from '../../types'
 

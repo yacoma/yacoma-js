@@ -1,7 +1,5 @@
 import { describe, expect, it } from 'test'
-
-import { build } from '@lucidogen/build'
-
+import { build } from '@yacoma/build'
 import { updateNow } from './'
 
 const app = build({

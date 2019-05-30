@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { doOperation } from './doOperation'
 import { caretSelection } from './utils/caretSelection'
 import { rangeSelection } from './utils/rangeSelection'

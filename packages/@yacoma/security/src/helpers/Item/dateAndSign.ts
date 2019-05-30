@@ -1,4 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import {
   AccessChangeLogEntry,
   AccessChangeOperation,
@@ -16,64 +16,6 @@ const STAMP_DATES: ('createdAt' | 'editedAt' | 'accessChangedAt')[] = [
   'editedAt',
   'accessChangedAt',
 ]
-
-/** Before sending an updated (or new) element to the server,
- * we add the dates in ISO format and update the accessChangeLog. By
- * adding just before send, we ensure that the dates are close
- * to `savedAt`. If the dates are too far, we have to send the item
- * again and this helps sign the changes. Having the `original` on
- * items with unsynced content helps in case of conflict.
- * The signature of the item is stored in `signature`.
- */
-export async function dateAndSign(
-  currentUser: RawUserWithKeys,
-  item: Item
-): Promise<Item> {
-  if (!item.original) {
-    throw new Error(`Cannot save unchanged item (missing 'original' field).`)
-  }
-
-  const newItem = Object.assign({}, item)
-  delete newItem.original
-
-  const now = remoteNow()
-  const nowISOString = new Date(now).toISOString()
-  STAMP_DATES.forEach(k => {
-    if (newItem[k] === '') {
-      newItem[k] = nowISOString
-    }
-  })
-
-  if (
-    JSON.stringify(newItem.userAccess) !==
-    JSON.stringify(item.original.userAccess)
-  ) {
-    await updateAccessChangeLog(
-      'user',
-      currentUser,
-      now,
-      item.original,
-      newItem
-    )
-  }
-
-  if (
-    JSON.stringify(newItem.collectionAccess) !==
-    JSON.stringify(item.original.collectionAccess)
-  ) {
-    await updateAccessChangeLog(
-      'collection',
-      currentUser,
-      now,
-      item.original,
-      newItem
-    )
-  }
-
-  await updateSignature(currentUser, newItem)
-
-  return newItem
-}
 
 export function getAccessChanges(
   oldAccess: UserAccess | CollectionAccess,
@@ -166,4 +108,62 @@ async function updateAccessChangeLog(
 
 async function updateSignature(currentUser: RawUserWithKeys, item: Item) {
   item.signature = await getSignature(currentUser.signKey, item)
+}
+
+/** Before sending an updated (or new) element to the server,
+ * we add the dates in ISO format and update the accessChangeLog. By
+ * adding just before send, we ensure that the dates are close
+ * to `savedAt`. If the dates are too far, we have to send the item
+ * again and this helps sign the changes. Having the `original` on
+ * items with unsynced content helps in case of conflict.
+ * The signature of the item is stored in `signature`.
+ */
+export async function dateAndSign(
+  currentUser: RawUserWithKeys,
+  item: Item
+): Promise<Item> {
+  if (!item.original) {
+    throw new Error(`Cannot save unchanged item (missing 'original' field).`)
+  }
+
+  const newItem = Object.assign({}, item)
+  delete newItem.original
+
+  const now = remoteNow()
+  const nowISOString = new Date(now).toISOString()
+  STAMP_DATES.forEach(k => {
+    if (newItem[k] === '') {
+      newItem[k] = nowISOString
+    }
+  })
+
+  if (
+    JSON.stringify(newItem.userAccess) !==
+    JSON.stringify(item.original.userAccess)
+  ) {
+    await updateAccessChangeLog(
+      'user',
+      currentUser,
+      now,
+      item.original,
+      newItem
+    )
+  }
+
+  if (
+    JSON.stringify(newItem.collectionAccess) !==
+    JSON.stringify(item.original.collectionAccess)
+  ) {
+    await updateAccessChangeLog(
+      'collection',
+      currentUser,
+      now,
+      item.original,
+      newItem
+    )
+  }
+
+  await updateSignature(currentUser, newItem)
+
+  return newItem
 }

@@ -1,9 +1,10 @@
-import { RoundInput } from '@lucidogen/styled'
 import * as React from 'react'
+import { RoundInput } from '@yacoma/styled'
 import { Comp, useOvermind } from '../app'
 import { AccessTitleIcon } from './CollectionAccessView'
 import { UserAccessList } from './UserAccessList'
 import { Widget, WidgetTitle } from './Widget'
+
 export { CollectionAccessIcon as UserAccessIcon } from './CollectionAccessView'
 
 export interface UserAccessViewProps {

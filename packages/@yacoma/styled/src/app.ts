@@ -1,11 +1,12 @@
-import { LocaleConfig } from '@lucidogen/locale'
-import { themeProxy } from '@lucidogen/theme'
 import { IAction, IContext } from 'overmind'
 import { createHook } from 'overmind-react'
 import { FunctionComponent as Comp } from 'react'
 import styled from 'styled-components'
+import { LocaleConfig } from '@yacoma/locale'
+import { themeProxy } from '@yacoma/theme'
 import { styledTheme } from './theme'
 import { StyledConfig } from './types'
+
 export { styled, Comp }
 
 export type Config = StyledConfig & LocaleConfig

@@ -1,4 +1,4 @@
-import { AttachmentType } from '@lucidogen/data'
+import { AttachmentType } from '@yacoma/data'
 import * as actions from './actions'
 import * as effects from './effects'
 

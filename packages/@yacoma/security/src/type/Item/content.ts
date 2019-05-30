@@ -1,5 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
-import { EncryptedPayload } from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { Context, Item } from '../../types'
 
 export async function content({
@@ -10,14 +9,14 @@ export async function content({
   if (!oldRecord) {
     // new
     try {
-      crypt.verify<EncryptedPayload>(currentUser.id, newRecord.content)
+      crypt.verify<crypt.EncryptedPayload>(currentUser.id, newRecord.content)
     } catch (e) {
       return `content: should be signed by current user (content changed)`
     }
   } else if (oldRecord.content !== newRecord.content) {
     // changed
     try {
-      crypt.verify<EncryptedPayload>(currentUser.id, newRecord.content)
+      crypt.verify<crypt.EncryptedPayload>(currentUser.id, newRecord.content)
     } catch (e) {
       return `content: should be signed by current user (new content)`
     }

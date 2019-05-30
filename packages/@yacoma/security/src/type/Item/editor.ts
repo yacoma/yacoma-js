@@ -1,6 +1,10 @@
 import { Context, Item } from '../../types'
 
-export async function editor({ currentUser, oldRecord, newRecord}: Context<Item>): Promise<string | void> {
+export async function editor({
+  currentUser,
+  oldRecord,
+  newRecord,
+}: Context<Item>): Promise<string | void> {
   if (!oldRecord) {
     // create
     if (newRecord.editor !== currentUser.id) {

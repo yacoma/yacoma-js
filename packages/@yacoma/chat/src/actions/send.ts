@@ -1,6 +1,6 @@
-import { Collection, getItem, isPairCollection, Message } from '@lucidogen/data'
-import { Document } from '@lucidogen/document'
 import { action } from 'overmind'
+import { Collection, getItem, isPairCollection, Message } from '@yacoma/data'
+import { Document } from '@yacoma/document'
 import { Context, Operator } from '../app'
 import { getDraft } from '../effects'
 

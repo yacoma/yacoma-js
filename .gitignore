@@ -1,7 +1,5 @@
 # Builds
 dist
-es
-lib
 
 # OS
 .DS_Store

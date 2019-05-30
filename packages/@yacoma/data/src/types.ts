@@ -1,5 +1,5 @@
-import { Base, User } from '@lucidogen/security'
 import { IContext } from 'overmind'
+import { Base, User } from '@yacoma/security'
 import * as actions from './actions'
 import { Config, Context, Derive } from './app'
 import {

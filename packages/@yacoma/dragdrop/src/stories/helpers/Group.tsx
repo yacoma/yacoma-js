@@ -46,7 +46,7 @@ export const Group: Comp<GroupProps> = ({ className, group }) => {
 /** Alternative way to make an element droppable without wrapping in Drop
  * component.
  */
-const Group2Comp: Comp<GroupProps> = ({ className, group }) => {
+const Group2Comp: Comp<GroupProps> = ({ group }) => {
   const app = useOvermind()
   const items = app.state.groups[group]
   const list = Object.keys(items || {}).map(k => items[k])

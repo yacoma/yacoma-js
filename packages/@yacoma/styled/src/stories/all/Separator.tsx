@@ -1,4 +1,4 @@
-import { ComponentWrapper } from '@lucidogen/story'
+import { ComponentWrapper } from '@yacoma/story'
 import { Separator as component } from '../..'
 import { styled } from '../../app'
 import { config, Stories } from '../helpers'

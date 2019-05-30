@@ -1,5 +1,6 @@
-import { ComponentWrapper } from '@lucidogen/story'
+import { action } from 'overmind'
 import * as React from 'react'
+import { ComponentWrapper } from '@yacoma/story'
 import {
   Button,
   Card,
@@ -12,9 +13,8 @@ import {
   Spacer,
   TitleText,
 } from '../..'
-import { config, Stories, useOvermind } from '../helpers'
 import { Comp } from '../../app'
-import { action } from 'overmind'
+import { config, Stories, useOvermind } from '../helpers'
 
 const Wrapper: Comp = ({ children }) => {
   const app = useOvermind()

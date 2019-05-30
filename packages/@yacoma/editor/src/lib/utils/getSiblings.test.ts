@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { getSiblings } from './getSiblings'
 import { mockComposition } from './testUtils'
 

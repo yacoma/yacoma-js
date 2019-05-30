@@ -1,4 +1,4 @@
-import { describe, expect, it, throwMessage } from 'test'
+import { throwMessage } from '../../test'
 import { Item, itemAccessValue } from '../../types'
 import { setUserAccess } from './'
 

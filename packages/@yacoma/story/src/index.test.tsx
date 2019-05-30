@@ -1,8 +1,6 @@
 import * as React from 'react'
 import renderer from 'react-test-renderer'
 import simple from 'simple-mock'
-import { describe, expect, it } from 'test'
-
 import { makeApp } from './'
 import { StoryDisplay } from './components/StoryDisplay'
 import { Stories, Story } from './types'

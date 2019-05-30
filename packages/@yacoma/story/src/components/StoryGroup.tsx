@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { useState } from 'react'
 import styled from 'styled-components'
 import { Comp } from '../app'
 import { Stories } from '../types'
@@ -19,7 +18,7 @@ interface StoryGroupProps {
 }
 
 const StoryGroupComp: Comp<StoryGroupProps> = ({ className, stories }) => {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = React.useState(true)
 
   /* istanbul ignore next */
   const style = { display: open ? 'block' : 'none' }

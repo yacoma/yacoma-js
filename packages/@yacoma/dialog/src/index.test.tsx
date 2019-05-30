@@ -1,8 +1,5 @@
 import * as React from 'react'
-import { describe, expect, it } from 'test'
-
-import { build, settings } from '@lucidogen/build'
-
+import { build, settings } from '@yacoma/build'
 import { dialog } from './'
 import { DialogSettings, track } from './types'
 

@@ -1,4 +1,4 @@
-import { WORD_COUNT } from '@lucidogen/security'
+import { WORD_COUNT } from '@yacoma/security'
 import { Derive } from '../app'
 import { DataConfig } from '../types'
 

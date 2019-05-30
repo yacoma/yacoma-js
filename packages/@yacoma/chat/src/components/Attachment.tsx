@@ -1,4 +1,4 @@
-import { DocumentLink } from '@lucidogen/document'
+import { DocumentLink } from '@yacoma/document'
 import { styled } from '../app'
 
 export const Attachment = styled(DocumentLink)`

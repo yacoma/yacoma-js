@@ -1,4 +1,4 @@
-import { User } from '@lucidogen/security'
+import { User } from '@yacoma/security'
 import { Context } from '../app'
 import { Item } from '../dataTypes'
 

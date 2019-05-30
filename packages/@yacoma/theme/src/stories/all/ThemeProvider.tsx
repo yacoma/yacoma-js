@@ -1,8 +1,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
-
-import { TStories } from '@lucidogen/story'
-
+import { TStories } from '@yacoma/story'
 import { ThemeProvider as component, themeProxy } from '../..'
 import { someTheme } from '../someTheme'
 

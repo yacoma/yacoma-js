@@ -1,4 +1,4 @@
-import { ItemTypesWithoutMessage, workCollectionId } from '@lucidogen/security'
+import { ItemTypesWithoutMessage, workCollectionId } from '@yacoma/security'
 import { MiniContext } from '../app'
 import { Collection, Item } from '../dataTypes'
 import {

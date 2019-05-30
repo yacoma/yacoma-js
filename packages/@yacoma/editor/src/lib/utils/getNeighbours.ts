@@ -1,6 +1,11 @@
 import { getAtPath } from './getAtPath'
 import {
-    CompositionType, ElementRefType, ElementsType, GroupElementType, isGroupElement, PathType
+  CompositionType,
+  ElementRefType,
+  ElementsType,
+  GroupElementType,
+  isGroupElement,
+  PathType,
 } from './types'
 
 function SortAscending(children: ElementsType): string[] {

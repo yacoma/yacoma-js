@@ -1,0 +1,7 @@
+{
+  "extends": "./development.json",
+  "compilerOptions": {
+    "inlineSources": false,
+    "sourceMap": false
+  }
+}

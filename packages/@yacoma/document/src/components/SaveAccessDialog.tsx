@@ -1,3 +1,4 @@
+import * as React from 'react'
 import {
   Button,
   Card,
@@ -10,8 +11,7 @@ import {
   Modal,
   RoundInput,
   Spacer,
-} from '@lucidogen/styled'
-import * as React from 'react'
+} from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { CollectionAccessList } from './CollectionAccessList'
 import { UserAccessList } from './UserAccessList'

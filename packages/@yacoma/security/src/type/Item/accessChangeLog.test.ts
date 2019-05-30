@@ -1,5 +1,4 @@
-import { extractHeader, sign, bufferToBase64 } from '@lucidogen/crypt'
-import { beforeAll, describe, expect, it } from 'test'
+import { bufferToBase64, extractHeader, sign } from '@yacoma/crypt'
 import * as helpers from '../../helpers'
 import {
   FUTURE_LEEWAY,

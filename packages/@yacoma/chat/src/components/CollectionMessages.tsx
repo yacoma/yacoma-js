@@ -1,7 +1,7 @@
-import { Message } from '@lucidogen/data'
-import { RelativeDate } from '@lucidogen/date'
-import { Icon, Table } from '@lucidogen/styled'
 import * as React from 'react'
+import { Message } from '@yacoma/data'
+import { RelativeDate } from '@yacoma/date'
+import { Icon, Table } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 import { Attachment } from './Attachment'
 

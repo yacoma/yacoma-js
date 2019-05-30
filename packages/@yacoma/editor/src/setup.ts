@@ -1,4 +1,4 @@
-import { Setup } from '@lucidogen/build'
+import { Setup } from '@yacoma/build'
 import { EditorOptions } from './lib'
 import * as defaultMarkup from './markup'
 import { defaultParagraphs } from './paragraphs'

@@ -1,9 +1,6 @@
-import { describe, expect, it } from 'test'
-
-import { build } from '@lucidogen/build'
-import { locale } from '@lucidogen/locale'
-import { theme } from '@lucidogen/theme'
-
+import { build } from '@yacoma/build'
+import { locale } from '@yacoma/locale'
+import { theme } from '@yacoma/theme'
 import { styled } from '../'
 
 describe('valueChanged', () => {

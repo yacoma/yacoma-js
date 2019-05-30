@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { themeProxy } from './'
 
 describe('themeProxy', () => {

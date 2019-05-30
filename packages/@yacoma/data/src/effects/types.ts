@@ -1,6 +1,6 @@
-import { UserWithKeys } from '@lucidogen/security'
 import { GraphQLClient } from 'graphql-request'
 import { SubscriptionClient } from 'subscriptions-transport-ws'
+import { UserWithKeys } from '@yacoma/security'
 import { TransportSettings } from '../types'
 
 export interface DataFxContext {

@@ -1,15 +1,9 @@
-import { createEncryptionKey, decrypt, makeId, sign } from '@lucidogen/crypt'
-import * as security from '@lucidogen/security'
-import {
-  decryptBinaryFile,
-  isPairCollectionId,
-  privateCollectionId,
-  stringifyFields,
-} from '@lucidogen/security'
 import axios, { AxiosRequestConfig } from 'axios'
 import { GraphQLClient } from 'graphql-request'
 import { Variables } from 'graphql-request/dist/src/types'
 import { Observer, SubscriptionClient } from 'subscriptions-transport-ws'
+import { createEncryptionKey, decrypt, makeId, sign } from '@yacoma/crypt'
+import * as security from '@yacoma/security'
 import { Context } from '../app'
 import {
   Collection,
@@ -17,14 +11,13 @@ import {
   contentFromItem,
   FileItem,
   isFile,
+  isMessage,
   Item,
   itemFromContent,
   Message,
   PairCollection,
-  isMessage,
 } from '../dataTypes'
 import * as helpers from '../helpers'
-import { getItem, isShared, storeItem } from '../helpers'
 import {
   BaseDataEffects,
   DataEffects,
@@ -122,6 +115,25 @@ export function makeEffects({
     console.info(`Connected to ${endpoint.name}.`)
   }
 
+  function getAuthToken(
+    user: { id: string; sign: string | Uint8Array } | undefined = context.user,
+    sessionId: string | undefined = context.sessionId
+    // expire: number | undefined = context.expire
+  ): string {
+    // Is it costly to generate tokens ? Why don't we create a new one on
+    // each request ? An upload can take long and if it happens at the end
+    // of a token validity, it might start with a valid token but end with
+    // an invalid one...
+    // if (!expire || expire <= security.remoteNow()) {
+    if (sessionId && user) {
+      const { token, expire } = security.createToken(user, sessionId)
+      context.token = token
+      context.expire = expire
+    }
+    // }
+    return context.token
+  }
+
   // Simple graphql client. All format validations are done server-side because
   // why bother checking twice ?
   async function request<T>(
@@ -140,7 +152,7 @@ export function makeEffects({
     if (file) {
       // Super simplified graphql-multipart-request spec implementation. With
       // some little time, we could make this right with a tiny lib
-      // @lucidogen/axios-graphql
+      // @yacoma/axios-graphql
       data = new FormData()
       data.append(
         'operations',
@@ -149,7 +161,7 @@ export function makeEffects({
           variables: Object.assign({}, variables, { file: null }),
         })
       )
-      data.append('map', JSON.stringify({ [0]: ['variables.file'] }))
+      data.append('map', JSON.stringify({ 0: ['variables.file'] }))
       data.append('0', new Blob([file]))
     }
 
@@ -193,25 +205,6 @@ export function makeEffects({
           throw err
         }
       })
-  }
-
-  function getAuthToken(
-    user: { id: string; sign: string | Uint8Array } | undefined = context.user,
-    sessionId: string | undefined = context.sessionId
-    // expire: number | undefined = context.expire
-  ): string {
-    // Is it costly to generate tokens ? Why don't we create a new one on
-    // each request ? An upload can take long and if it happens at the end
-    // of a token validity, it might start with a valid token but end with
-    // an invalid one...
-    // if (!expire || expire <= security.remoteNow()) {
-    if (sessionId && user) {
-      const { token, expire } = security.createToken(user, sessionId)
-      context.token = token
-      context.expire = expire
-    }
-    // }
-    return context.token
   }
 
   async function createSession(
@@ -268,29 +261,7 @@ export function makeEffects({
     return null
   }
 
-  async function saveItem<T extends Item = Item>(
-    ctx: Context,
-    item: T,
-    isNew: boolean = false,
-    opts: RequestOpts = {}
-  ): Promise<T> {
-    if (item.$saving) {
-      // Simply ignore save operation if another one is in progress
-      return item
-    }
-
-    item.$saving = true
-    delete item.$changed
-    const newItem = (await dbToItem(
-      ctx,
-      await mutate(await itemToDb(item, isNew), opts)
-    )) as T
-    delete item.$saving
-
-    return newItem
-  }
-
-  // Send an anlready signed and prepared item to remote.
+  // Send an already signed and prepared item to remote.
   async function mutate<T extends security.Base = security.Base>(
     entity: T,
     opts: RequestOpts = {}
@@ -327,8 +298,12 @@ export function makeEffects({
     if (ctx) {
       // Context only exists in regular calls from actions (not in callback).
       const current = isMessage(item)
-        ? getItem(ctx, item.id, Object.keys(item.raw.collectionAccess)[0])
-        : getItem(ctx, item.id)
+        ? helpers.getItem(
+            ctx,
+            item.id,
+            Object.keys(item.raw.collectionAccess)[0]
+          )
+        : helpers.getItem(ctx, item.id)
       if (current && current.$changed) {
         // Compare what changed and deep merge
         const { payload: originalContent } = await decrypt<Item>(
@@ -344,7 +319,7 @@ export function makeEffects({
         })
         return current as T
       } else {
-        storeItem(ctx, item)
+        helpers.storeItem(ctx, item)
       }
     }
     return item as T
@@ -371,6 +346,28 @@ export function makeEffects({
       // File field not in signature.
       await security.dateAndSign(context.user!, dbItem)
     )
+  }
+
+  async function saveItem<T extends Item = Item>(
+    ctx: Context,
+    item: T,
+    isNew: boolean = false,
+    opts: RequestOpts = {}
+  ): Promise<T> {
+    if (item.$saving) {
+      // Simply ignore save operation if another one is in progress
+      return item
+    }
+
+    item.$saving = true
+    delete item.$changed
+    const newItem = (await dbToItem(
+      ctx,
+      await mutate(await itemToDb(item, isNew), opts)
+    )) as T
+    delete item.$saving
+
+    return newItem
   }
 
   async function logout() {
@@ -561,6 +558,7 @@ export function makeEffects({
       subscription.subscribe(observer)
     },
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     async register(ctx) {
       console.warn(
         'Registration disabled for now. Use `createContact` from an admin account.'
@@ -696,11 +694,11 @@ export function makeEffects({
 
         // In case the user edited title or other information, we continue working with
         // the proxied item.
-        const item = storeItem(ctx, fileItem) as FileItem
+        const item = helpers.storeItem(ctx, fileItem) as FileItem
 
         if (opts.open) {
           const collectionId =
-            opts.collectionId || privateCollectionId(context.user.id)
+            opts.collectionId || security.privateCollectionId(context.user.id)
           ctx.actions.data.select({
             id: item.raw.id,
             collectionId,
@@ -761,7 +759,8 @@ export function makeEffects({
           ctx.actions.data.select({
             id: item.id,
             collectionId:
-              opts.collectionId || privateCollectionId(context.user.id),
+              opts.collectionId ||
+              security.privateCollectionId(context.user.id),
           })
         }
         return item
@@ -781,8 +780,8 @@ export function makeEffects({
       )
       if (preview) {
         raw.revision = 0
-        const newItem = await dbToItem(ctx, stringifyFields(raw))
-        storeItem(ctx, newItem)
+        const newItem = await dbToItem(ctx, security.stringifyFields(raw))
+        helpers.storeItem(ctx, newItem)
         newItem.$changed = true
         return newItem as Message
       } else {
@@ -868,8 +867,8 @@ export function makeEffects({
       await Promise.all(
         collKeys.map(async collectionId => {
           if (collectionAccess[collectionId] === true) {
-            if (isPairCollectionId(collectionId)) {
-              const coll = getItem(ctx, collectionId) as PairCollection
+            if (security.isPairCollectionId(collectionId)) {
+              const coll = helpers.getItem(ctx, collectionId) as PairCollection
               if (coll.$unsaved) {
                 // The 'Contact' was used as temporary PairCollection
                 await this.createPairCollection(ctx, coll.$user!)
@@ -894,34 +893,38 @@ export function makeEffects({
       // Update userAccess
       const userKeys = Object.keys(userAccess)
       const newUserAccess = Object.assign({}, changedItem.raw.userAccess)
-      userKeys.filter(k => userAccess[k] === false).forEach(userId => {
-        // remove user
-        delete newUserAccess[userId]
-      })
-      userKeys.filter(k => userAccess[k] !== false).forEach(userId => {
-        const type = userAccess[userId]
-        let access = ''
-        // remove user
-        if (type === 'a') {
-          access = security.isCollectionId(changedItem.id)
-            ? security.collectionAccessValue.admin
-            : security.itemAccessValue.admin
-        } else if (type === 'e') {
-          access = security.isCollectionId(changedItem.id)
-            ? security.collectionAccessValue.editor
-            : security.itemAccessValue.editor
-        } else {
-          throw new Error(`Unknown user access '${type}'.`)
-        }
-        // FIXME: collection sharing !!
-        if (!newUserAccess[userId]) {
-          newUserAccess[userId] = {
-            access,
+      userKeys
+        .filter(k => userAccess[k] === false)
+        .forEach(userId => {
+          // remove user
+          delete newUserAccess[userId]
+        })
+      userKeys
+        .filter(k => userAccess[k] !== false)
+        .forEach(userId => {
+          const type = userAccess[userId]
+          let access = ''
+          // remove user
+          if (type === 'a') {
+            access = security.isCollectionId(changedItem.id)
+              ? security.collectionAccessValue.admin
+              : security.itemAccessValue.admin
+          } else if (type === 'e') {
+            access = security.isCollectionId(changedItem.id)
+              ? security.collectionAccessValue.editor
+              : security.itemAccessValue.editor
+          } else {
+            throw new Error(`Unknown user access '${type}'.`)
           }
-        } else {
-          newUserAccess[userId].access = access
-        }
-      })
+          // FIXME: collection sharing !!
+          if (!newUserAccess[userId]) {
+            newUserAccess[userId] = {
+              access,
+            }
+          } else {
+            newUserAccess[userId].access = access
+          }
+        })
       security.setUserAccess(context.user, changedItem.raw, newUserAccess)
 
       const content = {
@@ -933,7 +936,7 @@ export function makeEffects({
       await Promise.all(
         addedCollections.map(async collectionId => {
           const collection = helpers.getItem(ctx, collectionId)
-          if (collection && isShared(ctx, collection)) {
+          if (collection && helpers.isShared(ctx, collection)) {
             // Create message
             const raw = await security.createItem(
               context.user!,
@@ -974,7 +977,7 @@ export function makeEffects({
         .then(async ({ data }: { data: Blob }) => {
           const buffer = await security.getFileBuffer(data)
           const itemKey = await security.getItemKey(context.user!, item.raw)
-          const file = await decryptBinaryFile(
+          const file = await security.decryptBinaryFile(
             item.fileBy,
             itemKey.encryptionKey,
             buffer,

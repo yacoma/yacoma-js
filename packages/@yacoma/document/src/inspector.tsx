@@ -1,4 +1,4 @@
-import { Families, Icon, Inspectors, Spacer } from '@lucidogen/styled'
+import { Families, Icon, Inspectors, Spacer } from '@yacoma/styled'
 import { Context } from './app'
 import {
   CollectionAccessIcon,

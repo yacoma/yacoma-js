@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 /*
 A `Collection` item must contain itself in the `collections` field.
 

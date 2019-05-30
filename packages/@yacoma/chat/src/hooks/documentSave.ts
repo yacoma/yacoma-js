@@ -1,5 +1,5 @@
+import { isMessage, Item } from '@yacoma/data'
 import { Context } from '../app'
-import { Item, isMessage } from '@lucidogen/data'
 
 export async function documentSave(ctx: Context, item: Item) {
   if (isMessage(item)) {

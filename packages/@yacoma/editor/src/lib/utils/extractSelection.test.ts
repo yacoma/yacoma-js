@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { extractSelection } from './extractSelection'
 import { rangeSelection } from './rangeSelection'
 import { changesResults, mockComposition, mockRef } from './testUtils'

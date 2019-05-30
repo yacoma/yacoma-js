@@ -1,25 +1,6 @@
-import { Collection } from '@lucidogen/data'
-import { isCollectionId } from '@lucidogen/security'
+import { Collection } from '@yacoma/data'
+import { isCollectionId } from '@yacoma/security'
 import { Context } from '../app'
-
-export async function share(
-  ctx: Context,
-  value: {
-    id: string
-    targetId: string
-  }
-) {
-  const { data } = ctx.effects
-  const { id, targetId } = value
-  const target = data.getItem(ctx, targetId) as Collection
-  if (!target) {
-    throw new Error(`Cannot share to id '${targetId}' (target not found).`)
-  }
-  // Whe don't have to check for PairCollection here because we cannot
-  // do a direct share to something that is not private.
-  await shareToTarget(ctx, target, { id })
-  ctx.actions.data.selectCollection(targetId)
-}
 
 // This should probably be refactored and moved to data.
 export async function shareToTarget(
@@ -61,4 +42,23 @@ export async function shareToTarget(
     await data.shareItemToCollection(ctx, theSharedItem, target.id)
     // No need to update the attachment: item is now shared.
   }
+}
+
+export async function share(
+  ctx: Context,
+  value: {
+    id: string
+    targetId: string
+  }
+) {
+  const { data } = ctx.effects
+  const { id, targetId } = value
+  const target = data.getItem(ctx, targetId) as Collection
+  if (!target) {
+    throw new Error(`Cannot share to id '${targetId}' (target not found).`)
+  }
+  // Whe don't have to check for PairCollection here because we cannot
+  // do a direct share to something that is not private.
+  await shareToTarget(ctx, target, { id })
+  ctx.actions.data.selectCollection(targetId)
 }

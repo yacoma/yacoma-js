@@ -1,5 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
-import { describe, expect, it } from 'test'
+import * as crypt from '@yacoma/crypt'
 import * as security from '../'
 import { Item, itemAccessValue } from '../../types'
 

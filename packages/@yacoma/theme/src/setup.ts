@@ -1,4 +1,4 @@
-import { Setup } from '@lucidogen/build'
+import { Setup } from '@yacoma/build'
 import { ThemeConfig, ThemeSettings } from './types'
 
 export const setup: Setup<ThemeConfig, ThemeSettings> = (config, settings) => {

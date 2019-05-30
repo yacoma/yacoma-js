@@ -1,6 +1,10 @@
 import { Context, Item } from '../../types'
 
-export function creator({ currentUser, oldRecord, newRecord}: Context<Item>): string | void {
+export function creator({
+  currentUser,
+  oldRecord,
+  newRecord,
+}: Context<Item>): string | void {
   if (!oldRecord) {
     // create
     if (newRecord.creator !== currentUser.id) {

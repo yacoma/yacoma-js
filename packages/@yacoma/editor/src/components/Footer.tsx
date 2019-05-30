@@ -1,5 +1,5 @@
-import { PageFooter } from '@lucidogen/styled'
 import * as React from 'react'
+import { PageFooter } from '@yacoma/styled'
 import { Comp, styled } from '../app'
 
 interface FooterProps {

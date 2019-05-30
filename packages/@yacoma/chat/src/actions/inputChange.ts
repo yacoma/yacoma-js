@@ -1,5 +1,5 @@
-import { getItem } from '@lucidogen/data'
 import { action } from 'overmind'
+import { getItem } from '@yacoma/data'
 import { Operator } from '../app'
 import { getDraft } from '../effects'
 

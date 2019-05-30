@@ -1,5 +1,4 @@
-import { Stories } from '@lucidogen/story'
-
+import { Stories } from '@yacoma/story'
 import { DatePicker as component, DatePickerProps } from '../../'
 import { config } from '../helper'
 

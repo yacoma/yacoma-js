@@ -6,7 +6,7 @@ import {
   otherUserIdFromPairCollection,
   privateCollectionId,
   workCollectionId,
-} from '@lucidogen/security'
+} from '@yacoma/security'
 import { MiniContext } from '../app'
 import { getItem } from './getItem'
 

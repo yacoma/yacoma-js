@@ -2,7 +2,11 @@ import { Context, Item } from '../../types'
 
 const accessKeys: (keyof Item)[] = ['userAccess', 'collectionAccess', 'deleted']
 
-export async function accessChangedBy({ currentUser, oldRecord, newRecord }: Context<Item>): Promise<string | void> {
+export async function accessChangedBy({
+  currentUser,
+  oldRecord,
+  newRecord,
+}: Context<Item>): Promise<string | void> {
   if (!oldRecord) {
     // create
     if (newRecord.accessChangedBy !== currentUser.id) {
@@ -16,7 +20,9 @@ export async function accessChangedBy({ currentUser, oldRecord, newRecord }: Con
     if (changes.length) {
       // changed
       if (newRecord.accessChangedBy !== currentUser.id) {
-        return `accessChangedBy: should be current user (${changes.join(' ')} changed)`
+        return `accessChangedBy: should be current user (${changes.join(
+          ' '
+        )} changed)`
       }
     } else {
       // not changed

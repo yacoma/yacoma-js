@@ -25,5 +25,4 @@ export async function run(
     return done
   }
   // Not captured by hook
-  return
 }

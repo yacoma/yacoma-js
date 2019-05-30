@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import { applyOp } from './applyOp'
 import { extractSelection } from './extractSelection'
 import { rangeSelection } from './rangeSelection'

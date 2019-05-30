@@ -1,6 +1,5 @@
-import { receiveKey } from '@lucidogen/crypt'
+import { receiveKey } from '@yacoma/crypt'
 import { createUser } from '../helpers/User'
-import { beforeAll, describe, it, expect } from 'test'
 import { UserWithKeys } from '../types'
 import { shareKeyWithUser } from './keys'
 

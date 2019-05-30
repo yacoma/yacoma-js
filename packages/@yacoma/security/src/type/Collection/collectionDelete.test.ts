@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 /*
 // FIXME: delete rules for collections
 */

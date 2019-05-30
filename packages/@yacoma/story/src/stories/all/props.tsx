@@ -1,11 +1,11 @@
-import { build } from '@lucidogen/build'
 import { action } from 'overmind'
 import { createHook } from 'overmind-react'
-import * as React from 'react'
+import { build } from '@yacoma/build'
 import { TStories } from '../..'
 import { Comp } from '../../app'
 
 declare module 'overmind' {
+  // eslint-disable-next-line @typescript-eslint/interface-name-prefix
   interface IState extends Config {}
 }
 

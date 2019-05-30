@@ -1,4 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { Collection, isCollection, Item, RawUser, UserWithKeys } from '../types'
 import { PublicKeys } from './User'
 
@@ -29,25 +29,6 @@ async function keyFromCollectionAccess(
   throw new Error(
     `Invalid item or user: you do not have any collection key to decrypt item key`
   )
-}
-
-/**
- *
- * ItemKey ==> encrypted with CollectionKey
- * CollectionKey === ItemKey for Collection
- * CollectionKey encrypted with user keys
- */
-export async function getItemKey(
-  currentUser: UserWithKeys,
-  item: Item
-): Promise<crypt.EncryptionKeys> {
-  if (isCollection(item)) {
-    // Get collection key through userAccess or collectionAccess for
-    // collections shared in WorkCollection.
-    return storeCollectionKey(currentUser, item)
-  } else {
-    return keyFromCollectionAccess(currentUser, item)
-  }
 }
 
 export async function storeCollectionKey(
@@ -107,6 +88,25 @@ export async function storeCollectionKey(
   currentUser.collectionKeys[id] = keys.encryptionKey
   currentUser.collections[id] = keys.encrypt
   return keys
+}
+
+/**
+ *
+ * ItemKey ==> encrypted with CollectionKey
+ * CollectionKey === ItemKey for Collection
+ * CollectionKey encrypted with user keys
+ */
+export async function getItemKey(
+  currentUser: UserWithKeys,
+  item: Item
+): Promise<crypt.EncryptionKeys> {
+  if (isCollection(item)) {
+    // Get collection key through userAccess or collectionAccess for
+    // collections shared in WorkCollection.
+    return storeCollectionKey(currentUser, item)
+  } else {
+    return keyFromCollectionAccess(currentUser, item)
+  }
 }
 
 export async function shareKeyWithUser(

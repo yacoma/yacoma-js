@@ -72,45 +72,6 @@ export function importEncryptionKey(key: string): Promise<CryptoKey> {
   )
 }
 
-export async function encrypt(
-  // private key
-  signKey: Uint8Array | string,
-  // shared key (in Collection, etc)
-  encryptionKey: CryptoKey,
-  // Payload can contain any native JS value
-  payload: any,
-  // The serialized and signed but not encrypted.
-  options?: { [key: string]: any }
-): Promise<string> {
-  return bufferToBase64(
-    await encryptBinary(
-      signKey,
-      encryptionKey,
-      nativeToBuffer(payload),
-      options
-    )
-  )
-}
-
-// throws on invalid signature
-export async function decrypt<Payload = any, Options = {}>(
-  // public key
-  verifyKey: Uint8Array | string,
-  // shared key (in Collection, etc)
-  encryptionKey: CryptoKey,
-  cipher64: string
-): Promise<{ payload: Payload; headers: Options }> {
-  const result = await decryptBinary<Options>(
-    verifyKey,
-    encryptionKey,
-    base64ToBuffer(cipher64)
-  )
-  const { payload } = result
-  return Object.assign({}, result, {
-    payload: bufferToNative(payload),
-  })
-}
-
 // ======= BINARY
 
 export async function encryptBinary(
@@ -149,7 +110,7 @@ export async function decryptBinary<Headers>(
 ): Promise<{ payload: Uint8Array; headers: Headers }> {
   const { buffers, headers } = await verifyBinary(verifyKey, data)
   const [iv, payload] = buffers
-  if (!iv || iv.byteLength != IV_LENGTH) {
+  if (!iv || iv.byteLength !== IV_LENGTH) {
     throw new Error(`Cannot decrypt: invalid payload.`)
   }
 
@@ -168,4 +129,43 @@ export async function decryptBinary<Headers>(
         )
     }
   )
+}
+
+export async function encrypt(
+  // private key
+  signKey: Uint8Array | string,
+  // shared key (in Collection, etc)
+  encryptionKey: CryptoKey,
+  // Payload can contain any native JS value
+  payload: any,
+  // The serialized and signed but not encrypted.
+  options?: { [key: string]: any }
+): Promise<string> {
+  return bufferToBase64(
+    await encryptBinary(
+      signKey,
+      encryptionKey,
+      nativeToBuffer(payload),
+      options
+    )
+  )
+}
+
+// throws on invalid signature
+export async function decrypt<Payload = any, Options = {}>(
+  // public key
+  verifyKey: Uint8Array | string,
+  // shared key (in Collection, etc)
+  encryptionKey: CryptoKey,
+  cipher64: string
+): Promise<{ payload: Payload; headers: Options }> {
+  const result = await decryptBinary<Options>(
+    verifyKey,
+    encryptionKey,
+    base64ToBuffer(cipher64)
+  )
+  const { payload } = result
+  return Object.assign({}, result, {
+    payload: bufferToNative(payload),
+  })
 }

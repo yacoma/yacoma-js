@@ -15,7 +15,7 @@ export function applyOp(
     (selected.find(ref => elements[ref].elem.t.indexOf(op) < 0) && true) ||
     false
 
-  selected.forEach((ref, idx) => {
+  selected.forEach(ref => {
     const { elem } = elements[ref]
     let t: string
     if (forceOp) {

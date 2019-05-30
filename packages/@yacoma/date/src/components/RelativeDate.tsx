@@ -58,7 +58,7 @@ export const RelativeDate: Comp<RelativeDateProps> = ({
     const deltaDays = Math.min(0.0001, Math.max(-9.999, -delta / 3600 / 24))
     const style = Object.assign(
       {
-        ['--deltaDays']: `${deltaDays}s`,
+        '--deltaDays': `${deltaDays}s`,
       },
       props.style || {}
     )

@@ -1,5 +1,5 @@
-import { Icon, RoundInput, Spacer } from '@lucidogen/styled'
 import * as React from 'react'
+import { Icon, RoundInput, Spacer } from '@yacoma/styled'
 import { Comp, styled, useOvermind } from '../app'
 import { Collections } from './Collections'
 import { ItemIcon } from './ItemIcon'

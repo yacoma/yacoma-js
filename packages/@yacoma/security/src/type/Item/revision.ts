@@ -1,6 +1,9 @@
 import { Context, Item } from '../../types'
 
-export function revision({ oldRecord, newRecord }: Context<Item>): string | void {
+export function revision({
+  oldRecord,
+  newRecord,
+}: Context<Item>): string | void {
   if (!oldRecord) {
     // New
     if (newRecord.revision !== 1) {
@@ -10,7 +13,7 @@ export function revision({ oldRecord, newRecord }: Context<Item>): string | void
     // Update
     if (
       (newRecord.editedAt !== oldRecord.editedAt ||
-      newRecord.accessChangedAt !== oldRecord.accessChangedAt) &&
+        newRecord.accessChangedAt !== oldRecord.accessChangedAt) &&
       newRecord.revision !== oldRecord.revision + 1
     ) {
       return `revision: conflict detected (needs to resolve with revision ${

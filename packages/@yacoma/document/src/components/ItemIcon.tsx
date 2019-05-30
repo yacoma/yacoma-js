@@ -1,13 +1,13 @@
-import { Item, isPairCollection, isFile } from '@lucidogen/data'
-import { DraggableHooks } from '@lucidogen/dragdrop'
-import {
-  isPrivateCollectionId,
-  workCollectionId,
-  otherUserIdFromPairCollection,
-} from '@lucidogen/security'
-import { Icon } from '@lucidogen/styled'
 import classnames from 'classnames'
 import * as React from 'react'
+import { isFile, isPairCollection, Item } from '@yacoma/data'
+import { DraggableHooks } from '@yacoma/dragdrop'
+import {
+  isPrivateCollectionId,
+  otherUserIdFromPairCollection,
+  workCollectionId,
+} from '@yacoma/security'
+import { Icon } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 
 export interface ItemIconProps extends Partial<DraggableHooks> {

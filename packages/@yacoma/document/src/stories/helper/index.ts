@@ -1,16 +1,16 @@
-import { build, settings } from '@lucidogen/build'
-//import { chat } from '@lucidogen/chat'
-import { data, DataSettings } from '@lucidogen/data'
-import { date } from '@lucidogen/date'
-import { dialog } from '@lucidogen/dialog'
-import { dragdrop } from '@lucidogen/dragdrop'
-import { editor } from '@lucidogen/editor'
-import { locale, LocaleSettings } from '@lucidogen/locale'
-import { TStories } from '@lucidogen/story'
-import { styled, StyledSettings } from '@lucidogen/styled'
-import { theme } from '@lucidogen/theme'
-import { document } from '../..'
 import { action } from 'overmind'
+import { build, settings } from '@yacoma/build'
+// import { chat } from '@yacoma/chat'
+import { data, DataSettings } from '@yacoma/data'
+import { date } from '@yacoma/date'
+import { dialog } from '@yacoma/dialog'
+import { dragdrop } from '@yacoma/dragdrop'
+import { editor } from '@yacoma/editor'
+import { locale, LocaleSettings } from '@yacoma/locale'
+import { TStories } from '@yacoma/story'
+import { styled, StyledSettings } from '@yacoma/styled'
+import { theme } from '@yacoma/theme'
+import { document } from '../..'
 
 export const config = build({
   name: 'test',
@@ -33,100 +33,100 @@ export const config = build({
     },
     db: {
       WorkCollection: {
-        ['w.uid']: {
+        'w.uid': {
           id: 'w.uid',
           type: 'WorkCollection',
           title: 'my work',
           raw: {
             userAccess: {
-              ['uid']: 'foo',
+              uid: 'foo',
             },
           },
         },
       },
       PrivateCollection: {
-        ['p.uid']: {
+        'p.uid': {
           id: 'p.uid',
           type: 'PrivateCollection',
           title: 'private',
           raw: {
             userAccess: {
-              ['uid']: { access: 'aer' },
+              uid: { access: 'aer' },
             },
           },
         },
       },
       Collection: {
-        ['c.notSharedCollId']: {
+        'c.notSharedCollId': {
           id: 'c.notSharedCollId',
           type: 'Collection',
           title: 'my bar stuff',
           raw: {
             userAccess: {
-              ['uid']: {
+              uid: {
                 access: 'aer',
               },
             },
           },
         },
-        ['c.sharedCollId']: {
+        'c.sharedCollId': {
           id: 'c.sharedCollId',
           type: 'Collection',
           title: 'shared collection',
           raw: {
             userAccess: {
-              ['uid']: { access: 'r' },
-              ['bob']: { access: 'er' },
+              uid: { access: 'r' },
+              bob: { access: 'er' },
             },
           },
         },
-        ['c.asharedCollId']: {
+        'c.asharedCollId': {
           id: 'c.asharedCollId',
           type: 'Collection',
           title: 'another shared collection',
           raw: {
             userAccess: {
-              ['uid']: { access: 'r' },
-              ['bob']: { access: 'er' },
+              uid: { access: 'r' },
+              bob: { access: 'er' },
             },
           },
         },
       },
       Item: {
-        ['i.foo']: {
+        'i.foo': {
           id: 'i.foo',
           title: 'Foo',
           type: 'Item',
           raw: {
             collectionAccess: {
-              ['c.notSharedCollId']: 'cryptkey',
+              'c.notSharedCollId': 'cryptkey',
             },
             userAccess: {
-              ['uid']: {
+              uid: {
                 access: 'aer',
               },
-              ['mary']: {
+              mary: {
                 access: 'er',
               },
-              ['bob']: {
+              bob: {
                 access: 'r',
               },
             },
           },
         },
 
-        ['i.bar']: {
+        'i.bar': {
           id: 'i.bar',
           title: 'Bar',
           type: 'Item',
           raw: {
             collectionAccess: {
-              ['p.uid']: 'cryptkey',
+              'p.uid': 'cryptkey',
             },
           },
         },
 
-        ['f.file']: {
+        'f.file': {
           id: 'f.file',
           title: 'Some bar file',
           type: 'File',
@@ -135,44 +135,44 @@ export const config = build({
           fileType: 'image/jpeg',
           raw: {
             collectionAccess: {
-              ['p.uid']: 'cryptkey',
+              'p.uid': 'cryptkey',
             },
           },
         },
 
-        ['i.baz']: {
+        'i.baz': {
           id: 'i.baz',
           title: 'Baz machin',
           type: 'Item',
           raw: {
             collectionAccess: {
-              ['c.notSharedCollId']: 'cryptkey',
+              'c.notSharedCollId': 'cryptkey',
             },
           },
         },
-        ['i.blah']: {
+        'i.blah': {
           id: 'i.blah',
           title: 'Blah share',
           type: 'Item',
           raw: {
             userAccess: {
-              ['uid']: { access: 'aer' },
+              uid: { access: 'aer' },
             },
             collectionAccess: {
-              ['c.notSharedCollId']: 'cryptkey',
-              ['c.sharedCollId']: 'cryptkey',
+              'c.notSharedCollId': 'cryptkey',
+              'c.sharedCollId': 'cryptkey',
             },
           },
         },
       },
       User: {
-        ['uid']: {
+        uid: {
           username: 'Gaspard',
         },
-        ['bob']: {
+        bob: {
           username: 'Bob',
         },
-        ['mary']: {
+        mary: {
           username: 'Mary',
         },
       },

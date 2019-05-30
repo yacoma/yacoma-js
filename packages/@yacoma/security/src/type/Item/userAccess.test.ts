@@ -1,5 +1,4 @@
-import { sign } from '@lucidogen/crypt'
-import { beforeAll, describe, expect, it } from 'test'
+import { sign } from '@yacoma/crypt'
 import * as helpers from '../../helpers'
 import {
   AccessChangeLogEntry,
@@ -74,7 +73,7 @@ describe('Item.userAccess', () => {
         operation: await sign(user1.signKey, operation),
       },
     ]
-    const args1 = {
+    const args1: Item = {
       id: 'itemId',
       userAccess: {
         [user1.id]: {

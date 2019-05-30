@@ -11,10 +11,10 @@ export const sortByDate: SortItem = (a, b) =>
   !a.raw.editedAt
     ? -1
     : !b.raw.editedAt
-      ? 1
-      : a.raw.editedAt > b.raw.editedAt
-        ? -1
-        : 1
+    ? 1
+    : a.raw.editedAt > b.raw.editedAt
+    ? -1
+    : 1
 
 export function sortByTitleAndOwn(id: string): SortItem {
   return (a, b) => (a.id === id ? -1 : b.id === id ? 1 : sortByTitle(a, b))

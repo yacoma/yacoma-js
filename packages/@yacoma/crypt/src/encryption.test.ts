@@ -1,4 +1,3 @@
-import { beforeAll, describe, expect, it } from 'test'
 import * as crypt from './'
 import { bufferToNative, nativeToBuffer } from './encoding'
 import { encAlgo, EncryptionKeys } from './encryption'
@@ -64,7 +63,7 @@ describe('encryption', () => {
 
   it('should throw error on invalid payload', async () => {
     const signed = await crypt.sign(signing.signKey, 'some string')
-    let error: string = 'did not throw'
+    let error = 'did not throw'
     try {
       await crypt.decrypt(signing.verifyKey, encryption.encryptionKey, signed)
     } catch (e) {
@@ -76,7 +75,7 @@ describe('encryption', () => {
   it('should throw error on invalid signature', async () => {
     const other = await crypt.signingKeysFromWordList(['other'])
     const cipher = await crypt.sign(other.signKey, 'some string')
-    let error: string = 'did not throw'
+    let error = 'did not throw'
     try {
       await crypt.decrypt(signing.verifyKey, encryption.encryptionKey, cipher)
     } catch (e) {

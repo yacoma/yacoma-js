@@ -1,5 +1,5 @@
-import { Card, CardTitle, Modal } from '@lucidogen/styled'
 import * as React from 'react'
+import { Card, CardTitle, Modal } from '@yacoma/styled'
 import { Comp } from '../app'
 
 export interface OfflineProps {}

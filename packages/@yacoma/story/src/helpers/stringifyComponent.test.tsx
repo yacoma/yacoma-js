@@ -1,9 +1,6 @@
 import { IS_PROXY, ProxyStateTree } from 'proxy-state-tree'
 import * as React from 'react'
-import { expect, it } from 'test'
-
-import { build } from '@lucidogen/build'
-
+import { build } from '@yacoma/build'
 import { stringifyComponent } from './stringifyComponent'
 
 const app = build({
@@ -11,10 +8,12 @@ const app = build({
   state: { foo: { bar: { baz: 'baz value' } } },
 }).app()
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function MyThing(props: any) {
   return null
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function OtherThing(props: any) {
   return null
 }

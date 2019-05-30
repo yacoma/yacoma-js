@@ -1,4 +1,6 @@
-import { isShared } from '@lucidogen/data'
+import classnames from 'classnames'
+import * as React from 'react'
+import { isShared } from '@yacoma/data'
 import {
   isCollectionId,
   isPairCollectionId,
@@ -7,10 +9,8 @@ import {
   otherUserIdFromPairCollection,
   privateCollectionId,
   workCollectionId,
-} from '@lucidogen/security'
-import { Icon } from '@lucidogen/styled'
-import classnames from 'classnames'
-import * as React from 'react'
+} from '@yacoma/security'
+import { Icon } from '@yacoma/styled'
 import { Comp, styled, theme, useOvermind } from '../app'
 
 export interface ItemIconProps {

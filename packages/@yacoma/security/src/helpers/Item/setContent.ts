@@ -1,4 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { Item, UserWithKeys } from '../../types'
 import { getItemKey } from '../keys'
 import { canEditContent } from './canEditContent'
@@ -10,7 +10,7 @@ export async function setContent(
 ) {
   const encryption = await getItemKey(currentUser, item)
 
-  if(item.content) {
+  if (item.content) {
     const decryptedContent = await crypt.decrypt<typeof item.content>(
       item.editor,
       encryption.encryptionKey,

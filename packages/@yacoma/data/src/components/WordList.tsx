@@ -1,5 +1,5 @@
-import { Field, Horizontal } from '@lucidogen/styled'
 import * as React from 'react'
+import { Field, Horizontal } from '@yacoma/styled'
 import { Comp, styled, useOvermind } from '../app'
 
 export const WORD_IDS: string[][] = [

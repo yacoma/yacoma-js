@@ -1,7 +1,6 @@
-import { Comp, styled, useOvermind } from '../app'
 import * as React from 'react'
-import { useEffect, useRef, useState } from 'react'
-import { FileItem, fileUrl, getItem } from '@lucidogen/data'
+import { FileItem, fileUrl, getItem } from '@yacoma/data'
+import { Comp, styled, useOvermind } from '../app'
 
 export interface ImageProps {
   className?: string
@@ -26,12 +25,12 @@ export const Image: Comp<ImageProps> = React.memo(
     const ctx = useOvermind()
     const item = getItem(ctx, itemId) as FileItem
 
-    const ref = useRef<HTMLDivElement>(null)
-    const [lastFileId, setFileId] = useState<string>('')
+    const ref = React.useRef<HTMLDivElement>(null)
+    const [lastFileId, setFileId] = React.useState<string>('')
 
     const url = fileUrl(ctx, item)
 
-    useEffect(() => {
+    React.useEffect(() => {
       const div = ref.current
       if (url && div && fileId !== lastFileId) {
         setFileId(fileId)

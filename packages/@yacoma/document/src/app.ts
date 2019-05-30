@@ -1,17 +1,18 @@
-import { DataConfig } from '@lucidogen/data'
-import { HooksConfig } from '@lucidogen/hooks'
-import { DialogConfig } from '@lucidogen/dialog'
-import { DragdropConfig } from '@lucidogen/dragdrop'
-import { editorTheme } from '@lucidogen/editor'
-import { LocaleConfig } from '@lucidogen/locale'
-import { StyledConfig, styledTheme } from '@lucidogen/styled'
-import { ThemeConfig, themeProxy } from '@lucidogen/theme'
 import { IContext, IDerive, IOperator } from 'overmind'
 import { createHook } from 'overmind-react'
 import { FunctionComponent as Comp } from 'react'
 import styled from 'styled-components'
+import { DataConfig } from '@yacoma/data'
+import { DialogConfig } from '@yacoma/dialog'
+import { DragdropConfig } from '@yacoma/dragdrop'
+import { editorTheme } from '@yacoma/editor'
+import { HooksConfig } from '@yacoma/hooks'
+import { LocaleConfig } from '@yacoma/locale'
+import { StyledConfig, styledTheme } from '@yacoma/styled'
+import { ThemeConfig, themeProxy } from '@yacoma/theme'
 import { documentTheme } from './theme'
 import { DocumentConfig } from './types'
+
 export { Comp, styled }
 
 export const allThemes = Object.assign(

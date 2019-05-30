@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { describe, expect, it } from 'test'
-
-import { build, settings } from '@lucidogen/build'
-
+import { build, settings } from '@yacoma/build'
 import { theme } from '../'
 import { defaultTheme } from '../themes'
 import { ThemeSettings } from '../types'

@@ -1,3 +1,4 @@
+import * as React from 'react'
 import {
   Button,
   ErrorMessage,
@@ -10,9 +11,7 @@ import {
   PageHeader,
   Spacer,
   Text,
-} from '@lucidogen/styled'
-import * as React from 'react'
-import { useEffect } from 'react'
+} from '@yacoma/styled'
 import { Comp, styled, useOvermind } from '../app'
 import { WordList } from './WordList'
 
@@ -32,15 +31,15 @@ const Center = styled.div`
 
 export const ContactPrint: Comp = () => {
   const app = useOvermind()
-  useEffect(() => {
+  const { translate } = app.state.locale
+  const form = app.state.data.login
+  React.useEffect(() => {
     const originalName = document.title
     document.title = form.username
     return () => {
       document.title = originalName
     }
   })
-  const { translate } = app.state.locale
-  const form = app.state.data.login
 
   return (
     <Page>
@@ -57,12 +56,12 @@ export const ContactPrint: Comp = () => {
         <h1>
           <Text
             textKey="ContactPrintTitle"
-            replace={{ ['{username}']: form.username }}
+            replace={{ '{username}': form.username }}
           />
         </h1>
         <Text
           textKey="ContactPrintMessage"
-          replace={{ ['{username}']: form.username }}
+          replace={{ '{username}': form.username }}
         />
         <ErrorMessage errorKey={form.error} />
         <p>

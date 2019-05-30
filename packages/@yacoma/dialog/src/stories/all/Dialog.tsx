@@ -1,7 +1,7 @@
-import { build, settings } from '@lucidogen/build'
-import { TStories } from '@lucidogen/story'
 import { action } from 'overmind'
 import * as React from 'react'
+import { build, settings } from '@yacoma/build'
+import { TStories } from '@yacoma/story'
 import { Dialog as component, dialog, DialogProps } from '../..'
 import { DialogSettings } from '../../types'
 

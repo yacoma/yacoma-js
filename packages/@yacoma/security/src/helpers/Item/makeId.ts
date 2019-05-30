@@ -1,4 +1,4 @@
-import { makeId } from '@lucidogen/crypt'
+import { makeId } from '@yacoma/crypt'
 import { ItemTypes } from '../../types'
 
 /** Prefix:

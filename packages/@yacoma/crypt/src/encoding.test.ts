@@ -1,5 +1,3 @@
-import { describe, expect, it } from 'test'
-
 import * as encode from './encoding'
 
 describe('nativeToBuffer', () => {

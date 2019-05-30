@@ -1,6 +1,6 @@
-import { Icon } from '@lucidogen/styled'
 import * as React from 'react'
-import { Comp, useOvermind, styled } from '../app'
+import { Icon } from '@yacoma/styled'
+import { Comp, styled, useOvermind } from '../app'
 
 export interface NewItemIconProps {
   className?: string
@@ -13,7 +13,7 @@ export const NewIcon = styled(Icon)`
   }
 `
 
-export const NewItemIcon: Comp<NewItemIconProps> = ({ className }) => {
+export const NewItemIcon: Comp<NewItemIconProps> = () => {
   const ctx = useOvermind()
   const collectionId = ctx.state.document.selectedCollectionId
 
@@ -25,7 +25,7 @@ export const NewItemIcon: Comp<NewItemIconProps> = ({ className }) => {
   )
 }
 
-export const NewCollectionIcon: Comp<NewItemIconProps> = ({ className }) => {
+export const NewCollectionIcon: Comp<NewItemIconProps> = () => {
   const ctx = useOvermind()
 
   return (

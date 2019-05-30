@@ -1,4 +1,4 @@
-import * as crypt from '@lucidogen/crypt'
+import * as crypt from '@yacoma/crypt'
 import { PairCollection, RawUser, User, UserWithKeys } from '../types'
 import { createCollection } from './Collection'
 import { privateCollectionId } from './Item/makeId'

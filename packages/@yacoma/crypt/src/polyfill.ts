@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 // istanbul ignore if
 if (process.env.BROWSER) {
   // Browser
