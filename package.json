@@ -35,7 +35,7 @@
     "classnames": "2.2.6",
     "graphql": "14.3.1",
     "graphql-request": "1.8.2",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "overmind": "next",
     "overmind-react": "next",
     "pako": "1.0.10",
